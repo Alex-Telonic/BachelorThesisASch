@@ -1,2 +1,16 @@
 Quellen:
 
+English, William B., Skander J. Van den Heuvel, and Egon Zakrajsek 2012. “Interest Rate Risk
+and Bank Equity Valuations.” Working Paper, Federal Reserve Board.
+
+He, Zhiguo, In Gu Khang, and Arvind Krishnamurthy 2010. “Balance-Sheet Adjustments during
+the 2008 Crisis.” IMF Economic Review 1, 118-156.
+
+Federal Reserve – Micro Data Reference Manual (https://www.federalreserve.gov/apps/mdrm/data-dictionary)
+
+https://www.federalreserve.gov/releases/lbr/20131231/default.htm - Large Commercial Banks
+
+https://www.ffiec.gov/NPW - Data for FR-Y-9C Forms 2014 onward
+https://www.ffiec.gov/pdf/FFIEC_forms/FFIEC031_201803_f.pdf - FIIEC Form Commercial Banks
+
+Tier 1 Capital Definition: https://www.bis.org/press/p981027.htm
