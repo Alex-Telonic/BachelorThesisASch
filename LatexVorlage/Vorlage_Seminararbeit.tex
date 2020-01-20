@@ -1,0 +1,340 @@
+\documentclass[12pt, a4paper]{article} % Dokumentenklasse
+
+\usepackage[utf8]{inputenc} % Zeichensatz und Schrift
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % nice alternative is {mathpazo}
+\usepackage[english]{babel}
+
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.50cm]{geometry} % Seitenformat
+
+\usepackage{amsmath} % Mathematikzeichen
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\usepackage{booktabs} % Tabellen
+\usepackage{array}
+\usepackage{dcolumn}
+\usepackage{tabularx}
+\usepackage{threeparttable}
+
+\usepackage{graphicx} % Grafiken
+\usepackage{subfigure}
+
+\usepackage{caption} % Paket für Tabellen- und Bildbeschriftungen
+\usepackage{lipsum} % Paket für Random-Text (nur für Anschauungszwecke benötigt, kann gelöscht werden)
+
+\usepackage{setspace} % Zeilenabstand
+\onehalfspacing
+
+\usepackage{placeins}
+
+%% Literaturverzeichnis und Zitation % %
+
+\usepackage[%
+citestyle=authoryear-comp,%
+bibstyle=JME,%
+maxbibnames=99,% %maximum number of names printed in bibliography before truncation with ``et al.'' is used
+maxcitenames=2,
+datezeros=false,% no leading 0 if dates are printed
+date=long,%
+isbn=false,% show no ISBNs
+natbib=true,% enable natbib-compatibility
+url=false,% show no urls
+backend=biber % use Biber here
+]{biblatex}
+
+% vergrößert Abstand zwischen den Quellen im Lit.verzeichnis
+
+\setlength\bibitemsep{1.5\itemsep}
+
+% setzt "et al." bei deutscher Sprache
+
+\DefineBibliographyStrings{ngerman}{%
+  andothers = {et\addabbrvspace al\adddot}
+}
+
+
+% vermeidet Witwen und Waisen
+
+\clubpenalty10000 
+\widowpenalty10000
+\displaywidowpenalty=10000 
+
+
+
+% Hier .bib-Datei einfügen
+
+\bibliography{bspbib}
+
+%---------------------------------------------------------------------------------------
+%
+%								HIER BEGINNT DAS DOKUMENT
+%
+%---------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+% TITELSEITE
+
+\begin{titlepage}
+\begin{center}
+\includegraphics[scale=0.65]{KITlogo}\\
+%\Large
+%Karlsruher Institut für Technologie\\
+\large
+Fakultät für Wirtschaftswissenschaften\\
+Institut für Volkswirtschaftslehre (ECON)
+\vfill{
+%\\\vspace{2cm}
+\Large
+Bachelor Thesis in Macroeconomics\\\vspace{0.5cm}
+,,US commercial banks``\\\vspace{0.5cm}
+Winter semester 2019/20% \vspace{2cm}
+}
+\vfill{
+\LARGE
+% -------------------------------------------------------------------------------------
+% Ihr Thema
+Not yet defined
+% -------------------------------------------------------------------------------------
+\\ 
+\vspace{0.5cm}
+\normalsize
+% -------------------------------------------------------------------------------------
+% Nummer Ihres Themas
+(Topic 1)
+% -------------------------------------------------------------------------------------
+}
+\end{center}
+
+\vfill{
+\normalsize
+% -------------------------------------------------------------------------------------
+% Ihre pers\"{o}nliche Daten
+\noindent Alexander Schlechter \\
+Matr.-Nr. 2054108 \\
+alexander.schlechter@student.kit.edu}
+% -------------------------------------------------------------------------------------
+\end{titlepage}
+\newpage
+
+% VERZEICHNISSE
+
+\pagenumbering{Roman}
+\tableofcontents
+% \listoffigures
+% \listoftables
+\newpage
+\pagenumbering{arabic}
+
+
+% ================================================================================
+% 									Hauptteil
+% ================================================================================
+
+
+\section{Introduction}
+
+
+\section{Main part}
+
+\subsection{General look at us banks}
+
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Asset side}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_AssetDistribution_7613.png}
+\end{figure}
+
+\noindent \textit{Graph description}: The graph shows the aggregates of the main variables from the asset side of the balance sheet over time.\\
+
+\noindent \textit{Key Observations:}
+\begin{itemize}
+\item loans make up the largest share of assets
+\item share of trading assets have risen
+\item loans and trading assets have risen more than securities
+\item drop in assets in 2002 and 2008
+\end{itemize}
+
+\newpage
+
+\begin{figure}[hbtp]
+\centering
+\caption{Liabilities side}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_LiabilitiesDistribution_7613}
+\end{figure}
+
+\noindent \textit{Graph description}: The graph shows the aggregates of the main variables from the liabilities side of the balance sheet over time.\\
+
+\noindent \textit{Key Observations:}
+\begin{itemize}
+\item deposits as main source of funding
+\end{itemize}
+
+
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Loans}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613}
+\end{figure}
+
+\noindent \textit{Graph description}: It shows the share of loan types of total loans over time.\\
+
+\noindent \textit{Key Observations:}
+\begin{itemize}
+\item real estate loans has largest share
+
+\end{itemize}
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Top10 asset share}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[hbtp]
+\centering
+\caption{Rise of Top10 asset share}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813}
+\end{figure}
+
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Median bank financing over time}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_MedianBankEveryYear_7613}
+\end{figure}
+
+\newpage
+
+\subsection{Looking into leverage}
+
+Throughout the analysis the definition of accounting leverage (assets/equity) is used. Equity is calculated by total assets minus total liabilities. In addition, for risk analysis banks belonging a bank holding company were aggregated. Hence, the dataset which was used contained bhcs and independent banks.
+
+\begin{figure}[hbtp]
+\centering
+\caption{Average Leverage over all years}
+\includegraphics[scale=0.5]{graphs/Leverage/LeverageRatio0_AssetEquityRatio_7813}
+\end{figure}
+
+\noindent \textit{Graph description}: The graph shows the average leverage (assets/equity) for every year over all banks. Banks with equity or assets below zero are excluded.
+
+
+\noindent \textit{Key Observations:}
+\begin{itemize}
+\item Overall Leverage did fall over time
+\item Spike in leverage in year 2008/2009
+\item Leverage lowest in 2007
+\item Small spike in year 1999
+\item Introduction of Basel 1 in 1988 might have lead to continuously decrease in leverage
+\end{itemize}
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Leverage Top 10 vs Rest over all years}
+\includegraphics[scale=0.5]{graphs/Leverage/LeverageDistribution_LeverageRatioTop10vsRest_7813}
+\end{figure}
+
+
+\newpage
+
+\noindent \textit{Graph description}: Since the top 10 banks share of assets did rise up to 60\% in 2013, it is important to differentiate. The graph shows the average leverage (assets/equity) for every year quarter 4.\\ Blue Line: Top 10 Banks by assets\\
+Orange Line: All banks beside the top 10\\
+
+\noindent \textit{Key Observations}:
+\begin{itemize}
+\item Leverage of top 10 banks tends to be higher
+\item Trend of falling leverage is similar
+\end{itemize}
+
+
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Leverage Top10 vs Rest detailed look into crisis}
+\includegraphics[scale=0.4]{graphs/Leverage/LeverageDistribution1_LeverageDetailCrisisTop10vsRest_0510}
+\end{figure}
+
+\noindent \textit{Key Observations}:
+\begin{itemize}
+\item Top10 banks leverage peak in year 2008/3 before the rest banks leverage peak in year 2009/4 (theory of risky assets from big banks to small transfer?) 
+\end{itemize}
+
+\pagebreak
+
+\textbf{A look into the distribution of leverage}\\
+
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Distribution 1980-2013}
+\includegraphics[scale=0.3]{graphs/Leverage/LeverageDistribution_LeverageRatio_8013}
+\end{figure}
+
+\noindent \textit{Graph description}: Counts are normed to 1. Only leverage ratios between 0-20 are accounted for. The others are seen as outliers. Leverage ratios are always from quarter 4.
+\\
+
+\noindent \textit{Key Observations}:
+\begin{itemize}
+\item large standard deviation in year 2010 with 18.82
+\item less and higher bars in 2013 indicate higher homogeneity in 2013 compared to the years before.
+\end{itemize}
+
+\pagebreak
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Distribution in crisis 2003-2011}
+\includegraphics[scale=0.3]{graphs/Leverage/LeverageDistribution_LeverageRatio_0311}
+\end{figure}
+
+\noindent \textit{Graph description}: Counts are normed to 1. Only leverage ratios between 0-20 are accounted for. The others are seen as outliers. Leverage ratios are always from quarter 4.
+
+\noindent \textit{Key Observations}:
+\begin{itemize}
+\item Increasing homogenity over time.
+\item extremely high standard deviation in year 2009 with 168.22
+\end{itemize}
+
+
+\section{Conclusion}
+
+
+
+
+% ================================================================================
+% 							Literaturverzeichnis
+% ================================================================================
+
+\newpage
+\printbibliography[
+heading=bibintoc,
+title={Bibliography}
+]
+
+
+% ================================================================================
+% 								Appendix
+% ================================================================================
+
+%\appendix
+%\section{Anhang}
+
+
+
+
+\end{document}
