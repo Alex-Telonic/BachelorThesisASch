@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.18)  20 JAN 2020 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.18)  21 JAN 2020 12:15
 entering extended mode
 **./Vorlage_Seminararbeit.tex
 (Vorlage_Seminararbeit.tex
@@ -998,27 +998,27 @@ raphic file (type png)
 Package pdftex.def Info: graphs/DescriptiveStats/LeverageDistribution_AssetsTop
 10vsRest_7813.png  used on input line 199.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-[2 <./graphs/DescriptiveStats/OtherAnalysis_LiabilitiesDistribution_7613.png> <
-./graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png>]
-<graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png, id=30, 1445.
+<graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png, id=25, 1445.
 4pt x 722.7pt>
 File: graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png Graphic 
 file (type png)
 <use graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png>
 Package pdftex.def Info: graphs/DescriptiveStats/LeverageDistribution_shareTop1
-0_7813.png  used on input line 207.
+0_7813.png  used on input line 206.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_MedianBankEveryYear_7613.png, id=31, 144
+<graphs/DescriptiveStats/OtherAnalysis_MedianBankEveryYear_7613.png, id=26, 144
 5.4pt x 1445.4pt>
 File: graphs/DescriptiveStats/OtherAnalysis_MedianBankEveryYear_7613.png Graphi
 c file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_MedianBankEveryYear_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_MedianBankEveryY
-ear_7613.png  used on input line 215.
+ear_7613.png  used on input line 214.
 (pdftex.def)             Requested size: 433.62335pt x 433.62335pt.
- [3 <./graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png>
- <./graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png>] [4 <./gr
-aphs/DescriptiveStats/OtherAnalysis_MedianBankEveryYear_7613.png>]
+[2 <./graphs/DescriptiveStats/OtherAnalysis_LiabilitiesDistribution_7613.png> <
+./graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png>] [3 <./graph
+s/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png> <./graphs/D
+escriptiveStats/LeverageDistribution_shareTop10_7813.png>] [4 <./graphs/Descrip
+tiveStats/OtherAnalysis_MedianBankEveryYear_7613.png>]
 <graphs/Leverage/LeverageRatio0_AssetEquityRatio_7813.png, id=41, 1084.05pt x 3
 61.35pt>
 File: graphs/Leverage/LeverageRatio0_AssetEquityRatio_7813.png Graphic file (ty
@@ -1026,12 +1026,7 @@ pe png)
 <use graphs/Leverage/LeverageRatio0_AssetEquityRatio_7813.png>
 Package pdftex.def Info: graphs/Leverage/LeverageRatio0_AssetEquityRatio_7813.p
 ng  used on input line 227.
-(pdftex.def)             Requested size: 542.02368pt x 180.67456pt.
-
-Overfull \hbox (86.77957pt too wide) in paragraph at lines 227--228
- [][] 
- []
-
+(pdftex.def)             Requested size: 433.61232pt x 144.53743pt.
 <graphs/Leverage/LeverageDistribution_LeverageRatioTop10vsRest_7813.png, id=42,
  1084.05pt x 361.35pt>
 File: graphs/Leverage/LeverageDistribution_LeverageRatioTop10vsRest_7813.png Gr
@@ -1039,19 +1034,15 @@ aphic file (type png)
 <use graphs/Leverage/LeverageDistribution_LeverageRatioTop10vsRest_7813.png>
 Package pdftex.def Info: graphs/Leverage/LeverageDistribution_LeverageRatioTop1
 0vsRest_7813.png  used on input line 246.
-(pdftex.def)             Requested size: 542.02368pt x 180.67456pt.
-
-Overfull \hbox (86.77957pt too wide) in paragraph at lines 246--247
- [][] 
- []
-
-[5 <./graphs/Leverage/LeverageRatio0_AssetEquityRatio_7813.png>]
+(pdftex.def)             Requested size: 433.61232pt x 144.53743pt.
+ [5 <./graphs/Leverage/LeverageRatio0_AssetEquityRatio_7813.png> <./graphs/Leve
+rage/LeverageDistribution_LeverageRatioTop10vsRest_7813.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
 <graphs/Leverage/LeverageDistribution1_LeverageDetailCrisisTop10vsRest_0510.png
-, id=48, 1084.05pt x 361.35pt>
+, id=49, 1084.05pt x 361.35pt>
 File: graphs/Leverage/LeverageDistribution1_LeverageDetailCrisisTop10vsRest_051
 0.png Graphic file (type png)
 <use graphs/Leverage/LeverageDistribution1_LeverageDetailCrisisTop10vsRest_0510
@@ -1059,9 +1050,8 @@ File: graphs/Leverage/LeverageDistribution1_LeverageDetailCrisisTop10vsRest_051
 Package pdftex.def Info: graphs/Leverage/LeverageDistribution1_LeverageDetailCr
 isisTop10vsRest_0510.png  used on input line 267.
 (pdftex.def)             Requested size: 433.61232pt x 144.53743pt.
-[6 <./graphs/Leverage/LeverageDistribution_LeverageRatioTop10vsRest_7813.png> <
-./graphs/Leverage/LeverageDistribution1_LeverageDetailCrisisTop10vsRest_0510.pn
-g>]
+[6 <./graphs/Leverage/LeverageDistribution1_LeverageDetailCrisisTop10vsRest_051
+0.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
@@ -1100,7 +1090,7 @@ Package logreq Info: Writing requests to 'Vorlage_Seminararbeit.run.xml'.
 Here is how much of TeX's memory you used:
  23405 strings out of 492448
  435079 string characters out of 3129681
- 960309 words of memory out of 3000000
+ 961309 words of memory out of 3000000
  27531 multiletter control sequences out of 15000+200000
  570944 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1111,7 +1101,7 @@ ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Vorlage_Seminararbeit.pdf (10 pages, 793048 bytes).
+Output written on Vorlage_Seminararbeit.pdf (10 pages, 881920 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

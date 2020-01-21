@@ -1,0 +1,11 @@
+References
+
+McKinsey Paper: Comparing different kind of accounting leverage ratios (Source: https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/risk/working%20papers/15_capital_ratios_and_financial_distress.ashx
+
+Leverage Across Firms, Banks and Countries (Source: https://www.nber.org/papers/w17354): Empirical study of leverage patterns across ﬁrms, banks, and countries over time before and after the 2007–2009 crisis. A dataset of investment and commercial banks of US, banks of Europe, firms of US and Europa is used. 
+
+Adrian-Shin (Source: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1978972&download=yes): Empirical analysis of the relationship between banks balance sheet positions assets and equity as the determinants of leverage.
+
+
+OBrian-Whelan (Source: https://www.karlwhelan.com/Papers/OBrien-Whelan-Mar2015.pdf): Similar fokus as Adrian-Shin.
+
