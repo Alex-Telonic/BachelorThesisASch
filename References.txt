@@ -1,6 +1,6 @@
 References
 
-McKinsey Paper: Comparing different kind of accounting leverage ratios (Source: https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/risk/working%20papers/15_capital_ratios_and_financial_distress.ashx
+McKinsey Paper (Source: https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/risk/working%20papers/15_capital_ratios_and_financial_distress.ashx ): Comparing different kind of accounting leverage ratios
 
 Leverage Across Firms, Banks and Countries (Source: https://www.nber.org/papers/w17354): Empirical study of leverage patterns across ﬁrms, banks, and countries over time before and after the 2007–2009 crisis. A dataset of investment and commercial banks of US, banks of Europe, firms of US and Europa is used. 
 
