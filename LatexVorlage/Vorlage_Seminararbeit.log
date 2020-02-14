@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.18)  9 FEB 2020 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.18)  14 FEB 2020 18:06
 entering extended mode
 **./Vorlage_Seminararbeit.tex
 (Vorlage_Seminararbeit.tex
@@ -1017,147 +1017,150 @@ File: graphs/DescriptiveStats/OtherAnalysis_GrowthTrends_7613.png Graphic file
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_GrowthTrends_761
 3.png  used on input line 208.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/NewLeverage_BanksDefault_7613.png, id=28, 1445.4pt x 7
-22.7pt>
-File: graphs/DescriptiveStats/NewLeverage_BanksDefault_7613.png Graphic file (t
-ype png)
-<use graphs/DescriptiveStats/NewLeverage_BanksDefault_7613.png>
-Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_BanksDefault_7613.
-png  used on input line 214.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png, id=29, 1445.4
-pt x 722.7pt>
-File: graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png Graphic f
-ile (type png)
-<use graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png>
-Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_LoanDistribution
-_7613.png  used on input line 221.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-<graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png, id=30, 14
+<graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png, id=28, 14
 45.4pt x 722.7pt>
-File: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png Graph
+File: graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png Graph
 ic file (type png)
-<use graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png>
-Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityL
-oans_9713.png  used on input line 235.
+<use graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png>
+Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_BanksDefaultPercen
+tage_7613.png  used on input line 214.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png, id=31,
- 1445.4pt x 722.7pt>
-File: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png Gr
-aphic file (type png)
-<use graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png>
-Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityR
-esLoans_9713.png  used on input line 242.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles_7613.png, id=32, 1445.4
-pt x 722.7pt>
-File: graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles_7613.png Graphic f
-ile (type png)
-<use graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles_7613.png>
-Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles
-_7613.png  used on input line 249.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png, id=33
-, 1445.4pt x 722.7pt>
-File: graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png G
-raphic file (type png)
-<use graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png>
-Package pdftex.def Info: graphs/DescriptiveStats/LeverageDistribution_AssetsTop
-10vsRest_7813.png  used on input line 255.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png, id=34, 1445.
-4pt x 722.7pt>
-File: graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png Graphic 
-file (type png)
-<use graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png>
-Package pdftex.def Info: graphs/DescriptiveStats/LeverageDistribution_shareTop1
-0_7813.png  used on input line 262.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/MedianBank_FrequencyTable_8010.png, id=35, 409.53pt x 108.405pt>
-File: graphs/MedianBank_FrequencyTable_8010.png Graphic file (type png)
-<use graphs/MedianBank_FrequencyTable_8010.png>
-Package pdftex.def Info: graphs/MedianBank_FrequencyTable_8010.png  used on inp
-ut line 270.
-(pdftex.def)             Requested size: 409.52899pt x 108.40472pt.
 [2 <./graphs/DescriptiveStats/OtherAnalysis_ShareofAssets_7613.png> <./graphs/D
 escriptiveStats/OtherAnalysis_LiabilitiesDistribution_7613.png>] [3 <./graphs/D
 escriptiveStats/OtherAnalysis_ShareofLiabilities_7613.png> <./graphs/Descriptiv
 eStats/OtherAnalysis_GrowthAssetsYear_7613.png>] [4 <./graphs/DescriptiveStats/
 OtherAnalysis_GrowthAssetsYear1_7613.png> <./graphs/DescriptiveStats/OtherAnaly
-sis_GrowthTrends_7613.png>] [5 <./graphs/DescriptiveStats/NewLeverage_BanksDefa
-ult_7613.png> <./graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.pn
-g>] [6 <./graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png> 
-<./graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png>]
+sis_GrowthTrends_7613.png>]
+<graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png, id=44, 1445.4
+pt x 722.7pt>
+File: graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png Graphic f
+ile (type png)
+<use graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png>
+Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_LoanDistribution
+_7613.png  used on input line 229.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+[5 <./graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png> <./g
+raphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png>]
+<graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png, id=52, 14
+45.4pt x 722.7pt>
+File: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png Graph
+ic file (type png)
+<use graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png>
+Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityL
+oans_9713.png  used on input line 243.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+<graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png, id=53,
+ 1445.4pt x 722.7pt>
+File: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png Gr
+aphic file (type png)
+<use graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png>
+Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityR
+esLoans_9713.png  used on input line 250.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+<graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles_7613.png, id=54, 1445.4
+pt x 722.7pt>
+File: graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles_7613.png Graphic f
+ile (type png)
+<use graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles_7613.png>
+Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles
+_7613.png  used on input line 257.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+<graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png, id=55
+, 1445.4pt x 722.7pt>
+File: graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png G
+raphic file (type png)
+<use graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png>
+Package pdftex.def Info: graphs/DescriptiveStats/LeverageDistribution_AssetsTop
+10vsRest_7813.png  used on input line 263.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+<graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png, id=56, 1445.
+4pt x 722.7pt>
+File: graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png Graphic 
+file (type png)
+<use graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png>
+Package pdftex.def Info: graphs/DescriptiveStats/LeverageDistribution_shareTop1
+0_7813.png  used on input line 270.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+<graphs/MedianBank_FrequencyTable_8010.png, id=57, 409.53pt x 108.405pt>
+File: graphs/MedianBank_FrequencyTable_8010.png Graphic file (type png)
+<use graphs/MedianBank_FrequencyTable_8010.png>
+Package pdftex.def Info: graphs/MedianBank_FrequencyTable_8010.png  used on inp
+ut line 278.
+(pdftex.def)             Requested size: 409.52899pt x 108.40472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+[6 <./graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png> <./g
+raphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png>]
 [7 <./graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles_7613.png> <./graph
-s/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-
- []
-
+s/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813.png>] [8 <./grap
+hs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png> <./graphs/MedianB
+ank_FrequencyTable_8010.png>]
 <graphs/DescriptiveStats/MedianBank_SmallvsMiddlevsBigMedianBankAssets_7613.png
-, id=67, 1445.4pt x 722.7pt>
+, id=73, 1445.4pt x 722.7pt>
 File: graphs/DescriptiveStats/MedianBank_SmallvsMiddlevsBigMedianBankAssets_761
 3.png Graphic file (type png)
 <use graphs/DescriptiveStats/MedianBank_SmallvsMiddlevsBigMedianBankAssets_7613
 .png>
 Package pdftex.def Info: graphs/DescriptiveStats/MedianBank_SmallvsMiddlevsBigM
-edianBankAssets_7613.png  used on input line 288.
+edianBankAssets_7613.png  used on input line 296.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/MedianBank_MiddlevsBigMedianBankAssets_7613.png, id=68
+<graphs/DescriptiveStats/MedianBank_MiddlevsBigMedianBankAssets_7613.png, id=74
 , 1445.4pt x 722.7pt>
 File: graphs/DescriptiveStats/MedianBank_MiddlevsBigMedianBankAssets_7613.png G
 raphic file (type png)
 <use graphs/DescriptiveStats/MedianBank_MiddlevsBigMedianBankAssets_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/MedianBank_MiddlevsBigMedianBa
-nkAssets_7613.png  used on input line 294.
+nkAssets_7613.png  used on input line 302.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesSmallBank_7613.png, id=69
+<graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesSmallBank_7613.png, id=75
 , 1445.4pt x 722.7pt>
 File: graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesSmallBank_7613.png G
 raphic file (type png)
 <use graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesSmallBank_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesS
-mallBank_7613.png  used on input line 301.
+mallBank_7613.png  used on input line 309.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
 <graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesMediumBank_7613.png, id=7
-0, 1445.4pt x 722.7pt>
+6, 1445.4pt x 722.7pt>
 File: graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesMediumBank_7613.png 
 Graphic file (type png)
 <use graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesMediumBank_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesM
-ediumBank_7613.png  used on input line 308.
+ediumBank_7613.png  used on input line 316.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesBigBank_7613.png, id=71, 
+<graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesBigBank_7613.png, id=77, 
 1445.4pt x 722.7pt>
 File: graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesBigBank_7613.png Gra
 phic file (type png)
 <use graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesBigBank_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesB
-igBank_7613.png  used on input line 315.
+igBank_7613.png  used on input line 323.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-[8 <./graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813.png> <./grap
-hs/MedianBank_FrequencyTable_8010.png>] [9 <./graphs/DescriptiveStats/MedianBan
-k_SmallvsMiddlevsBigMedianBankAssets_7613.png> <./graphs/DescriptiveStats/Media
-nBank_MiddlevsBigMedianBankAssets_7613.png>] [10 <./graphs/DescriptiveStats/Med
-ianBank_ShareofLiabilitiesSmallBank_7613.png> <./graphs/DescriptiveStats/Median
-Bank_ShareofLiabilitiesMediumBank_7613.png>]
+ [9 <./graphs/DescriptiveStats/MedianBank_SmallvsMiddlevsBigMedianBankAssets_76
+13.png> <./graphs/DescriptiveStats/MedianBank_MiddlevsBigMedianBankAssets_7613.
+png>] [10 <./graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesSmallBank_761
+3.png> <./graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesMediumBank_7613.
+png>]
 <graphs/LeverageDistribution_LeverageRatio_7613.png, id=90, 1445.4pt x 722.7pt>
 
 File: graphs/LeverageDistribution_LeverageRatio_7613.png Graphic file (type png
 )
 <use graphs/LeverageDistribution_LeverageRatio_7613.png>
 Package pdftex.def Info: graphs/LeverageDistribution_LeverageRatio_7613.png  us
-ed on input line 329.
+ed on input line 337.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
 <graphs/LeverageDistribution_LeverageRatioTrends_7613.png, id=91, 1445.4pt x 72
 2.7pt>
@@ -1165,7 +1168,7 @@ File: graphs/LeverageDistribution_LeverageRatioTrends_7613.png Graphic file (ty
 pe png)
 <use graphs/LeverageDistribution_LeverageRatioTrends_7613.png>
 Package pdftex.def Info: graphs/LeverageDistribution_LeverageRatioTrends_7613.p
-ng  used on input line 335.
+ng  used on input line 343.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
  [11 <./graphs/DescriptiveStats/MedianBank_ShareofLiabilitiesBigBank_7613.png> 
 <./graphs/LeverageDistribution_LeverageRatio_7613.png>]
@@ -1175,11 +1178,11 @@ File: graphs/Leverage/LeverageDistribution_LeverageRatioBoxplot_7613.png Graphi
 c file (type png)
 <use graphs/Leverage/LeverageDistribution_LeverageRatioBoxplot_7613.png>
 Package pdftex.def Info: graphs/Leverage/LeverageDistribution_LeverageRatioBoxp
-lot_7613.png  used on input line 353.
+lot_7613.png  used on input line 361.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
  [12 <./graphs/LeverageDistribution_LeverageRatioTrends_7613.png> <./graphs/Lev
 erage/LeverageDistribution_LeverageRatioBoxplot_7613.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
@@ -1189,10 +1192,10 @@ File: graphs/Leverage/LeverageDistribution_LeverageRatio_8013.png Graphic file
 (type png)
 <use graphs/Leverage/LeverageDistribution_LeverageRatio_8013.png>
 Package pdftex.def Info: graphs/Leverage/LeverageDistribution_LeverageRatio_801
-3.png  used on input line 401.
+3.png  used on input line 409.
 (pdftex.def)             Requested size: 433.62335pt x 433.62335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
  []
 
@@ -1203,11 +1206,11 @@ File: graphs/Leverage/LeverageDistribution_LeverageRatio_0311.png Graphic file
 (type png)
 <use graphs/Leverage/LeverageDistribution_LeverageRatio_0311.png>
 Package pdftex.def Info: graphs/Leverage/LeverageDistribution_LeverageRatio_031
-1.png  used on input line 419.
+1.png  used on input line 427.
 (pdftex.def)             Requested size: 433.62335pt x 390.26102pt.
  [14 <./graphs/Leverage/LeverageDistribution_LeverageRatio_0311.png>]
 
-LaTeX Warning: Empty bibliography on input line 440.
+LaTeX Warning: Empty bibliography on input line 448.
 
 (Vorlage_Seminararbeit.aux)
 Package logreq Info: Writing requests to 'Vorlage_Seminararbeit.run.xml'.
@@ -1215,10 +1218,10 @@ Package logreq Info: Writing requests to 'Vorlage_Seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23498 strings out of 492448
- 440683 string characters out of 3129681
- 964309 words of memory out of 3000000
- 27609 multiletter control sequences out of 15000+200000
+ 23502 strings out of 492448
+ 440789 string characters out of 3129681
+ 961309 words of memory out of 3000000
+ 27613 multiletter control sequences out of 15000+200000
  570944 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,67p,1148b,1688s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1231,7 +1234,7 @@ fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Vorlage_Seminararbeit.pdf (16 pages, 2614741 bytes).
+Output written on Vorlage_Seminararbeit.pdf (16 pages, 2618023 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
