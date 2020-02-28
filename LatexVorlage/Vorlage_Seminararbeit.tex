@@ -142,29 +142,15 @@ alexander.schlechter@student.kit.edu}
 
 \subsection{General look at us banks}
 
+\subsubsection{Assets}
 
+The following section will show some insights about the asset side of the whole us commercial banking sector. The asset side is composed of: ... 
 
 \begin{figure}[hbtp]
 \centering
 \caption{Asset side}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_AssetDistribution_7613.png}
 \end{figure}
-
-
-\noindent \textit{Graph description}: The graph shows the aggregates of the main variables from the asset side of the balance sheet over time.\\
-
-\noindent \textit{Key Observations:}
-\begin{itemize}
-\item loans make up the largest share of assets
-\item share of trading assets have risen
-\item loans and trading assets have risen more than securities in timeframe year 2000-2009
-\item drop in assets in 2002 and 2008
-\item share in cash has fallen
-\item interest derivatives have only become existent since year 2001
-\item While the share of securities fell 2005-2008, the share of cash, repos did rise
-\end{itemize}
-
-\newpage
 
 \begin{figure}[hbtp]
 \centering
@@ -173,18 +159,41 @@ alexander.schlechter@student.kit.edu}
 \end{figure}
 
 
+\noindent \textit{Graph description}: Figure 1 shows the aggregates of the main variables from the asset side of the balance sheet over time. Figure 2 shows the share of each aggregated balance sheet position of all commercial banks over time.\\
+
+
+\noindent \textit{Key Observations:}
+\begin{itemize}
+\item loans make up the largest share of assets
+\item share of trading assets have risen as well as interest rate derivatives
+\item loans and trading assets have risen more than securities in timeframe year 2000-2009
+\item There is a noticeable anomaly in year 2000. Significant amounts of repo lending is transferred into other assets. Other assets are derivatives not available for sale. 
+\item drop in assets in 2002 and 2008
+\item share in cash has fallen until 2008 and then increased again
+\item While the share of securities and loans fell 2005-2008, the share of cash and reverse repos did rise
+\end{itemize}
+
+\begin{figure}[hbtp]
+\centering
+\caption{Correlation of balance sheet positions (assets side)}
+\includegraphics[scale=0.5]{graphs/DescriptiveStats/OtherAnalysis_AssetsCorrelationHeatMap_7613.png}
+\end{figure}
+
+\noindent \textit{Graph description}: Figure 3 shows the Pearson Correlation Coefficient between different balance sheet positions\\
+
+\textit{Key Observations:}
+\begin{itemize}
+\item Cash has the weakest correlation with the rest positions
+\item No significant stand outs
+\end{itemize}
+
+\subsubsection{Liabilities}
+
 \begin{figure}[hbtp]
 \centering
 \caption{Liabilities side}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_LiabilitiesDistribution_7613}
 \end{figure}
-
-\noindent \textit{Graph description}: The graph shows the aggregates of the main variables from the liabilities side of the balance sheet over time.\\
-
-\noindent \textit{Key Observations:}
-\begin{itemize}
-\item deposits as main source of funding
-\end{itemize}
 
 
 \begin{figure}[hbtp]
@@ -192,6 +201,37 @@ alexander.schlechter@student.kit.edu}
 \caption{Share of liabilities positions}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofLiabilities_7613}
 \end{figure}
+
+\newpage
+
+\begin{figure}[hbtp]
+\centering
+\caption{Share of liabilities positions}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofLiabilitiesPlot_7613}
+\end{figure}
+
+
+\noindent \textit{Graph description}: The graph shows the aggregates of the main variables from the liabilities side of the balance sheet over time.\\
+
+\noindent \textit{Key Observations:}
+\begin{itemize}
+\item Deposits as main source of funding
+\item Irregularities in year 2002: repos drop
+\item Irregularity in year 1983 might be caused by measuring/reporting differences
+\item In 2008 share of deposits at lowest point.
+
+\end{itemize}
+
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Correlation of balance sheet positions (liabilities side)}
+\includegraphics[scale=0.5]{graphs/DescriptiveStats/OtherAnalysis_LiabilitiesCorrelationHeatMap_7613}
+\end{figure}
+
+\subsection{Growth}
+
 
 \begin{figure}[hbtp]
 \centering
@@ -212,7 +252,7 @@ alexander.schlechter@student.kit.edu}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_GrowthAssetsYear1_7613.png}
 \end{figure}
 
-\noindent \textit{Graph description}: The graph shows the annual growth rate of aggregated assets of top top $1/%$ commercial banks. Two investment banks, who did become commercial banks in 2009, are excluded. \\
+\noindent \textit{Graph description}: The graph shows the annual growth rate of aggregated assets of top top $1\%$ commercial banks. Two investment banks, who did become commercial banks in 2009, are excluded. \\
 
 \noindent \textit{Key Observations:}
 \begin{itemize}
@@ -227,13 +267,21 @@ alexander.schlechter@student.kit.edu}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_GrowthTrends_7613}
 \end{figure}
 
+\noindent \textit{Key Observations:}
+\begin{itemize}
+\item Top $1\%$ growth rates are more volatile
+\item Pearson Correlation, Significance: (0.6371607133788253, 1.696703469447756e-05)
+\item 1986, 2001, 2006 almost 0,02 difference toward trend
+\end{itemize}
 
-\noindent \textit{Graph description}: Annual growth rate with trend for all banks and top $1/%$. \\
+\noindent \textit{Graph description}: Annual growth rate with trend for all banks and top $1\%$. \\
 
 \noindent \textit{Key Observations:}
 \begin{itemize}
-\item time-frame 2000-2005: growth rate of top $1/%$ rising, growth rate of all banks falling.
+\item time-frame 2000-2005: growth rate of top $1\%$ rising, growth rate of all banks falling.
 \item 
+\end{itemize}
+
 
 \begin{figure}[hbtp]
 \centering
@@ -249,6 +297,8 @@ alexander.schlechter@student.kit.edu}
 \item In 1990 there were many more smaller banks. Smaller banks might have a higher likelihood to fail. In 1990:  $~74\%$ small banks, 2010: $~35\%$ small banks 
 \end{itemize}
 
+
+\subsection{Loans}
 
 \begin{figure}[hbtp]
 \centering
@@ -277,27 +327,39 @@ alexander.schlechter@student.kit.edu}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713}
 \end{figure}
 
+\subsection{Distribution of asset sizes among banks}
+
+\begin{figure}[hbtp]
+\centering
+\caption{Count of banks by percentiles}
+\includegraphics[scale=0.8]{graphs/DescriptiveStats/BankCounts}
+\end{figure}
+
 
 \begin{figure}[hbtp]
 \centering
 \caption{Aggregate assets by percentiles}
-\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_BanksPercentiles_7613}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_7613.png}
 \end{figure}
 
+\iffalse
 \begin{figure}[hbtp]
 \centering
 \caption{Top 10 banks assets vs rest}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/LeverageDistribution_AssetsTop10vsRest_7813}
 \end{figure}
 
-
 \begin{figure}[hbtp]
 \centering
 \caption{Rise of top 10 banks asset share}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/LeverageDistribution_shareTop10_7813}
 \end{figure}
+\fi
 
-\textbf{Banks by asset size}
+
+\subsection{Median banks by asset size}
+
+In Figure 15, we have in the left column the asset interval size and in the corresponding row the number of banks per year.\\
 
 \begin{figure}[hbtp]
 \centering
@@ -305,7 +367,6 @@ alexander.schlechter@student.kit.edu}
 \includegraphics[scale=1]{graphs/MedianBank_FrequencyTable_8010}
 \end{figure}
 
-In Figure 12, we have in the left column the asset interval size and in the corresponding row the number of banks per year.\\
 
 \textbf{Typical small/medium/large bank}
 
@@ -354,7 +415,7 @@ Large bank: $10^6<$ assets
 
 \newpage
 
-\subsection{Looking into leverage}
+\subsection{Leverage}
 
 Throughout the analysis the definition of accounting leverage (assets/equity) is used. Equity is calculated by total assets minus total liabilities. In addition, for risk analysis banks belonging a bank holding company were aggregated. Hence, the dataset which was used contained bhcs and independent banks.
 
@@ -445,7 +506,7 @@ Orange Line: All banks beside the top 10\\
 \includegraphics[scale=0.3]{graphs/Leverage/LeverageDistribution_LeverageRatio_8013}
 \end{figure}
 
-\noindent \textit{Graph description}: Counts are normed to 1. Only leverage ratios between 0-20 are accounted for. The small amount of banks above with leverage above 20 are seen as outliers.As you can see ~50$/%$ of banks are within a range of 8-14. Leverage ratios are always from quarter 4.
+\noindent \textit{Graph description}: Counts are normed to 1. Only leverage ratios between 0-20 are accounted for. The small amount of banks above with leverage above 20 are seen as outliers.As you can see ~50$\%$ of banks are within a range of 8-14. Leverage ratios are always from quarter 4.
 \\
 
 \noindent \textit{Key Observations}:
@@ -463,7 +524,7 @@ Orange Line: All banks beside the top 10\\
 \includegraphics[scale=0.3]{graphs/Leverage/LeverageDistribution_LeverageRatio_0311}
 \end{figure}
 
-\noindent \textit{Graph description}: Counts are normed to 1. Only leverage ratios between 0-20 are accounted for. The others are seen as outliers. As you can see ~50$/%$ of banks are within a range of 8-12. Leverage ratios are always from quarter 4.
+\noindent \textit{Graph description}: Counts are normed to 1. Only leverage ratios between 0-20 are accounted for. The others are seen as outliers. As you can see ~50$\%$ of banks are within a range of 8-12. Leverage ratios are always from quarter 4.
 
 \noindent \textit{Key Observations}:
 \begin{itemize}
