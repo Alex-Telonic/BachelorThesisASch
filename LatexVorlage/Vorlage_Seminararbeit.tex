@@ -21,7 +21,8 @@
 \usepackage{graphicx} % Grafiken
 \usepackage{subfigure}
 
-\usepackage{caption} % Paket für Tabellen- und Bildbeschriftungen
+
+
 \usepackage{lipsum} % Paket für Random-Text (nur für Anschauungszwecke benötigt, kann gelöscht werden)
 
 \usepackage{setspace} % Zeilenabstand
@@ -66,6 +67,8 @@ backend=biber % use Biber here
 % Hier .bib-Datei einfügen
 
 \bibliography{bspbib}
+
+\usepackage[font=scriptsize, labelfont=bf]{caption}
 
 %---------------------------------------------------------------------------------------
 %
@@ -152,14 +155,17 @@ The following section will show some insights about the asset side of the whole 
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_AssetDistribution_7613.png}
 \end{figure}
 
+\newpage
+
+
 \begin{figure}[hbtp]
 \centering
-\caption{Share of asset positions}
-\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofAssets_7613.png}
+\caption{Share of asset positions - unstacked}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsPlot_7613.png}
 \end{figure}
 
 
-\noindent \textit{Graph description}: Figure 1 shows the aggregates of the main variables from the asset side of the balance sheet over time. Figure 2 shows the share of each aggregated balance sheet position of all commercial banks over time.\\
+\noindent \textit{Graph description}: Figure 1 shows the aggregates of the main variables from the asset side of the balance sheet over time. Figure 2 shows the share of each aggregated balance sheet position of all commercial banks over time. Figure 3 plots the share of each balance sheet position unstacked.\\
 
 
 \noindent \textit{Key Observations:}
@@ -167,11 +173,14 @@ The following section will show some insights about the asset side of the whole 
 \item loans make up the largest share of assets
 \item share of trading assets have risen as well as interest rate derivatives
 \item loans and trading assets have risen more than securities in timeframe year 2000-2009
-\item There is a noticeable anomaly in year 2000. Significant amounts of repo lending is transferred into other assets. Other assets are derivatives not available for sale. 
+\item Share of trading assets peaked in 2008 while securities fell.
+\item There is a noticeable anomaly in year 2002. Significant amounts of repo lending is transferred into other assets. Other assets are derivatives not available for sale. 
 \item drop in assets in 2002 and 2008
 \item share in cash has fallen until 2008 and then increased again
-\item While the share of securities and loans fell 2005-2008, the share of cash and reverse repos did rise
+\item Share of cash continously fell until 2008, and then it increased significantly again
 \end{itemize}
+
+\newpage
 
 \begin{figure}[hbtp]
 \centering
@@ -187,8 +196,11 @@ The following section will show some insights about the asset side of the whole 
 \item No significant stand outs
 \end{itemize}
 
+\newpage
+
 \subsubsection{Liabilities}
 
+\if(false)
 \begin{figure}[hbtp]
 \centering
 \caption{Liabilities side}
@@ -209,6 +221,13 @@ The following section will show some insights about the asset side of the whole 
 \caption{Share of liabilities positions}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofLiabilitiesPlot_7613}
 \end{figure}
+\fi
+
+\begin{figure}[hbtp]
+\centering
+\caption{Share of liabilities positions}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofLiabilitiesAll3_7613.png}
+\end{figure}
 
 
 \noindent \textit{Graph description}: The graph shows the aggregates of the main variables from the liabilities side of the balance sheet over time.\\
@@ -216,10 +235,11 @@ The following section will show some insights about the asset side of the whole 
 \noindent \textit{Key Observations:}
 \begin{itemize}
 \item Deposits as main source of funding
-\item Irregularities in year 2002: repos drop
+\item Irregularities in year 2002: repos drop while other liabilities rise
 \item Irregularity in year 1983 might be caused by measuring/reporting differences
-\item In 2008 share of deposits at lowest point.
-
+\item In 2008 share of deposits at lowest point. Although the aggregated assets peaked at that time. 
+\item Deposits continuously decreased from 1990 onwards. Other financing such as "Other borrowed money" and "trading liabilities" rose
+\item repos share decreased significantly until end of 2013
 \end{itemize}
 
 
@@ -229,6 +249,8 @@ The following section will show some insights about the asset side of the whole 
 \caption{Correlation of balance sheet positions (liabilities side)}
 \includegraphics[scale=0.5]{graphs/DescriptiveStats/OtherAnalysis_LiabilitiesCorrelationHeatMap_7613}
 \end{figure}
+
+\newpage
 
 \subsection{Growth}
 
@@ -267,20 +289,16 @@ The following section will show some insights about the asset side of the whole 
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_GrowthTrends_7613}
 \end{figure}
 
+\noindent \textit{Graph description}: Annual growth rate with trend for all banks and top $1\%$. The second graph shows the cycle part from the time series filter. \\
+
 \noindent \textit{Key Observations:}
 \begin{itemize}
 \item Top $1\%$ growth rates are more volatile
-\item Pearson Correlation, Significance: (0.6371607133788253, 1.696703469447756e-05)
+\item Pearson Correlation between all banks vs top $1\%$, Significance: (0.6371607133788253, 1.696703469447756e-05)
 \item 1986, 2001, 2006 almost 0,02 difference toward trend
 \end{itemize}
 
-\noindent \textit{Graph description}: Annual growth rate with trend for all banks and top $1\%$. \\
-
-\noindent \textit{Key Observations:}
-\begin{itemize}
-\item time-frame 2000-2005: growth rate of top $1\%$ rising, growth rate of all banks falling.
-\item 
-\end{itemize}
+\newpage
 
 
 \begin{figure}[hbtp]
@@ -327,7 +345,9 @@ The following section will show some insights about the asset side of the whole 
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713}
 \end{figure}
 
-\subsection{Distribution of asset sizes among banks}
+\newpage
+
+\subsection{Distribution of asset sizes among banks - To Big to Fail}
 
 \begin{figure}[hbtp]
 \centering
@@ -335,6 +355,7 @@ The following section will show some insights about the asset side of the whole 
 \includegraphics[scale=0.8]{graphs/DescriptiveStats/BankCounts}
 \end{figure}
 
+\newpage
 
 \begin{figure}[hbtp]
 \centering
@@ -421,27 +442,63 @@ Throughout the analysis the definition of accounting leverage (assets/equity) is
 
 \begin{figure}[hbtp]
 \centering
-\caption{Average leverage over time (1976/1-2013/4)}
-\includegraphics[scale=0.3]{graphs/LeverageDistribution_LeverageRatio_7613}
+\caption{Median and Average leverage for all banks}
+\includegraphics[scale=0.3]{graphs/NewLeverage_LeverageRatioAllBanks_7613}
 \end{figure}
+
+\newpage
 
 \begin{figure}[hbtp]
 \centering
-\caption{Average leverage trends over time (1976/1-2013/4)}
-\includegraphics[scale=0.3]{graphs/LeverageDistribution_LeverageRatioTrends_7613.png}
+\caption{Average/Mean leverage plots}
+\includegraphics[scale=0.3]{graphs/NewLeverage_LeverageRatioMean_7613}
 \end{figure}
 
-\noindent \textit{Graph description}: The graph shows the average leverage (assets/equity) for every year over all banks. Banks with equity or assets below zero are excluded.
+
+\begin{figure}[hbtp]
+\centering
+\caption{Median leverage plots}
+\includegraphics[scale=0.3]{graphs/NewLeverage_LeverageRatioMedian_7613}
+\end{figure}
+
+\newpage
+
+\begin{figure}[hbtp]
+\centering
+\caption{Trend plots}
+\includegraphics[scale=0.3]{graphs/NewLeverage_LeverageRatioTrends_7613.png}
+\end{figure}
+
+
+\begin{figure}[hbtp]
+\centering
+\caption{Cyclical plots}
+\includegraphics[scale=0.3]{graphs/NewLeverage_LeverageRatioCyclical_7613.png}
+\end{figure}
+
+\newpage
+
+\begin{figure}[hbtp]
+\centering
+\caption{Correlation cyclical leverage}
+\includegraphics[scale=1]{graphs/DescriptiveStats/Correlation_Cyclical_Leverage.png}
+\end{figure}
+
+\noindent \textit{Graph description}: Figures 21-25 focus on leverage ratios for every year and quarter over all banks. Banks with equity or assets below zero are excluded.
 
 
 \noindent \textit{Key Observations:}
 \begin{itemize}
-\item Overall Leverage did fall over time
-\item Spike in leverage in year 2008/2009
+\item Extreme outliers of leverage in year 1992/93 and 2009 lead to spikes in average leverage.
+\item Figure 21: All banks median leverage, seasonal effect every year?
 \item Leverage lowest in 2007
-\item Small spike in year 1999
-\item Introduction of Basel 1 in 1988 might have lead to continuously decrease in leverage
+\item Overall Leverage did fall over time: Introduction of Basel 1 in 1988 might have lead to continuously decrease in leverage
+\item Top $0.1\%$ have much higher volatility, which could just be caused by the low sample size.
+\item Top $0.1\%$ and $1\%$ actually become less risky than all banks together from 2010 onwards
+\item Figure 25 shows slightly negative correlation between the top $0.1\%$ banks and all banks. 
 \end{itemize}
+
+\newpage
 
 \begin{figure}[hbtp]
 \centering
@@ -454,8 +511,7 @@ Throughout the analysis the definition of accounting leverage (assets/equity) is
 
 \noindent \textit{Key Observations}:
 \begin{itemize}
-\item large standard deviation in year 2010 with 18.82
-\item less and higher bars in 2013 indicate higher homogeneity in 2013 compared to the years before.
+\item $75\%$ of all banks have a leverage ratio between 10-15.
 \end{itemize}
 
 
@@ -506,18 +562,19 @@ Orange Line: All banks beside the top 10\\
 \includegraphics[scale=0.3]{graphs/Leverage/LeverageDistribution_LeverageRatio_8013}
 \end{figure}
 
-\noindent \textit{Graph description}: Counts are normed to 1. Only leverage ratios between 0-20 are accounted for. The small amount of banks above with leverage above 20 are seen as outliers.As you can see ~50$\%$ of banks are within a range of 8-14. Leverage ratios are always from quarter 4.
+\noindent \textit{Graph description}: Counts are normed to 1. Leverage are transformed with log10. Leverage ratios are always from quarter 4.
 \\
 
 \noindent \textit{Key Observations}:
 \begin{itemize}
-\item large standard deviation in year 2010 with 18.82
-\item less and higher bars in 2013 indicate higher homogeneity in 2013 compared to the years before.
+\item Log-normal distribution
+\item Large standard deviation in year 2010 with 18.82
+\item Less and higher bars in 2012 indicate higher homogeneity in 2013 compared to the years before.
 \end{itemize}
 
 \pagebreak
 
-
+\iffalse
 \begin{figure}[hbtp]
 \centering
 \caption{Distribution in crisis 2003-2011}
@@ -530,7 +587,7 @@ Orange Line: All banks beside the top 10\\
 \begin{itemize}
 \item Increasing homogenity over time.
 \end{itemize}
-
+\fi
 
 \section{Conclusion}
 
