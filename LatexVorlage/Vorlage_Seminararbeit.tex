@@ -140,28 +140,140 @@ alexander.schlechter@student.kit.edu}
 
 \section{Introduction}
 
+Explorative journey through financial filings of us commercial banks.
+
+Different perspectives: 
+	- banking sector as whole (Aggregated)
+	- Median banks
+
+Analysis timeseries and cross section
 
 \section{Main part}
 
+\subsection{Data}
+
+Data from  $http://pages.stern.nyu.edu/~pschnabl/data/data_callreport.htm$ ,originally from FIEC031 Reports.
+Schneider adjust for variables change and so on
+
+Timeframe: 1976Q1-2013Q4, data per year and quarter for each individual bank
+
+We take our crisis data from the official documentation of the National Bureau of Economic Research(NBER. One can also differentiate between a so called "banking" (originated in the banking sector) vs "market" (originated from outside banking sector) crisis as in Berger and Bouwman (2013).  The assumption here is that banking crisis could be reflected stronger in the data. The crisis will be marked on the graphs as red zones.
+Crisis:
+
+
+\begin{itemize}
+\item 1980Q1-1980Q3 early 1980s recession (market crisis)
+\item 1981Q3-1982Q4 early 1980s recession (market crisis)
+\item 1990Q3-1991Q2 credit crunch (banking crisis)
+\item 2001Q2-2001Q4 dotcom bubble (market crisis)
+\item 2007Q4-2009Q3 financial crisis (banking crisis)
+\end{itemize}
+
+Following the convention of the Federal Reserve Bulletin, banks are allocated by size into following categories:
+\begin{itemize}
+ \item 10 largest banks
+ \item large banks (those ranked
+  11 through 100)
+ \item medium-sized banks (those ranked 101 through
+ 1,000)
+ \item small banks (those ranked 1,001 and higher)
+ \end{itemize} 
+
+Other important structural events to consider:
+\begin{itemize}
+\item Repeal of Glass-Steagall act 
+\end{itemize}
+
+negative equity removed
+
+Investment banks becoming commercial banks in 2009 removed
+
+bank mergers removed by growth of assets above $40\%$
+
+for risk analysis: commercial banks aggregated to bhcs
+
+Values are in thousands
+
+\subsection{Methods}
+
+
+No inflation adjustment
+
+Tranformations: Log
+
+Timeseries analysis:
+
+Detrending with HP Filter 1600
+
+Deseasonalize with X11 procedure
+
+Correlation/Autocorrelation
+
+Significance
+
+
+
 \subsection{General look at us banks}
 
-\subsubsection{Assets}
+The following two sections divided into assets and liabilities will guide us through the distribution of financial components held by the us commercial banks sector as a whole. We will see what the types and amounts of financial instruments banks are holding and how they evolved over time. 
 
-The following section will show some insights about the asset side of the whole us commercial banking sector. The asset side is composed of: ... 
+\subsubsection{Assets Liabilities}
 
+The following section will show some insights about the asset side of the whole us commercial banking sector. We want to describe and analyse how it evolved over time and find anomalies 
+The typical positions a commercial bank is holding on the asset side of its balance sheet are:
+
+\begin{itemize}
+ \item Cash
+ \item Fed funds sold and securities purchased under agreements to resell
+ \item Securities
+  	\begin{itemize}
+ 	\item Treasury
+ 	\item Mortage backed security
+ 	\item Other
+ 	\end{itemize}
+ \item Loans net\footnote{Loans and leases net of unearned income and allowance for loan and lease losses}
+ \item Trading assets
+ 	\begin{itemize}
+ 	\item Interest rate derivatives
+ 	\item Other fixed income
+ 	\item Other trading
+ 	\end{itemize}
+ \item Other assets \footnote{composed of derivatives "not for trading" and other items}
+ \end{itemize} 
+ 
+ Every position beside the trading assets are hold "not for trading purposes". Meaning for instance the securities position and loans position are held until maturity. 
+ Figure \ref{fig:assets} gives a general overview how the total assets held by all banks per year and quarter evolved over time. The value of assets rose from below 2 trillion to above 13 trillions dollars of assets. In comparison, the GDP of US in 2013 was at 16.78 trillions. We can also see a period of flatness/low growth from  year 1990-1993, a drop in 2002 and 2008/Q2. While the absolute values give us some indications of where anomalies occur, we will perform time-series analysis by decomposing the logarithmised data in trend, cyclical components. As seen within Figure \ref{fig:assets}, the value of assets has a clear trend with no indication of existing seasonality over the given timeframe. The second graph within Figure \ref{fig:assets} compares the development of assets transformed by natural logarithm to the absolute values. Both are drawn within their own vertical axis. While the growth of absolute assets is more exponential over time, the logarithm of assets grows more linear. This linear trend tells us that the relative growth rate stays constant over time. In the third part of Figure \ref{fig:assets} we can see the de-trended part of the asset timeseries. Here we can see variations that significantly differ from the trend. As mentioned in the data section the red areas show crisis periods. The alignment of crisis periods with us banks total assets variations is limited. We can see that the impact of the early 1980s recession did not lead to more volatility than other normal periods. The dotcom bubble in 2001 lead to a downward variation of us commercial banks assets away from the trend. In regards to the financial crisis in 2008 we see a huge positive variation with a rapid drop back to the trend. Assuming we have set the most fitting filtering parameters for the HP-Filter, it is interesting to see that the assets did not fall significantly below the trend. The loss was rather caused by an overheated market falling back to normal.
+ 
+  
 \begin{figure}[hbtp]
 \centering
 \caption{Asset side}
-\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_AssetDistribution_7613.png}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.png}
+\label{fig:assets}
 \end{figure}
 
-\newpage
+Diving into more detailed analysis of the balance sheet positions, Figure \ref{fig:positions} gives us the detrended development of each individual position for both the asset(left column) and liabilities side(right column).
+The cash position shows some clear spike in 2008, beside then the movements show no clear sign of irregularity. With context in mind it makes sense that banks liquidated some of their assets to increase cash. The rise in cash comes along with a significant fall in securities. Figure \ref{fig:sharepositions} showing the share of the positions further supports our thesis of sold securities to raise cash. While the share of securities fell until 2008, share of cash rose.
+Trading assets follow the same behaviour as total assets in crisis 2008, but its variation in crisis periods do not significantly differ to other periods.  
+Other interesting observations on the asset side, is a significant spike in
+
+The volatility of fedfundsrepoasset increased from 1996 onwards. 
+fedfundsrepoliab drops in 2002
+The zero values for trading assets and liabilities are either caused because they are not reported or were not existent. 
+
+\begin{figure}[hbtp]
+\centering
+\caption{Detrended asset positions(left column) \hspace{2cm} Detrended liabilities positions(right column)}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png}
+\label{fig:positions}
+\end{figure}
 
 
 \begin{figure}[hbtp]
 \centering
 \caption{Share of asset positions - unstacked}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsPlot_7613.png}
+\label{fig:sharepositions}
 \end{figure}
 
 
@@ -206,6 +318,8 @@ The following section will show some insights about the asset side of the whole 
 \caption{Liabilities side}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_LiabilitiesDistribution_7613}
 \end{figure}
+
+
 
 
 \begin{figure}[hbtp]
@@ -438,7 +552,7 @@ Large bank: $10^6<$ assets
 
 \subsection{Leverage}
 
-Throughout the analysis the definition of accounting leverage (assets/equity) is used. Equity is calculated by total assets minus total liabilities. In addition, for risk analysis banks belonging a bank holding company were aggregated. Hence, the dataset which was used contained bhcs and independent banks.
+Throughout the analysis the definition of accounting leverage (assets/equity) is used. Equity is calculated by total assets minus total liabilities. In addition, for risk analysis banks belonging a bank holding company were aggregated. Hence, the dataset which was used contained bhcs and independent banks. Figure 21 below shows the mean, median and weighted-average leverage by asset size for each point in time. The weighted-average leverage ratio is calculated by taking into account the asset size for each bank every point in time. Every leverage ratio for each individual bank is only accounted in the weighted-average by its share of assets compared to the total assets of all banks at that point of time.
 
 \begin{figure}[hbtp]
 \centering
@@ -490,12 +604,14 @@ Throughout the analysis the definition of accounting leverage (assets/equity) is
 \noindent \textit{Key Observations:}
 \begin{itemize}
 \item Extreme outliers of leverage in year 1992/93 and 2009 lead to spikes in average leverage.
+\item Average-weighted leverage significantly higher from 1976 to 2004. Aligns with higher leverage of top $0.1\%$ and $1\%$ banks. Hence, the overall risk from year 1976-2004, was driven high by the larger banks. 
 \item Figure 21: All banks median leverage, seasonal effect every year?
 \item Leverage lowest in 2007
 \item Overall Leverage did fall over time: Introduction of Basel 1 in 1988 might have lead to continuously decrease in leverage
 \item Top $0.1\%$ have much higher volatility, which could just be caused by the low sample size.
 \item Top $0.1\%$ and $1\%$ actually become less risky than all banks together from 2010 onwards
 \item Figure 25 shows slightly negative correlation between the top $0.1\%$ banks and all banks. 
+\item Crisis 2008/9: Top $0.1\%$ banks have a average leverage spike in 2008, while top $10\%$, $50\%$ and all  spike around a year later.  
 \end{itemize}
 
 \newpage
@@ -562,7 +678,7 @@ Orange Line: All banks beside the top 10\\
 \includegraphics[scale=0.3]{graphs/Leverage/LeverageDistribution_LeverageRatio_8013}
 \end{figure}
 
-\noindent \textit{Graph description}: Counts are normed to 1. Leverage are transformed with log10. Leverage ratios are always from quarter 4.
+\noindent \textit{Graph description}: Counts are normed to 1. Leverage is transformed with log10. Leverage ratios are always from quarter 4.
 \\
 
 \noindent \textit{Key Observations}:
@@ -574,20 +690,35 @@ Orange Line: All banks beside the top 10\\
 
 \pagebreak
 
-\iffalse
+
 \begin{figure}[hbtp]
 \centering
 \caption{Distribution in crisis 2003-2011}
 \includegraphics[scale=0.3]{graphs/Leverage/LeverageDistribution_LeverageRatio_0311}
 \end{figure}
 
-\noindent \textit{Graph description}: Counts are normed to 1. Only leverage ratios between 0-20 are accounted for. The others are seen as outliers. As you can see ~50$\%$ of banks are within a range of 8-12. Leverage ratios are always from quarter 4.
+\noindent \textit{Graph description}: Leverage ratios are always from quarter 4 and  logarithmised.
 
 \noindent \textit{Key Observations}:
 \begin{itemize}
 \item Increasing homogenity over time.
 \end{itemize}
-\fi
+
+\section{Evaluation/Outlook}
+
+shadow banking/investment banks not considered
+
+off balance sheet
+
+valuations not realistic, book values...
+
+Applying more time-series models
+
+Applying of models such as Regression...
+
+Other structural events considered
+
+significant part of trading assets still owned by non commercial banks
 
 \section{Conclusion}
 
@@ -603,6 +734,8 @@ Orange Line: All banks beside the top 10\\
 heading=bibintoc,
 title={Bibliography}
 ]
+
+crisis data: https://www.nber.org/cycles.html
 
 
 % ================================================================================
