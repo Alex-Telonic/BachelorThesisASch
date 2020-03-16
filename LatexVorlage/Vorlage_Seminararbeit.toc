@@ -13,18 +13,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.1}Assets Liabilities}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}Liabilities}{7}%
+\contentsline {subsubsection}{\numberline {2.3.2}Liabilities}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Growth}{9}%
+\contentsline {subsection}{\numberline {2.4}Growth}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Loans}{11}%
+\contentsline {subsection}{\numberline {2.5}Loans}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Distribution of asset sizes among banks - To Big to Fail}{13}%
+\contentsline {subsection}{\numberline {2.6}Distribution of asset sizes among banks - To Big to Fail}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Median banks by asset size}{14}%
+\contentsline {subsection}{\numberline {2.7}Median banks by asset size}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8}Leverage}{17}%
+\contentsline {subsection}{\numberline {2.8}Leverage}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Evaluation/Outlook}{23}%
+\contentsline {section}{\numberline {3}Evaluation/Outlook}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion}{23}%
+\contentsline {section}{\numberline {4}Conclusion}{24}%
