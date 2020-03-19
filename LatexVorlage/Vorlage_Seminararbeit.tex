@@ -21,7 +21,7 @@
 \usepackage{graphicx} % Grafiken
 \usepackage{subfigure}
 
-
+\usepackage{threeparttable} %footnotes for captions
 
 \usepackage{lipsum} % Paket für Random-Text (nur für Anschauungszwecke benötigt, kann gelöscht werden)
 
@@ -209,7 +209,9 @@ Deseasonalize with X11 procedure
 
 Correlation/Autocorrelation
 
-Significance
+Significance levels: ***: <0.01
+					**: <0.05
+					*: <0.1
 
 
 
@@ -241,30 +243,89 @@ The typical positions a commercial bank is holding on the asset side of its bala
  \item Other assets \footnote{composed of derivatives "not for trading" and other items}
  \end{itemize} 
  
- Every position beside the trading assets are hold "not for trading purposes". Meaning for instance the securities position and loans position are held until maturity. 
+ Every position beside the trading assets are hold "not for trading purposes". Meaning for instance the securities position and loans position are not held for trading. 
  Figure \ref{fig:assets} gives a general overview how the total assets held by all banks per year and quarter evolved over time. The value of assets rose from below 2 trillion to above 13 trillions dollars of assets. In comparison, the GDP of US in 2013 was at 16.78 trillions. We can also see a period of flatness/low growth from  year 1990-1993, a drop in 2002 and 2008/Q2. While the absolute values give us some indications of where anomalies occur, we will perform time-series analysis by decomposing the logarithmised data in trend, cyclical components. As seen within Figure \ref{fig:assets}, the value of assets has a clear trend with no indication of existing seasonality over the given timeframe. The second graph within Figure \ref{fig:assets} compares the development of assets transformed by natural logarithm to the absolute values. Both are drawn within their own vertical axis. While the growth of absolute assets is more exponential over time, the logarithm of assets grows more linear. This linear trend tells us that the relative growth rate stays constant over time. In the third part of Figure \ref{fig:assets} we can see the de-trended part of the asset timeseries. Here we can see variations that significantly differ from the trend. As mentioned in the data section the red areas show crisis periods. The alignment of crisis periods with us banks total assets variations is limited. We can see that the impact of the early 1980s recession did not lead to more volatility than other normal periods. The dotcom bubble in 2001 lead to a downward variation of us commercial banks assets away from the trend. In regards to the financial crisis in 2008 we see a huge positive variation with a rapid drop back to the trend. Assuming we have set the most fitting filtering parameters for the HP-Filter, it is interesting to see that the assets did not fall significantly below the trend. The loss was rather caused by an overheated market falling back to normal.
  
   
 \begin{figure}[hbtp]
 \centering
 \caption{Asset side}
-\includegraphics[scale=0.3]{gr\\
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613}
+\label{fig:assets}
+\end{figure}
 
-Diving into more detailed analysis of the balance sheet positions, Figure \ref{fig:positions} gives us the detrended development of each individual position for both the asset(left column) and liabilities side(right column).
-The cash position shows some clear spike in 2008, beside then the movements show no clear sign of irregularity. With context in mind it makes sense that banks liquidated some of their assets to increase cash. The rise in cash comes along with a significant fall in securities. Figure \ref{fig:sharepositions} showing the share of the positions further supports our thesis of sold securities to raise cash. While the share of securities fell until 2008, share of cash rose.
-Trading assets follow the same behaviour as total assets in crisis 2008, but its variation in crisis periods do not significantly differ to other periods.  
-Other interesting observations on the asset side, is a significant spike in
+Diving into more detailed analysis of the balance sheet positions, Figure \ref{fig:positions} gives us the detrended development of each individual position for both the asset side(left column) and liabilities side(right column) of a balance sheet. 
+The cash position shows some clear spike in 2008, beside then the movements show no clear sign of irregularity. With the background of the 2008 crisis it makes sense that banks liquidated some of their assets to increase cash. The rise in cash comes along with a significant fall in securities. Figure \ref{fig:sharepositions} showing the share of the positions further supports our thesis of sold securities to raise cash. While the share of securities fell until 2008, share of cash rose.
+The position other borrowed money also gets to its highest point in 2008, indicating differences in a banks financing behaviour in crisis. 
+Trading assets follow the same behaviour as total assets in crisis 2008, but its variation in crisis periods do not significantly differ to other periods. We know from \ref{fig:sharepositions} that the share of trading assets continuously rose over time. In addition, we can observe a spike of trading assets in the period from 1992-1996.
+Equity has its lowest downward variation in 2004
+Another interesting observation is that some positions show larger fluctuations in more recent times. The volatility of fedfundsrepoasset increased from 1996 onwards and of foreign deposits from 1992 onwards. 
+We also see an interesting contradictory relationship between loans and securities. When securities fall, loans rise and vice versa. Figure \ref{fig:corr_assets} confirms this relationship with a negative correlation coefficient of -0.73 and high significance according to the p-value.
 
-The volatility of fedfundsrepoasset increased from 1996 onwards. 
-fedfundsrepoliab drops in 2002
-The zero values for trading assets and liabilities are either caused because they are not reported or were not existent. 
+
+
+- general more negative correlation as expected. Stealing shares
+- foreign deposits and other borrowed money positive correlation. Makes sense, because other borrowed money is mainly foreign as well.
+- positive relationship between equity and trading assets. More equity, more risk?
+- positive relationship between trading assets and fedfundsrepoliab. Repo financing used to buy trading assets
+- positive relationship between fedfundsrepoasset and trading liabilties 
+
 
 \begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+
 \centering
-\caption{Detrended asset positions(left column) \hspace{2cm} Detrended liabilities positions(right column)}
+\caption[1]{Detrended asset positions(left column) \hspace{2cm} Detrended liability positions(right column) \footnote{Data is aggregated in the cross section over all banks, transformed with natural logarithm and detrended with HP-Filter. See details in the data section. Trading assets and liabilities have missing data in the beginning of the time period. The anomaly in year 2002 for other liabilities and fedfundsrepoassets is caused by an accounting change.} }
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png}
 \label{fig:positions}
+
+\end{minipage}
 \end{figure}
+
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+\centering
+\caption[1]{Legend correlation}
+\includegraphics[scale=0.4]{graphs/Tables/corr_legend}
+\label{fig:corr_legend}
+\end{minipage}
+\end{figure}
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+
+\centering
+\caption[1]{Correlation assets\footnote{Pearsons correlation coefficient based on the detrended data used in Figure \ref{fig:positions}.} }
+\includegraphics[scale=0.8]{graphs/Tables/asset_cycle_corr}
+\label{fig:corr_assets}
+
+\end{minipage}
+\end{figure}
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+
+\centering
+\caption[1]{Correlation liabilities\footnote{Pearsons correlation coefficient based on the detrended data used in Figure \ref{fig:positions}.} }
+\includegraphics[scale=0.8]{graphs/Tables/liab_cycle_corr}
+\label{fig:corr_liab}
+
+\end{minipage}
+\end{figure}
+
+
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+
+\centering
+\caption[1]{Correlation assets with liabilities\footnote{Pearsons correlation coefficient based on the detrended data used in Figure \ref{fig:positions}.} }
+\includegraphics[scale=0.8]{graphs/Tables/asset_liab_cycle_corr}
+\label{fig:corr_assets_liab}
+
+\end{minipage}
+\end{figure}
+
 
 
 \begin{figure}[hbtp]
