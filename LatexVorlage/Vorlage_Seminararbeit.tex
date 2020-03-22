@@ -226,7 +226,7 @@ The typical positions a commercial bank is holding on the asset side of its bala
 
 \begin{itemize}
  \item Cash
- \item Fed funds sold and securities purchased under agreements to resell
+ \item Fed funds sold and securities purchased under agreements to resell (fedfundsrepoassets)
  \item Securities
   	\begin{itemize}
  	\item Treasury
@@ -260,16 +260,19 @@ The position other borrowed money also gets to its highest point in 2008, indica
 Trading assets follow the same behaviour as total assets in crisis 2008, but its variation in crisis periods do not significantly differ to other periods. We know from \ref{fig:sharepositions} that the share of trading assets continuously rose over time. In addition, we can observe a spike of trading assets in the period from 1992-1996.
 Equity has its lowest downward variation in 2004
 Another interesting observation is that some positions show larger fluctuations in more recent times. The volatility of fedfundsrepoasset increased from 1996 onwards and of foreign deposits from 1992 onwards. 
-We also see an interesting contradictory relationship between loans and securities. When securities fall, loans rise and vice versa. Figure \ref{fig:corr_assets} confirms this relationship with a negative correlation coefficient of -0.73 and high significance according to the p-value.
+We also see an interesting contradictory relationship between loans and securities. When securities fall, loans rise and vice versa. Figure \ref{fig:corr_assets} confirms this relationship with a negative correlation coefficient of $r=-0.73$ and high significance according to the p-value. The scatter plot in Figure \ref{fig:scatterplots} illustrates this negative relationship. As a result, the two asset categories could be seen as substitutes to each other. 
+There is a small positive relationship between fedfundsrepoassets and trading assets. This could indicate that banks lending out excess federal funds or purchasing repurchase agreements are in such a healthy position to be able to increase trading assets as well. The scatterplot of this relationship in Figure \ref{fig:scatterplots} confirms a possible linear relationship. Similar positive relationship can be seen between fedfundsrepoassets and loans. However, the scatterplot in Figure \ref{fig:scatterplots} does not support a clear relationship.
+Quite surprising is the slightly negative correlation between domestic deposits and foreign deposits of $r=-0.34$.
+In addition, there is a positive correlation of $r=0.37$ between equity and trading assets, indicating that increasing equity leads to increased trading.
+Another observation is the strong positive relationship between loans and foreign deposits of $r=0.59$. 
 
-
-
+\iffalse
 - general more negative correlation as expected. Stealing shares
 - foreign deposits and other borrowed money positive correlation. Makes sense, because other borrowed money is mainly foreign as well.
 - positive relationship between equity and trading assets. More equity, more risk?
 - positive relationship between trading assets and fedfundsrepoliab. Repo financing used to buy trading assets
 - positive relationship between fedfundsrepoasset and trading liabilties 
-
+\fi
 
 \begin{figure}[hbtp]
 \begin{minipage}{\textwidth}
@@ -285,18 +288,10 @@ We also see an interesting contradictory relationship between loans and securiti
 
 \begin{figure}[hbtp]
 \begin{minipage}{\textwidth}
-\centering
-\caption[1]{Legend correlation}
-\includegraphics[scale=0.4]{graphs/Tables/corr_legend}
-\label{fig:corr_legend}
-\end{minipage}
-\end{figure}
-\begin{figure}[hbtp]
-\begin{minipage}{\textwidth}
 
 \centering
 \caption[1]{Correlation assets\footnote{Pearsons correlation coefficient based on the detrended data used in Figure \ref{fig:positions}.} }
-\includegraphics[scale=0.8]{graphs/Tables/asset_cycle_corr}
+\includegraphics[scale=0.8]{graphs/Tables/asset_cycle_corr_sig}
 \label{fig:corr_assets}
 
 \end{minipage}
@@ -307,7 +302,7 @@ We also see an interesting contradictory relationship between loans and securiti
 
 \centering
 \caption[1]{Correlation liabilities\footnote{Pearsons correlation coefficient based on the detrended data used in Figure \ref{fig:positions}.} }
-\includegraphics[scale=0.8]{graphs/Tables/liab_cycle_corr}
+\includegraphics[scale=0.8]{graphs/Tables/liab_cycle_corr_sig}
 \label{fig:corr_liab}
 
 \end{minipage}
@@ -320,8 +315,32 @@ We also see an interesting contradictory relationship between loans and securiti
 
 \centering
 \caption[1]{Correlation assets with liabilities\footnote{Pearsons correlation coefficient based on the detrended data used in Figure \ref{fig:positions}.} }
-\includegraphics[scale=0.8]{graphs/Tables/asset_liab_cycle_corr}
-\label{fig:corr_assets_liab}
+\includegraphics[scale=0.8]{graphs/Tables/comb_cycle_corr_sig}
+\label{fig:corr_comb}
+
+\end{minipage}
+\end{figure}
+
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+
+\centering
+\caption[1]{Scatterplot for selected positions\footnote{Linear regression based on the detrended data used in Figure \ref{fig:positions}.} }
+\includegraphics[scale=0.5]{graphs/DescriptiveStats/OtherAnalysis_clean_scatterplots_7613}
+\label{fig:scatterplots}
+
+\end{minipage}
+\end{figure}
+
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+
+\centering
+\caption[1]{Share of balance sheet positions \footnote{} }
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png}
+\label{fig:share_both}
 
 \end{minipage}
 \end{figure}
@@ -353,21 +372,7 @@ We also see an interesting contradictory relationship between loans and securiti
 
 \newpage
 
-\begin{figure}[hbtp]
-\centering
-\caption{Correlation of balance sheet positions (assets side)}
-\includegraphics[scale=0.5]{graphs/DescriptiveStats/OtherAnalysis_AssetsCorrelationHeatMap_7613.png}
-\end{figure}
 
-\noindent \textit{Graph description}: Figure 3 shows the Pearson Correlation Coefficient between different balance sheet positions\\
-
-\textit{Key Observations:}
-\begin{itemize}
-\item Cash has the weakest correlation with the rest positions
-\item No significant stand outs
-\end{itemize}
-
-\newpage
 
 \subsubsection{Liabilities}
 
@@ -416,12 +421,6 @@ We also see an interesting contradictory relationship between loans and securiti
 \end{itemize}
 
 
-
-\begin{figure}[hbtp]
-\centering
-\caption{Correlation of balance sheet positions (liabilities side)}
-\includegraphics[scale=0.5]{graphs/DescriptiveStats/OtherAnalysis_LiabilitiesCorrelationHeatMap_7613}
-\end{figure}
 
 \newpage
 
