@@ -68,7 +68,7 @@ backend=biber % use Biber here
 
 % Hier .bib-Datei einfügen
 
-\bibliography{bspbib}
+\bibliography{bspbib.bib}
 
 \usepackage[font=scriptsize, labelfont=bf]{caption}
 
@@ -152,6 +152,8 @@ Different perspectives:
 
 Analysis timeseries and cross section
 
+Long term trend analysis vs short term business cycles analysed
+
 Some questions approached: 
 \begin{itemize}
 \item How did the balance sheets of commercial banks evolve over time?
@@ -170,7 +172,7 @@ Some questions approached:
 
 \begin{itemize}
 \item Data from  $http://pages.stern.nyu.edu/~pschnabl/data/data_callreport.htm$ (Originally from FIEC031 Reports and 041); Schneider adjusted for variables change and so on
-\item Timeframe: 1976Q1-2013Q4, data per year and quarter for each individual bank
+\item Timeframe: 1976Q1-2013Q4, data per year and quarter for each individual bank. The timeseries xaxis is coherent throughout all graphs. Every tick on the xaxis is one quarter. The tick with the year label marks quarter $1$. 
 \end{itemize}
 
 
@@ -639,8 +641,8 @@ For the liabilities, deposits are a main source of funding for all categories. H
 \subsection{Leverage}
 
 In this section we are going to take a look at the leverage of commercial banks. Leverage is a well known and often used concept for monitoring risk and health of financial institutions. While there are a few definitions of leverage, given the dataset we are working with, focus will be on accounting leverage: Total assets divided by total equity capital\footnote{Tier 1 capital, according to Basel III.}. It is used by banks to improve their return on equity. As long as the interest on external capital does not exceed total capital ratio, raising external capital, thus increasing leverage, is beneficial for a bank. With this incentive in mind, it might not come as a surprise that when shareholder ask for a high return, increases in leverage follow. Since the buffer to cover losses in case investments turn bad is then reduced, increases in leverage can be seen as increases in risk. To account for policy makers setting capital requirements on banks on their highest organizational level, we aggregated all commercial banks to their belonging bank holding company. 
-We are also removing all banks with negative equity and exorbitant high leverage from the dataset as they do not represent the systematic risk level we want to assess.\footnote{Outliers are defined as banks with leverage ratios beyond 100} We want to assess the leverage behaviour of normal operating banks. Banks with negative equity or exorbitant high leverage cannot continue to operate this way and are near bankruptcy. We are looking at the bankruptcy levels of banks in section \ref{sec:AssetLiabs}.
-Figure \ref{fig:averageLeverage} and \ref{fig:averageLeverage_noOutlier} below show the mean, median and weighted-average leverage by asset size for each point in time. We can see the clear impact of outlier removal in the data. Especially, in the periods around 1990 and 2008 where bankruptcy levels are high, there are major leverage increases in Figure \ref{fig:averageLeverage}. With outliers removed, we have a clearer indication how leverage among healthy banks look. We will continue to work with the outlier removed leverage data. The Figures also prove that depending of what type of measure is chosen (average, median...), different conclusions can be derived. However, all measures show a falling trend in leverage from year 1976 to 2013.  More description coming...
+We are also removing all banks with negative equity from the dataset as they can be considered bankrupt.\footnote{Banks with negative equity, do not report financial information in the following periods. Only in the rare case of bailouts, they survive.} We want to assess the leverage behaviour of still operating banks. For more information about bankrupted banks in the dataset see section \ref{sec:AssetLiabs}.
+Figure \ref{fig:averageLeverage} shows the mean, median and weighted-average leverage for each point in time. We can see the clear impact of high leverage banks on the average. Especially, in the periods around 1990 and 2008 where bankruptcy levels are high, there are major leverage increases in Figure \ref{fig:averageLeverage} on the mean leverage. Looking at the median, gives us a clearer indication how leverage among healthy banks look. Hence, depending of what type of measure we choose (average, median...), we arrive at different observations. The only consistent information conveyed by all measures is a falling trend in leverage from year 1976 to 2013.  More description coming...
 
 
 \begin{figure}[hbtp]
@@ -652,6 +654,7 @@ Figure \ref{fig:averageLeverage} and \ref{fig:averageLeverage_noOutlier} below s
 \end{minipage}
 \end{figure}
 
+\iffalse
 \begin{figure}[hbtp]
 \begin{minipage}{\textwidth}
 \centering
@@ -660,11 +663,12 @@ Figure \ref{fig:averageLeverage} and \ref{fig:averageLeverage_noOutlier} below s
 \label{fig:averageLeverage_noOutlier}
 \end{minipage}
 \end{figure}
+\fi
 
 \begin{figure}[hbtp]
 \begin{minipage}{\textwidth}
 \centering
-\caption[1]{Average leverage by category \footnote{Banks with leverage ratios beyond 100 are considered as outlier and removed.}}
+\caption[1]{Average leverage by category \footnote{}}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613}
 \label{fig:averageLeverage_Categories}
 \end{minipage}
@@ -673,11 +677,51 @@ Figure \ref{fig:averageLeverage} and \ref{fig:averageLeverage_noOutlier} below s
 \begin{figure}[hbtp]
 \begin{minipage}{\textwidth}
 \centering
-\caption[1]{Cyclical average leverage by category \footnote{Banks with leverage ratios beyond 100 are considered as outlier and removed.}}
+\caption[1]{Cyclical average leverage by category \footnote{Category 3 contains a banks with leverage over 10000 in year 1992Q4, which results in this exorbitant high spike.}}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png}
-\label{fig:averageLeverage_Categories}
+\label{fig:averageLeverage_cyclical_Categories}
 \end{minipage}
 \end{figure}
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+\centering
+\caption[1]{Standard deviation of average leverage by category \footnote{Category 3 contains a banks with leverage over 10000 in year 1992Q4, which results in this exorbitant high spike.}}
+\includegraphics[scale=0.3]{graphs/NewLeverage_stdByCat_7613.png}
+\label{fig:averageLeverage_cyclicalStd_Categories}
+\end{minipage}
+\end{figure}
+
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+\centering
+\caption[1]{Skewness of average leverage by category \footnote{}}
+\includegraphics[scale=0.3]{graphs/NewLeverage_KurtByCat_7613.png}
+\label{fig:averageLeverage_kurt_Categories}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+\centering
+\caption[1]{Kurtosis of average leverage by category \footnote{}}
+\includegraphics[scale=0.3]{graphs/NewLeverage_SkewByCat_7613.png}
+\label{fig:averageLeverage_skew_Categories}
+\end{minipage}
+\end{figure}
+
+
+
+\begin{figure}[hbtp]
+\begin{minipage}{\textwidth}
+\centering
+\caption[1]{Assets vs Leverage \footnote{Banks with leverage ratios beyond 50 are considered as outlier and not included.}}
+\includegraphics[scale=0.2]{graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverage_7613.png}
+\label{fig:AssetsvsLeverage}
+\end{minipage}
+\end{figure}
+
 
 \textbf{To-Do: Correlations between cyclical leverage}
 

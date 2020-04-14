@@ -7,7 +7,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Data}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Methods}{2}%
+\contentsline {subsection}{\numberline {2.2}Methods}{3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}General look at balance sheet fillings}{3}%
 \defcounter {refsection}{0}\relax 
@@ -23,10 +23,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7}Leverage}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8}Distribution of leverage}{29}%
+\contentsline {subsection}{\numberline {2.8}Distribution of leverage}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Evaluation/Outlook}{30}%
+\contentsline {section}{\numberline {3}Evaluation/Outlook}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion}{31}%
+\contentsline {section}{\numberline {4}Conclusion}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Appendix}{32}%
+\contentsline {section}{\numberline {A}Appendix}{35}%
