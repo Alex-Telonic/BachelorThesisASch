@@ -17,7 +17,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Loans}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Distribution of asset sizes among banks - To Big to Fail}{15}%
+\contentsline {subsection}{\numberline {2.5}Distribution of asset sizes among banks - Too Big to Fail}{15}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6}Banks by asset size}{18}%
 \defcounter {refsection}{0}\relax 
@@ -25,8 +25,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.8}Distribution of leverage}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Evaluation/Outlook}{33}%
+\contentsline {section}{\numberline {3}Evaluation/Outlook}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion}{34}%
+\contentsline {section}{\numberline {4}Conclusion}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Appendix}{35}%
+\contentsline {section}{\numberline {A}Appendix}{37}%
