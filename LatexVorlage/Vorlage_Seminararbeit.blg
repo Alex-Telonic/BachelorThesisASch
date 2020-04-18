@@ -1,9 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Vorlage_Seminararbeit.blg'
-[86] biber-MSWIN64:322> INFO - === 
-[109] Biber.pm:415> INFO - Reading 'Vorlage_Seminararbeit.bcf'
-[223] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[82] biber-MSWIN64:322> INFO - === 
+[106] Biber.pm:415> INFO - Reading 'Vorlage_Seminararbeit.bcf'
+[224] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
 [230] Utils.pm:304> WARN - The file 'Vorlage_Seminararbeit.bcf' does not contain any citations!
-[242] bbl.pm:652> INFO - Writing 'Vorlage_Seminararbeit.bbl' with encoding 'UTF-8'
+[243] bbl.pm:652> INFO - Writing 'Vorlage_Seminararbeit.bbl' with encoding 'UTF-8'
 [243] bbl.pm:755> INFO - Output to Vorlage_Seminararbeit.bbl
-[243] Biber.pm:128> INFO - WARNINGS: 1
+[244] Biber.pm:128> INFO - WARNINGS: 1

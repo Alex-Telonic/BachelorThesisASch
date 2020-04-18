@@ -19,6 +19,7 @@
 \usepackage{threeparttable}
 \usepackage{multirow}
 
+\usepackage{float}
 
 \usepackage{graphicx} % Grafiken
 \usepackage{subfigure}
@@ -165,22 +166,17 @@ Some questions approached:
 \item Are there differences in leverage behaviour between different banks categorized by asset size?
 \end{itemize}
 
+Explain structure of thesis...
+
 \section{Main part}
 
 \subsection{Data}
 \label{sec:data}
 
-\begin{itemize}
-\item Data from  $http://pages.stern.nyu.edu/~pschnabl/data/data_callreport.htm$ (Originally from FIEC031 Reports and 041); Schneider adjusted for variables change and so on
-\item Timeframe: 1976Q1-2013Q4, data per year and quarter for each individual bank. The timeseries xaxis is coherent throughout all graphs. Every tick on the xaxis is one quarter. The tick with the year label marks quarter $1$. 
-\end{itemize}
+The analysis in this thesis is build upon a dataset of balance sheets originally provided by the FFIEC. Also named call reports, the FFIEC collects this balance sheet information quarterly from every FDIC insured institution. \citep{DrechslerSchnabel2017} used these reports and formed a consistent time-series from year 1976Q1 to 2013Q4, accounting for variable and other changes over the years. They only included commercial banks (banks with Charter Type 200).
+To graph these time-series we create a horizontal axis with a tick for every quarter. We also add a year label for every first quarter. This axis is consistently used throughout the analysis. Bank filings with negative equity are removed from the dataset, since they indicate a bankrupt bank. To prevent skewing the data, the two big investment banks Goldman Sachs and Morgan Stanley becoming commercial banks in the proceedings of the financial crisis 2008 are removed. When looking at leverage, we aggregate all commercial banks to their belonging bank holding companies. For our use-case it is not necessary deflate the data.
 
-
-We take our crisis data from the official documentation of the National Bureau of Economic Research(NBER) \\
-
-One can also differentiate between a so called "banking" (originated in the banking sector) vs "market" (originated from outside banking sector) crisis as in Berger and Bouwman (2013).  The assumption here is that banking crisis could be reflected stronger in the data. \\
-The crisis will be marked on the graphs as gray zones. \\
-Crisis data: https://www.nber.org/cycles.html \\
+In the proceedings of our analysis, we took into account recession definitions provided by the National Bureau of Economic Research. They define a recession not in terms of two consecutive quarters of decline in real GDP, but a significant decline in economic activity spread across the economy, lasting more than a few months, normally visible in real GDP, real income, employment, industrial production, and wholesale-retail sales (\cite{NBERBusinessCycles}). In addition, we differentiated between so called "banking" (originated in the banking sector) vs "market" (originated from outside banking sector) crisis as in \cite{BergerBouwman2013}. We assume here that banking crisis could be reflected stronger in the data.\\
 Crisis:
 \begin{itemize}
 \item 1980Q1-1980Q3 early 1980s recession (market crisis)
@@ -189,36 +185,30 @@ Crisis:
 \item 2001Q2-2001Q4 dotcom bubble (market crisis)
 \item 2007Q4-2009Q3 financial crisis (banking crisis)
 \end{itemize}
-
-
-
-Other important structural events to consider:
-\begin{itemize}
-\item Gramm-Leach-Bliley in 1999
-\item Reigle-Neil in 1994 - the law removed several obstacles to banks opening branches in other states and provided a uniform set of rules regarding banking in each state.
-\item FDICIA in 1991 - FIDC responsibility to rescue banks with least-costly method.
-\item Basel 1 in 1988, Basel 2 in 2004, Basel 3 in 2010
-\item Wide-spread adoption of financial innovations
-(interest rate derivatives, asset securitization, adjustable rate mortgages)
-\end{itemize}
-
-
-
-Additional adjustments of data:
+Those dates will be marked in our graph as gray zones.\\
+For further context awareness, it is important to mention following other structural events that affected the us commercial banks landscape considerably:
 
 \begin{itemize}
-\item Negative equity removed as those banks are bankrupt
-\item Investment banks becoming commercial banks in 2009 removed
-\item Bank mergers removed by growth of assets above $40\%$
-\item For risk analysis: commercial banks aggregated to bhcs
-\item Values are in thousands
+\item Gramm-Leach-Bliley Act in 1999 - This act repealed part of the Glass-Steagal Act of 1933, removing barriers that prevented banks from offering traditional commercial banks services and investment bank services or insurance company services at the same time.  
+\item Reigle-Neil in 1994 - This law removed several obstacles to banks opening branches in other states and provided a uniform set of rules regarding banking in each state.
+\item FDIC Improvement Act (FDICIA) passed in 1991, gave the FIDC the responsibility to rescue banks with least-costly method. Aimed to relativize the evolving moral hazard. 
+\item Basel 1 in 1988, Basel 2 in 2004, Basel 3 in 2010 - Capital and liquidity regulations to improve banks-sector stability.
+\item Over our data time-frame the banking sector experienced a wide-spread adoption of financial innovations. The main ones being interest rate derivatives, asset securitization and adjustable rate mortgages. We will refer back to this in our analysis, when we see these reflected in our data. 
 \end{itemize}
+
 
 
 \subsection{Methods}
 
+We use a number of methods to aid analysis of banking data over time and in the cross-section.
+For most methods we transform the data with the natural logarithm to focus on relative changes. In graphs we will indicate this transformation with proper labels. Furthermore, we apply the recognized Hodrick-Prescott filter with the recommended parameter of 1600 for quarterly time-series to de-trend out data. Seasonal effects will not be removed. For correlations and autocorrelations, we use the linear Pearsons' correlation coefficient. To determine significance we compute the 2-tailed p-value. Significance is then determined according to following levels:
+\begin{enumerate}
+\item ***: <0.01
+\item **: <0.05
+\item *: <0.1
+\end{enumerate}
 
-
+\iffalse
 \begin{itemize}
 \item No inflation adjustment: We are only interested in the actual priced value of the banks assets and not the quantity of the assets. Meaning for instance the banks could hold ten assets in 2000 with a value of 100\$ and ten assets in 2013 with a value of 150\$ caused by a rise the overall price level. Although there was not welfare increase as the quantity did not increase, the value the banks hold still increased.
 \item Tranformations: Log, to account for relative changes and enable comparisons over time.
@@ -230,21 +220,21 @@ Additional adjustments of data:
 					**: <0.05
 					*: <0.1
 \end{itemize}
+\fi
 
 
+\subsection{US commercial banks - General analysis}
 
-\subsection{General look at balance sheet fillings}
-
-The following section will guide us through the distribution of financial components held by the us commercial banks sector as a whole. We will see what types and amounts of financial instruments banks are holding and how these positions evolved over time. 
+The following section will guide us through the distribution of financial components held by the us commercial banking sector as a whole. We will see what types and amounts of financial instruments banks are holding and how these positions evolved over time. 
 
 \subsubsection{Assets \& Liabilities}
 \label{sec:AssetLiabs}
-The typical positions a commercial bank is holding on its balance sheet are: \\
+Table \ref{tab:balancesheet} shows a common perspective of a us commercial banks' balance sheet.
 
 \iffalse
 \begin{itemize}
  \item Cash
- \item Fed funds sold and securities purchased under agreements to resell (fedfundsrepoassets)
+ \item Fed funds sold and securities purchased under agreements to resell
  \item Securities
   	\begin{itemize}
  	\item Treasury
@@ -263,34 +253,34 @@ The typical positions a commercial bank is holding on its balance sheet are: \\
  
  \fi
  
-\begin{figure}[hbtp] 
+\begin{figure}[H]
 \begin{minipage}{\textwidth}
 \centering
 \caption[1]{Stylized balance sheet of us commercial bank \footnote{Every position beside the trading assets are hold "not for trading purposes". Meaning for instance the securities position and loans position are not held for trading.}}
  \begin{tabular}{|l|l|}
  \hline
- Assets & Liabilities  \\ \hline
+ \textbf{Assets} & \textbf{Liabilities}  \\ \hline \hline
  Cash & Equity \\ \hline
  \begin{tabular}{@{}l}Fed funds sold and securities purchased \\ under agreements to resell (fedfundsrepoassets)\end{tabular} & \begin{tabular}{@{}l} Fed funds bought and securities sold \\ under agreements to repurchase \end{tabular} \\ \hline
  Securities: & Deposits:  \\ 
- \begin{tabular}{l} - Treasury \\ - Mortgage-backed Security \\ - Other \end{tabular} & \begin{tabular}{l} - short \\ - other \end{tabular} \\ \hline
+ \begin{tabular}{l} - Treasury \\ - Mortgage-backed Security \\ - Other \end{tabular} & \begin{tabular}{l} - short \\ - other \end{tabular} \\ \cline{1-1}
  Loans net\footnote{Loans and leases net of unearned income and allowance for loan and lease losses} & \\ \hline
   Trading assets: & Trading liabilities  \\ 
 \multicolumn{2}{|c|}{\begin{tabular}{l} - net interest rate derivatives  \\  - net other fixed income \\ - net other trading \end{tabular}} \\ \hline
  Other assets\footnote{composed of derivatives "not for trading" and other items} & Other liabilities \\ \hline
  \end{tabular} \\ 
+ \label{tab:balancesheet}
  \end{minipage}
 \end{figure}
  
  
-  
- Figure \ref{fig:assets} gives a general overview how the total assets held by all banks per year and quarter evolved over time. The value of assets rose from below 2 trillion to above 13 trillions dollars of assets. In comparison, the GDP of US in 2013 was 16.78 trillions. We can see a period of flatness/low growth from  year 1990-1993, a drop in 2002 and 2008/Q2. While the absolute values give us some indications of where anomalies occur, we will perform time-series analysis by decomposing the logarithmised data in trend, cyclical components. As seen within Figure \ref{fig:assets}, the value of assets has a clear trend with no indication of existing seasonality over the given timeframe. The second graph within Figure \ref{fig:assets} compares the development of assets transformed by natural logarithm to the absolute values. Both are drawn within their own vertical axis. While the growth of absolute assets is more exponential over time, the logarithm of assets grows more linear. The linear trend tells us that the relative growth rate stays constant over time. In the third part of Figure \ref{fig:assets} we can see the de-trended part of the asset timeseries. Here we can see variations that significantly differ from the trend. As mentioned in the data section the gray areas show crisis periods. The alignment of crisis periods with us banks total assets variations is limited. We can see that the impact of the early 1980s recession did not lead to more volatility than other normal periods. The dotcom bubble in 2001 lead to a downward variation of us commercial banks assets away from the trend. In regards to the financial crisis in 2008 we see a huge positive variation with a rapid drop back to the trend. Assuming we have set the most fitting filtering parameters for the HP-Filter, it is interesting to see that the assets did not fall significantly below the trend. The loss was rather caused by an overheated market falling back to normal.
+ Figure \ref{fig:assets} gives a general overview how the total assets held by all banks per year and quarter evolved over time. The value of assets rose from below 2 trillion to above 13 trillions dollars of assets. In comparison, the GDP of US in 2013 was 16.78 trillions. We can see a period of flatness/low growth from  year 1990-1993, a drop in 2002 and 2008/Q2. While the absolute values give us some indications of where anomalies occur, we will perform time-series analysis by decomposing the logarithmised data in trend, cyclical components. As seen within Figure \ref{fig:assets}, the value of assets has a clear trend with no indication of existing seasonality over the given timeframe. The second graph within Figure \ref{fig:assets} compares the development of assets transformed by natural logarithm to the absolute values. Both are drawn within their own vertical axis. While the growth of absolute assets is more exponential over time, the logarithm of assets grows more linear. The linear trend tells us that the relative growth rate stays constant over time. In the third part of Figure \ref{fig:assets} we can see the de-trended part of the asset timeseries. Here we can see variations that significantly differ from the trend. As mentioned in the data section the gray areas show crisis periods. The alignment of crisis periods with us banks total assets cyclical is limited. We can see that the impact of the early 1980s recession did not lead to more volatility than other normal periods. The dotcom bubble in 2001 lead to a downward variation of us commercial banks assets away from the trend. In regards to the financial crisis in 2008 we see a huge positive variation with a rapid drop back to the trend. Assuming we have set the most fitting filtering parameters for the HP-Filter, it is interesting to see that the assets did not fall significantly below the trend. The loss was rather caused by an overheated market falling back to normal. Finally, the last graph of Figure \ref{fig:assets} shows the banks default rate per year. The graph aligns with the growth graph just above. In periods with a lot defaults we have a low growth rate. Periods that mark high default rates are the loans and saving crisis in 1990 and the financial crisis in 2008. It is interesting to mention that the loans and savings crisis caused significant higher default rates than the crisis in 2008. This might be related to the fact that in 1990 the number of small banks was considerably higher and small banks were more affected in this crisis. In 1990, $74\%$ of the banks that defaulted were small, while in 2010 the percentage of small banks was only $35\%$. We elaborate on the change in banking landscape in section \ref{sec:ToBigToFail}.
  
   
 \begin{figure}[hbtp]
 \begin{minipage}{\textwidth}
 \centering
-\caption{Asset side}
+\caption[1]{Asset side \footnote{Graph 5 shows an estimation of how many banks have defaulted every year. For instance in year 1989 over $0.6\%$ have defaulted. It is based on the negative equity recorded by banks. Hence, it is not exact and some banks might continue to exist in case of mergers or bailouts. Also, sometimes banks are double counted, if a negative equity does not immediately result in bankruptcy.}}
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613}
 \label{fig:assets}
 \end{minipage}
@@ -442,6 +432,7 @@ On the liability side, as one would expect, we have deposits as a dominating sou
 \fi
 \newpage
 
+\iffalse
 \subsubsection{Defaults}
 \label{sec:Defaults}
 
@@ -461,7 +452,7 @@ On the liability side, as one would expect, we have deposits as a dominating sou
 
 \textbf{To-Do: Bank Defaults within bank categories}
 
-
+\fi
 
 
 

@@ -2181,6 +2181,9 @@
     <bcf:datasource type="file" datatype="bibtex">bspbib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">DrechslerSchnabel2017</bcf:citekey>
+    <bcf:citekey order="2">NBERBusinessCycles</bcf:citekey>
+    <bcf:citekey order="3">BergerBouwman2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
