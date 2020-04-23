@@ -21,10 +21,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7}Leverage}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8}Distribution of leverage}{31}%
+\contentsline {subsubsection}{\numberline {2.7.1}General}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Evaluation/Outlook}{33}%
+\contentsline {subsubsection}{\numberline {2.7.2}Long-term discussion of leverage development}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion}{35}%
+\contentsline {subsubsection}{\numberline {2.7.3}Short-term discussion of leverage development}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Appendix}{36}%
+\contentsline {subsubsection}{\numberline {2.7.4}Long-term discussion of leverage distribution}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.7.5}Short-term discussion of leverage distribution}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Evaluation/Outlook}{35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Conclusion}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Appendix}{37}%
