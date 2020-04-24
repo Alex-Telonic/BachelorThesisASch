@@ -11,25 +11,33 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}US commercial banks - General analysis}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Assets \& Liabilities}{3}%
+\contentsline {subsubsection}{\numberline {2.3.1}General overview}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Loans}{13}%
+\contentsline {subsubsection}{\numberline {2.3.2}Cyclical analysis of balance sheet accounts}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Distribution of asset sizes among banks - Too Big to Fail}{14}%
+\contentsline {subsection}{\numberline {2.4}Distribution of asset sizes among banks - Too Big to Fail}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Banks by asset size}{17}%
+\contentsline {subsection}{\numberline {2.5}Banks by asset size}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Leverage}{25}%
+\contentsline {subsubsection}{\numberline {2.5.1}General}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.7.1}General}{25}%
+\contentsline {subsubsection}{\numberline {2.5.2}Trend and cyclical behaviour of assets by category}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.7.2}Long-term discussion of leverage development}{25}%
+\contentsline {subsubsection}{\numberline {2.5.3}Correlation between categories}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.7.3}Short-term discussion of leverage development}{26}%
+\contentsline {subsubsection}{\numberline {2.5.4}Balance sheet composition by category}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.7.4}Long-term discussion of leverage distribution}{27}%
+\contentsline {subsection}{\numberline {2.6}Leverage}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.7.5}Short-term discussion of leverage distribution}{27}%
+\contentsline {subsubsection}{\numberline {2.6.1}General}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.2}Long-term discussion of leverage development}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.3}Short-term discussion of leverage development}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.4}Long-term discussion of leverage distribution}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.5}Short-term discussion of leverage distribution}{27}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Evaluation/Outlook}{35}%
 \defcounter {refsection}{0}\relax 

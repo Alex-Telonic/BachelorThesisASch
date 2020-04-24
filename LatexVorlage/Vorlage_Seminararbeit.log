@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.18)  23 APR 2020 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.18)  24 APR 2020 21:28
 entering extended mode
 **./Vorlage_Seminararbeit.tex
 (Vorlage_Seminararbeit.tex
@@ -979,13 +979,13 @@ LaTeX Warning: Citation 'BergerBouwman2013' on page 2 undefined on input line 1
 
 [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 259.
+(Font)              <5> on input line 260.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 259.
+(Font)              <10> on input line 260.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 259.
+(Font)              <7> on input line 260.
 
-Overfull \hbox (13.27606pt too wide) in paragraph at lines 260--271
+Overfull \hbox (13.27606pt too wide) in paragraph at lines 261--272
  [][] 
  []
 
@@ -996,32 +996,37 @@ File: graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.png Gr
 aphic file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistr
-ibution_7613.png  used on input line 284.
+ibution_7613.png  used on input line 285.
 (pdftex.def)             Requested size: 433.62335pt x 433.62335pt.
  [5 <./graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.png>]
- [6]
+
+
+LaTeX Warning: Reference `Balance sheet composition of aggregate U.S. commercia
+l banks' on page 6 undefined on input line 303.
+
+[6]
 <graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png, id=47,
  1445.4pt x 1806.75pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png Gr
 aphic file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_PositionsC
-yclical_7613.png  used on input line 318.
+yclical_7613.png  used on input line 322.
 (pdftex.def)             Requested size: 433.62335pt x 542.02919pt.
 <graphs/Tables/asset_cycle_corr_sig.png, id=48, 441.90094pt x 146.04562pt>
 File: graphs/Tables/asset_cycle_corr_sig.png Graphic file (type png)
 <use graphs/Tables/asset_cycle_corr_sig.png>
 Package pdftex.def Info: graphs/Tables/asset_cycle_corr_sig.png  used on input 
-line 330.
+line 334.
 (pdftex.def)             Requested size: 353.52122pt x 116.83664pt.
 <graphs/Tables/liab_cycle_corr_sig.png, id=49, 642.90187pt x 180.675pt>
 File: graphs/Tables/liab_cycle_corr_sig.png Graphic file (type png)
 <use graphs/Tables/liab_cycle_corr_sig.png>
 Package pdftex.def Info: graphs/Tables/liab_cycle_corr_sig.png  used on input l
-ine 341.
+ine 345.
 (pdftex.def)             Requested size: 514.32219pt x 144.54018pt.
 
-Overfull \hbox (59.07808pt too wide) in paragraph at lines 341--343
+Overfull \hbox (59.07808pt too wide) in paragraph at lines 345--347
  [][] 
  []
 
@@ -1029,10 +1034,10 @@ Overfull \hbox (59.07808pt too wide) in paragraph at lines 341--343
 File: graphs/Tables/comb_cycle_corr_sig.png Graphic file (type png)
 <use graphs/Tables/comb_cycle_corr_sig.png>
 Package pdftex.def Info: graphs/Tables/comb_cycle_corr_sig.png  used on input l
-ine 354.
+ine 358.
 (pdftex.def)             Requested size: 507.69743pt x 112.62088pt.
 
-Overfull \hbox (52.45332pt too wide) in paragraph at lines 354--356
+Overfull \hbox (52.45332pt too wide) in paragraph at lines 358--360
  [][] 
  []
 
@@ -1042,7 +1047,7 @@ File: graphs/DescriptiveStats/OtherAnalysis_clean_scatterplots_7613.png Graphic
  file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_scatterplots_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_scatterplo
-ts_7613.png  used on input line 366.
+ts_7613.png  used on input line 370.
 (pdftex.def)             Requested size: 361.3491pt x 361.3491pt.
 <graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png, id=52, 14
 45.4pt x 1445.4pt>
@@ -1050,17 +1055,17 @@ File: graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png Graph
 ic file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_sharePosit
-ions_7613.png  used on input line 378.
+ions_7613.png  used on input line 382.
 (pdftex.def)             Requested size: 433.62335pt x 433.62335pt.
 <graphs/Tables/autocorrelations/AllAssets.png, id=53, 466.74374pt x 197.98969pt
 >
 File: graphs/Tables/autocorrelations/AllAssets.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AllAssets.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AllAssets.png  used on 
-input line 391.
+input line 395.
 (pdftex.def)             Requested size: 466.7426pt x 197.9892pt.
 
-Overfull \hbox (11.49849pt too wide) in paragraph at lines 391--393
+Overfull \hbox (11.49849pt too wide) in paragraph at lines 395--397
  [][] 
  []
 
@@ -1068,10 +1073,10 @@ Overfull \hbox (11.49849pt too wide) in paragraph at lines 391--393
 File: graphs/Tables/autocorrelations/AllLiab.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AllLiab.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AllLiab.png  used on in
-put line 402.
+put line 406.
 (pdftex.def)             Requested size: 472.16464pt x 174.05048pt.
 
-Overfull \hbox (16.92053pt too wide) in paragraph at lines 402--404
+Overfull \hbox (16.92053pt too wide) in paragraph at lines 406--408
  [][] 
  []
 
@@ -1081,307 +1086,265 @@ orr_sig.png> <./graphs/Tables/comb_cycle_corr_sig.png>] [10 <./graphs/Descripti
 veStats/OtherAnalysis_clean_scatterplots_7613.png>] [11 <./graphs/DescriptiveSt
 ats/OtherAnalysis_clean_sharePositions_7613.png>] [12 <./graphs/Tables/autocorr
 elations/AllAssets.png> <./graphs/Tables/autocorrelations/AllLiab.png>]
-<graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png, id=82, 1445.4
-pt x 722.7pt>
-File: graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png Graphic f
-ile (type png)
-<use graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png>
-Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_LoanDistribution
-_7613.png  used on input line 466.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
-
- []
-
-<graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png, id=83, 14
-45.4pt x 722.7pt>
-File: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png Graph
-ic file (type png)
-<use graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png>
-Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityL
-oans_9713.png  used on input line 480.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png, id=84,
- 1445.4pt x 722.7pt>
-File: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png Gr
-aphic file (type png)
-<use graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png>
-Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_ShareofMaturityR
-esLoans_9713.png  used on input line 487.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-[13 <./graphs/DescriptiveStats/OtherAnalysis_LoanDistribution_7613.png> <./grap
-hs/DescriptiveStats/OtherAnalysis_ShareofMaturityLoans_9713.png>] [14 <./graphs
-/DescriptiveStats/OtherAnalysis_ShareofMaturityResLoans_9713.png>]
-<graphs/DescriptiveStats/BankCounts.png, id=95, 563.10374pt x 221.32687pt>
+<graphs/DescriptiveStats/BankCounts.png, id=82, 563.10374pt x 221.32687pt>
 File: graphs/DescriptiveStats/BankCounts.png Graphic file (type png)
 <use graphs/DescriptiveStats/BankCounts.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BankCounts.png  used on input 
-line 503.
+line 507.
 (pdftex.def)             Requested size: 450.48361pt x 177.06172pt.
 <graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_7613.png
-, id=96, 1445.4pt x 722.7pt>
+, id=83, 1445.4pt x 722.7pt>
 File: graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_761
 3.png Graphic file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_7613
 .png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByB
-anksPercentiles_7613.png  used on input line 511.
+anksPercentiles_7613.png  used on input line 515.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png, id=97, 1445.
+<graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png, id=84, 1445.
 4pt x 722.7pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png Graphic 
 file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurv
-e_7613.png  used on input line 520.
+e_7613.png  used on input line 524.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png, id=98, 1445.4pt x 7
+<graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png, id=85, 1445.4pt x 7
 22.7pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png Graphic file (t
 ype png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.
-png  used on input line 530.
+png  used on input line 534.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
- [15 <./graphs/DescriptiveStats/BankCounts.png> <./graphs/DescriptiveStats/Othe
-rAnalysis_ShareofAssetsByBanksPercentiles_7613.png>] [16 <./graphs/DescriptiveS
-tats/OtherAnalysis_clean_LorenzCurve_7613.png> <./graphs/DescriptiveStats/Other
-Analysis_clean_gini_7613.png>] [17] [18]
+
+[13] [14 <./graphs/DescriptiveStats/BankCounts.png> <./graphs/DescriptiveStats/
+OtherAnalysis_ShareofAssetsByBanksPercentiles_7613.png>] [15 <./graphs/Descript
+iveStats/OtherAnalysis_clean_LorenzCurve_7613.png> <./graphs/DescriptiveStats/O
+therAnalysis_clean_gini_7613.png>] [16] [17]
 <graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.png, i
-d=117, 1445.4pt x 2168.1pt>
+d=108, 1445.4pt x 2168.1pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.p
 ng Graphic file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.pn
 g>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_boxplots_
-eachCategory_7613.png  used on input line 582.
+eachCategory_7613.png  used on input line 590.
 (pdftex.def)             Requested size: 433.62335pt x 650.43503pt.
 
 
-LaTeX Warning: Float too large for page by 25.95197pt on input line 585.
+LaTeX Warning: Float too large for page by 25.95197pt on input line 593.
 
-<graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png, id=118, 144
+<graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png, id=109, 144
 5.4pt x 1084.05pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png Graphic
  file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_assetsbyc
-at_7613.png  used on input line 592.
+at_7613.png  used on input line 600.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
-<graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png, id=119, 
+<graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png, id=110, 
 867.24pt x 722.7pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png Grap
 hic file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_catAssets
-Cycle_7613.png  used on input line 603.
+Cycle_7613.png  used on input line 611.
 (pdftex.def)             Requested size: 433.61894pt x 361.3491pt.
-<graphs/Tables/cat_asset_cycle_corr.png, id=120, 307.90031pt x 99.37125pt>
+<graphs/Tables/cat_asset_cycle_corr.png, id=111, 307.90031pt x 99.37125pt>
 File: graphs/Tables/cat_asset_cycle_corr.png Graphic file (type png)
 <use graphs/Tables/cat_asset_cycle_corr.png>
 Package pdftex.def Info: graphs/Tables/cat_asset_cycle_corr.png  used on input 
-line 613.
+line 621.
 (pdftex.def)             Requested size: 307.89955pt x 99.371pt.
-<graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png, id=121
+<graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png, id=112
 , 1445.4pt x 1806.75pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png Gr
 aphic file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_cat_asset
-s_share_7613.png  used on input line 623.
+s_share_7613.png  used on input line 631.
 (pdftex.def)             Requested size: 433.62335pt x 542.02919pt.
-<graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png, id=122,
+<graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png, id=113,
  1445.4pt x 1806.75pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png Gra
 phic file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs
-_share_7613.png  used on input line 633.
+_share_7613.png  used on input line 641.
 (pdftex.def)             Requested size: 433.62335pt x 542.02919pt.
-[19] [20 <./graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_
-7613.png>] [21 <./graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613
-.png>] [22 <./graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.
-png> <./graphs/Tables/cat_asset_cycle_corr.png>] [23 <./graphs/DescriptiveStats
-/BanksByAssetCategory_cat_assets_share_7613.png>] [24 <./graphs/DescriptiveStat
-s/BanksByAssetCategory_cat_liabs_share_7613.png>] [25] [26]
+[18] [19 <./graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_
+7613.png>] [20 <./graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613
+.png>] [21 <./graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.
+png> <./graphs/Tables/cat_asset_cycle_corr.png>] [22 <./graphs/DescriptiveStats
+/BanksByAssetCategory_cat_assets_share_7613.png>] [23 <./graphs/DescriptiveStat
+s/BanksByAssetCategory_cat_liabs_share_7613.png>] [24] [25] [26]
 <graphs/DescriptiveStats/NewLeverage_ScatterCyclicalLeverageAssets_7613.png, id
-=155, 361.35pt x 361.35pt>
+=149, 361.35pt x 361.35pt>
 File: graphs/DescriptiveStats/NewLeverage_ScatterCyclicalLeverageAssets_7613.pn
 g Graphic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_ScatterCyclicalLeverageAssets_7613.png
 >
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_ScatterCyclicalLev
-erageAssets_7613.png  used on input line 679.
+erageAssets_7613.png  used on input line 696.
 (pdftex.def)             Requested size: 216.81168pt x 216.81168pt.
- [27]
-<graphs/NewLeverage_LeverageRatioAllBanks_7613.png, id=159, 1445.4pt x 1084.05p
+<graphs/NewLeverage_LeverageRatioAllBanks_7613.png, id=150, 1445.4pt x 1084.05p
 t>
 File: graphs/NewLeverage_LeverageRatioAllBanks_7613.png Graphic file (type png)
 
 <use graphs/NewLeverage_LeverageRatioAllBanks_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_LeverageRatioAllBanks_7613.png  use
-d on input line 689.
+d on input line 706.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
-<graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613.png, id=160, 1445.
+<graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613.png, id=151, 1445.
 4pt x 722.7pt>
 File: graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613.png Graphic f
 ile (type png)
 <use graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_LeverageCategories
-_7613.png  used on input line 709.
+_7613.png  used on input line 726.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png, id=161, 
-361.35pt x 361.35pt>
+<graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png, id=152, 
+1445.4pt x 1084.05pt>
 File: graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png Grap
 hic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_AverageLeverageCyc
-lical_7613.png  used on input line 718.
-(pdftex.def)             Requested size: 108.40584pt x 108.40584pt.
+lical_7613.png  used on input line 735.
+(pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
 <graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_OutlierFilter_7613
-.png, id=162, 1445.4pt x 1084.05pt>
+.png, id=153, 1445.4pt x 1084.05pt>
 File: graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_OutlierFilter
 _7613.png Graphic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_OutlierFilter_
 7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_AverageLeverageCyc
-lical_OutlierFilter_7613.png  used on input line 727.
+lical_OutlierFilter_7613.png  used on input line 744.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
-<graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png, id=163, 1
+<graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png, id=154, 1
 445.4pt x 1084.05pt>
 File: graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png Graph
 ic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_MedianLeverageCycl
-ical_7613.png  used on input line 737.
+ical_7613.png  used on input line 754.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
-<graphs/NewLeverage_stdByCat_7613.png, id=164, 1445.4pt x 722.7pt>
+<graphs/NewLeverage_stdByCat_7613.png, id=155, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_stdByCat_7613.png Graphic file (type png)
 <use graphs/NewLeverage_stdByCat_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_stdByCat_7613.png  used on input li
-ne 746.
+ne 763.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/NewLeverage_KurtByCat_7613.png, id=165, 1445.4pt x 722.7pt>
+<graphs/NewLeverage_KurtByCat_7613.png, id=156, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_KurtByCat_7613.png Graphic file (type png)
 <use graphs/NewLeverage_KurtByCat_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_KurtByCat_7613.png  used on input l
-ine 756.
+ine 773.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/NewLeverage_SkewByCat_7613.png, id=166, 1445.4pt x 722.7pt>
+<graphs/NewLeverage_SkewByCat_7613.png, id=157, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_SkewByCat_7613.png Graphic file (type png)
 <use graphs/NewLeverage_SkewByCat_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_SkewByCat_7613.png  used on input l
-ine 765.
+ine 782.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
 <graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_7613.png
-, id=167, 1445.4pt x 433.62pt>
+, id=158, 1445.4pt x 433.62pt>
 File: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_761
 3.png Graphic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_7613
 .png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLever
-ageFinancCrisis_7613.png  used on input line 774.
+ageFinancCrisis_7613.png  used on input line 791.
 (pdftex.def)             Requested size: 433.62335pt x 130.087pt.
 <graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Cat1&2_7
-613.png, id=168, 1445.4pt x 1084.05pt>
+613.png, id=159, 1445.4pt x 1084.05pt>
 File: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Cat
 1&2_7613.png Graphic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Cat1
 &2_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLever
-ageFinancCrisis_Cat1&2_7613.png  used on input line 783.
+ageFinancCrisis_Cat1&2_7613.png  used on input line 800.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
-<graphs/Tables/CyclicalLeverage_Crisis2008.png, id=169, 508.90125pt x 438.13687
-pt>
+<graphs/Tables/CyclicalLeverage_Crisis2008.png, id=160, 508.14844pt x 355.3275p
+t>
 File: graphs/Tables/CyclicalLeverage_Crisis2008.png Graphic file (type png)
 <use graphs/Tables/CyclicalLeverage_Crisis2008.png>
 Package pdftex.def Info: graphs/Tables/CyclicalLeverage_Crisis2008.png  used on
- input line 792.
-(pdftex.def)             Requested size: 508.90001pt x 438.13579pt.
+ input line 809.
+(pdftex.def)             Requested size: 508.14719pt x 355.32661pt.
 
-Overfull \hbox (53.6559pt too wide) in paragraph at lines 792--794
+Overfull \hbox (52.90308pt too wide) in paragraph at lines 809--811
  [][] 
  []
 
-<graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Top10_76
-13.png, id=170, 1445.4pt x 433.62pt>
-File: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Top
-10_7613.png Graphic file (type png)
-<use graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Top1
-0_7613.png>
-Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLever
-ageFinancCrisis_Top10_7613.png  used on input line 801.
-(pdftex.def)             Requested size: 433.62335pt x 130.087pt.
-[28 <./graphs/DescriptiveStats/NewLeverage_ScatterCyclicalLeverageAssets_7613.p
-ng>] [29 <./graphs/NewLeverage_LeverageRatioAllBanks_7613.png> <./graphs/Descri
-ptiveStats/NewLeverage_LeverageCategories_7613.png>] [30 <./graphs/DescriptiveS
-tats/NewLeverage_AverageLeverageCyclical_7613.png> <./graphs/DescriptiveStats/N
-ewLeverage_AverageLeverageCyclical_OutlierFilter_7613.png>] [31 <./graphs/Descr
-iptiveStats/NewLeverage_MedianLeverageCyclical_7613.png> <./graphs/NewLeverage_
-stdByCat_7613.png>] [32 <./graphs/NewLeverage_KurtByCat_7613.png> <./graphs/New
-Leverage_SkewByCat_7613.png>] [33 <./graphs/DescriptiveStats/NewLeverage_Scatte
-rAssetsLeverageFinancCrisis_7613.png> <./graphs/DescriptiveStats/NewLeverage_Sc
-atterAssetsLeverageFinancCrisis_Cat1&2_7613.png>] [34 <./graphs/Tables/Cyclical
-Leverage_Crisis2008.png> <./graphs/DescriptiveStats/NewLeverage_ScatterAssetsLe
-verageFinancCrisis_Top10_7613.png>] [35] [36]
+[27 <./graphs/DescriptiveStats/NewLeverage_ScatterCyclicalLeverageAssets_7613.p
+ng>] [28 <./graphs/NewLeverage_LeverageRatioAllBanks_7613.png> <./graphs/Descri
+ptiveStats/NewLeverage_LeverageCategories_7613.png>] [29 <./graphs/DescriptiveS
+tats/NewLeverage_AverageLeverageCyclical_7613.png>] [30 <./graphs/DescriptiveSt
+ats/NewLeverage_AverageLeverageCyclical_OutlierFilter_7613.png>] [31 <./graphs/
+DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png> <./graphs/NewLeve
+rage_stdByCat_7613.png>] [32 <./graphs/NewLeverage_KurtByCat_7613.png> <./graph
+s/NewLeverage_SkewByCat_7613.png>] [33 <./graphs/DescriptiveStats/NewLeverage_S
+catterAssetsLeverageFinancCrisis_7613.png> <./graphs/DescriptiveStats/NewLevera
+ge_ScatterAssetsLeverageFinancCrisis_Cat1&2_7613.png>] [34 <./graphs/Tables/Cyc
+licalLeverage_Crisis2008.png>] [35] [36]
 
-LaTeX Warning: Empty bibliography on input line 1000.
+LaTeX Warning: Empty bibliography on input line 1018.
 
-<graphs/Tables/autocorrelations/AssetsCat1.png, id=213, 496.85625pt x 228.855pt
+<graphs/Tables/autocorrelations/AssetsCat1.png, id=205, 496.85625pt x 228.855pt
 >
 File: graphs/Tables/autocorrelations/AssetsCat1.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AssetsCat1.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AssetsCat1.png  used on
- input line 1020.
+ input line 1038.
 (pdftex.def)             Requested size: 372.64127pt x 171.64082pt.
-<graphs/Tables/autocorrelations/AssetsCat2.png, id=214, 492.33937pt x 230.96288
+<graphs/Tables/autocorrelations/AssetsCat2.png, id=206, 492.33937pt x 230.96288
 pt>
 File: graphs/Tables/autocorrelations/AssetsCat2.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AssetsCat2.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AssetsCat2.png  used on
- input line 1021.
+ input line 1039.
 (pdftex.def)             Requested size: 369.2536pt x 173.22173pt.
-<graphs/Tables/autocorrelations/AssetsCat3.png, id=215, 489.32813pt x 230.96288
+<graphs/Tables/autocorrelations/AssetsCat3.png, id=207, 489.32813pt x 230.96288
 pt>
 File: graphs/Tables/autocorrelations/AssetsCat3.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AssetsCat3.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AssetsCat3.png  used on
- input line 1022.
+ input line 1040.
 (pdftex.def)             Requested size: 366.99518pt x 173.22173pt.
-<graphs/Tables/autocorrelations/AssetsCat4.png, id=216, 493.845pt x 230.36063pt
+<graphs/Tables/autocorrelations/AssetsCat4.png, id=208, 493.845pt x 230.36063pt
 >
 File: graphs/Tables/autocorrelations/AssetsCat4.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AssetsCat4.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AssetsCat4.png  used on
- input line 1023.
+ input line 1041.
 (pdftex.def)             Requested size: 370.38283pt x 172.77003pt.
 
-LaTeX Warning: Float too large for page by 69.37125pt on input line 1026.
+LaTeX Warning: Float too large for page by 69.37125pt on input line 1044.
 
-<graphs/MedianBank_FrequencyTable_8010.png, id=217, 409.53pt x 108.405pt>
+<graphs/MedianBank_FrequencyTable_8010.png, id=209, 409.53pt x 108.405pt>
 File: graphs/MedianBank_FrequencyTable_8010.png Graphic file (type png)
 <use graphs/MedianBank_FrequencyTable_8010.png>
 Package pdftex.def Info: graphs/MedianBank_FrequencyTable_8010.png  used on inp
-ut line 1035.
+ut line 1053.
 (pdftex.def)             Requested size: 409.52899pt x 108.40472pt.
-<graphs/NewLeverage_stdByCat_cyclical_7613.png, id=218, 1445.4pt x 722.7pt>
+<graphs/NewLeverage_stdByCat_cyclical_7613.png, id=210, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_stdByCat_cyclical_7613.png Graphic file (type png)
 <use graphs/NewLeverage_stdByCat_cyclical_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_stdByCat_cyclical_7613.png  used on
- input line 1054.
+ input line 1072.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/NewLeverage_KurtByCat_cyclical_7613.png, id=219, 1445.4pt x 722.7pt>
+<graphs/NewLeverage_KurtByCat_cyclical_7613.png, id=211, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_KurtByCat_cyclical_7613.png Graphic file (type png)
 <use graphs/NewLeverage_KurtByCat_cyclical_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_KurtByCat_cyclical_7613.png  used o
-n input line 1064.
+n input line 1082.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/NewLeverage_SkewByCat_cyclical_7613.png, id=220, 1445.4pt x 722.7pt>
+<graphs/NewLeverage_SkewByCat_cyclical_7613.png, id=212, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_SkewByCat_cyclical_7613.png Graphic file (type png)
 <use graphs/NewLeverage_SkewByCat_cyclical_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_SkewByCat_cyclical_7613.png  used o
-n input line 1073.
+n input line 1091.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
 [37] [38 <./graphs/Tables/autocorrelations/AssetsCat1.png> <./graphs/Tables/aut
 ocorrelations/AssetsCat2.png> <./graphs/Tables/autocorrelations/AssetsCat3.png>
@@ -1405,10 +1368,10 @@ Package logreq Info: Writing requests to 'Vorlage_Seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23945 strings out of 492448
- 451677 string characters out of 3129681
- 975058 words of memory out of 3000000
- 28018 multiletter control sequences out of 15000+200000
+ 23915 strings out of 492448
+ 449620 string characters out of 3129681
+ 975053 words of memory out of 3000000
+ 27992 multiletter control sequences out of 15000+200000
  610732 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,17n,67p,2800b,1688s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1426,9 +1389,9 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/lm/lmri7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
 lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Vorlage_Seminararbeit.pdf (42 pages, 7803484 bytes).
+Output written on Vorlage_Seminararbeit.pdf (42 pages, 7551124 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
+ 286 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
