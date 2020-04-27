@@ -69,9 +69,14 @@ backend=biber % use Biber here
 
 % Hier .bib-Datei einfügen
 
-\bibliography{bspbib.bib}
+ \bibliography{bspbib.bib}
+
+
+
 
 \usepackage[font=scriptsize, labelfont=bf]{caption}
+
+
 
 %---------------------------------------------------------------------------------------
 %
@@ -142,8 +147,17 @@ alexander.schlechter@student.kit.edu}
 
 \section{Introduction}
 
-Explorative journey through historical financial filings of us commercial banks.
-Analysis under close consideration of economic business cycles.   
+This article is an explorative journey through the historical balance sheet filings of U.S. commercial banks. Its objective is to shed light on the financial development of arguably the most important backbone of the U.S. economy - commercial banking. Not least, the severe financial crisis in 2008, which originated from the banking industry, proves the importance of regulating commercial banking. However, only with a deep empirical understanding of the behaviour of commercial banks, one can design regulations that are ultimately effective. We use different perspectives and a variety of approaches to unveil interesting stylized facts about balance sheet trends (long-term) and cycles (short-term) among banks over time. We study the banks in both dimensions - time and cross-section - to enrich those facts. The analysis takes place under careful consideration of contextual information such as crises and regulatory efforts, within our focused time-frame years 1976-2013. The growth and distribution of assets, the relationship between different balance sheet accounts and leverage are some areas of interest this article will elaborate on. We gather interesting insights such as that small banks business cycles are independent to that of large banks.  
+This article should be seen as a complement and a way of clarification to the wide variety of existing literature exploring similar themes. Adrian and Shin 2011 for instance investigate the pro-cyclicality of leverage. We used their approaches as a basis to apply them on our data and compared the results. We find that indeed commercial banks do have pro-cyclical leverage, but it differs between bank sizes. Similar to DeYoung and Yom 2008, we also do correlation analysis between different balance sheet accounts, but we do not go in such great depths.
+We start of by outlining the data and methods used. Then, we give a more general overview of commercial banks and elaborate on each balance sheet position. A section about the development of distribution of assets follows. We then continue by analysing banks by different asset sizes. Lastly, we examine the important economic indicator leverage for commercial banks.
+
+\iffalse
+   ,  We outline trends and business cycles. 
+
+Findings:
+
+
+Analysis under close consideration of economic business cycles.  
 
 Different perspectives: 
 \begin{itemize}
@@ -168,12 +182,14 @@ Some questions approached:
 
 Explain structure of thesis...
 
+\fi
 \section{Main part}
 
 \subsection{Data}
 \label{sec:data}
 
-The analysis in this thesis is build upon a dataset of balance sheets originally provided by the FFIEC. Also named call reports, the FFIEC collects this balance sheet information quarterly from every FDIC insured institution. \citep{DrechslerSchnabel2017} used these reports and formed a consistent time-series from year 1976Q1 to 2013Q4, accounting for variable and other changes over the years. They only included commercial banks (banks with Charter Type 200).
+The analysis in this thesis is build upon a dataset of balance sheets originally provided by the FFIEC. Also named call reports, the FFIEC collects this balance sheet information quarterly from every FDIC insured institution. \cite{DrechslerSchnabel2017} used these reports and formed a consistent time-series from year 1976Q1 to 2013Q4, accounting for variable and other changes over the years. They only included commercial banks (banks with Charter Type 200).
+The accounts reported in those call-reports were recorded at fair value. 
 To graph these time-series we create a horizontal axis with a tick for every quarter. We also add a year label for every first quarter. This axis is consistently used throughout the analysis. Bank filings with negative equity are removed from the dataset, since they indicate a bankrupt bank. To prevent skewing the data, the two big investment banks Goldman Sachs and Morgan Stanley becoming commercial banks in the proceedings of the financial crisis 2008 are removed. When looking at leverage, we aggregate all commercial banks to their belonging bank holding companies. For our use-case it is not necessary deflate the data.
 
 In the proceedings of our analysis, we took into account recession definitions provided by the National Bureau of Economic Research. They define a recession not in terms of two consecutive quarters of decline in real GDP, but a significant decline in economic activity spread across the economy, lasting more than a few months, normally visible in real GDP, real income, employment, industrial production, and wholesale-retail sales (\cite{NBERBusinessCycles}). In addition, we differentiated between so called "banking" (originated in the banking sector) vs "market" (originated from outside banking sector) crisis as in \cite{BergerBouwman2013}. We assume here that banking crisis could be reflected stronger in the data.\\
@@ -223,11 +239,12 @@ For most methods we transform the data with the natural logarithm to focus on re
 \fi
 
 
-\subsection{U.S. commercial banks - General section}
+\subsection{U.S. commercial banks - Overview}
 \label{sec:AssetLiabs}
 
-\subsubsection{General overview}
 This section will guide us through the distribution of financial components held by the us commercial banking sector as a whole. We will see what types and amounts of financial instruments banks are holding and how these positions evolved over time. 
+
+\subsubsection{Stylized balance sheet}
 
 
 Table \ref{tab:balancesheet} shows a common perspective of a us commercial banks' balance sheet.
@@ -264,7 +281,7 @@ Table \ref{tab:balancesheet} shows a common perspective of a us commercial banks
  Cash & Equity \\ \hline
  \begin{tabular}{@{}l}Fed funds sold and securities purchased \\ under agreements to resell (fedfundsrepoassets)\end{tabular} & \begin{tabular}{@{}l} Fed funds bought and securities sold \\ under agreements to repurchase \end{tabular} \\ \hline
  Securities: & Deposits:  \\ 
- \begin{tabular}{l} - Treasury \\ - Mortgage-backed Security \\ - Other \end{tabular} & \begin{tabular}{l} - short \\ - other \end{tabular} \\ \cline{1-1}
+ \begin{tabular}{l} - Treasury \\ - Mortgage-backed Security (MBS) \\ - Other \end{tabular} & \begin{tabular}{l} - short \\ - other \end{tabular} \\ \cline{1-1}
  Loans net\footnote{Loans and leases net of unearned income and allowance for loan and lease losses} & \\ \hline
   Trading assets: & Trading liabilities  \\ 
 \multicolumn{2}{|c|}{\begin{tabular}{l} - net interest rate derivatives  \\  - net other fixed income \\ - net other trading \end{tabular}} \\ \hline
@@ -273,9 +290,13 @@ Table \ref{tab:balancesheet} shows a common perspective of a us commercial banks
  \label{tab:balancesheet}
  \end{minipage}
 \end{figure}
+
+
+We have simplified the balance sheet of a typical U.S. commercial bank similar to \cite{DrechslerSchnabel2017}. Cash consist out of noninterest-bearing balances with currency and coin included and of interest-bearing balances.
+Federal funds sold and securities purchased under agreements to resell are both ways of lending excess cash to fellow commercial banks in return for interest. Fed funds bought and securities sold under agreements to repurchase in turn is the opposite. Securities can be divided into Held-to-maturity and Available-for-sale. These categories then include a large amount of different types of securities, with Treasury and MBS being the largest. Loans are netted by unearned income and allowance for loan and lease losses to gather their existent value. Trading assets or  are securities hold with the intention to sell them as profit. They are mostly only hold for short-term. Trading asset can be in any type of form such as a derivative, MBS or loan. Trading liabilities tend to be in the form of short positions or derivatives. Deposits can be divided into transaction and non-transaction deposits. Time and savings deposits make up non-transaction deposits, while the major part of transaction deposits are demand deposits.
  
- 
- Figure \ref{fig:assets} gives a general overview how the total assets held by all banks per year and quarter evolved over time. The value of assets rose from below 2 trillion to above 13 trillions dollars of assets. In comparison, the GDP of US in 2013 was 16.78 trillions. We can see a period of flatness/low growth from  year 1990-1993, a drop in 2002 and 2008/Q2. While the absolute values give us some indications of where anomalies occur, we will perform time-series analysis by decomposing the logarithmised data in trend, cyclical components. As seen within Figure \ref{fig:assets}, the value of assets has a clear trend with no indication of existing seasonality over the given timeframe. The second graph within Figure \ref{fig:assets} compares the development of assets transformed by natural logarithm to the absolute values. Both are drawn within their own vertical axis. While the growth of absolute assets is more exponential over time, the logarithm of assets grows more linear. The linear trend tells us that the relative growth rate stays constant over time. In the third part of Figure \ref{fig:assets} we can see the de-trended part of the asset timeseries. Here we can see variations that significantly differ from the trend. As mentioned in the data section the gray areas show crisis periods. The alignment of crisis periods with us banks total assets cyclical is limited. We can see that the impact of the early 1980s recession did not lead to more volatility than other normal periods. The dotcom bubble in 2001 lead to a downward variation of us commercial banks assets away from the trend. In regards to the financial crisis in 2008 we see a huge positive variation with a rapid drop back to the trend. Assuming we have set the most fitting filtering parameters for the HP-Filter, it is interesting to see that the assets did not fall significantly below the trend. The loss was rather caused by an overheated market falling back to normal. Finally, the last graph of Figure \ref{fig:assets} shows the banks default rate per year. The graph aligns with the growth graph just above. In periods with a lot defaults we have a low growth rate. Periods that mark high default rates are the loans and saving crisis in 1990 and the financial crisis in 2008. It is interesting to mention that the loans and savings crisis caused significant higher default rates than the crisis in 2008. This might be related to the fact that in 1990 the number of small banks was considerably higher and small banks were more affected in this crisis. In 1990, $74\%$ of the banks that defaulted were small, while in 2010 the percentage of small banks was only $35\%$. We elaborate on the change in banking landscape in section \ref{sec:ToBigToFail}.
+\subsubsection{Total assets}
+ Figure \ref{fig:assets} gives a general overview how the aggregated total assets held by all banks per year and quarter evolved over time. The value of assets rose from below 2 trillion to above 13 trillions dollars. In comparison, the GDP of U.S. in 2013 was 16.78 trillions. The first graph already indicates a period of flatness in years 1990-1993 and an asset spike in 2008/Q2. The fourth graph within our Figure also emphasizes these two periods with significantly low growth.  To get a better insight into what is occurring in specific periods, we will perform time-series analysis by decomposing the logged data into a trend and cyclical component. The second graph within figure \ref{fig:assets} compares the logged with the absolute total assets. Both are drawn within their own vertical axis. While the growth of absolute assets is more exponential over time, the linear trend of the logged assets, suggests a constant relative growth rate. The third graph of Figure \ref{fig:assets} shows the de-trended total assets, which can also be interpreted as its cyclical movements. The gray areas within this graph indicate crises, as defined in section \ref{sec:data}. The alignment of crises with our commercial banks total assets cyclical is limited. We can see that the impact of the early 1980s recession did not lead to more volatility than other normal periods. The dotcom bubble in 2001 lead to a downward variation of us commercial banks assets away from the trend. In regards to the financial crisis in 2008 we see a huge positive variation with a rapid drop back to the trend. Assuming we have set the most fitting filtering parameters for the HP-Filter, it is interesting to see that the assets did not fall significantly below the trend. The loss was rather caused by an overheated market falling back to normal. However, we need to consider the fact that there might be differences in cyclical behaviour between different banks sizes. Section \ref{sec:banksByAssetSize} addresses this point. Finally, the last graph of Figure \ref{fig:assets} shows the banks default rate per year. The graph aligns with the growth graph just above. In periods with a lot defaults we have a low growth rate. Periods that mark high default rates are the loans and saving crisis in 1990 and the financial crisis in 2008. It is interesting to mention that the loans and savings crisis caused significant higher default rates than the crisis in 2008. This might be related to the fact that in 1990 the number of small banks was considerably higher and small banks were more affected in this crisis. In 1990, $74\%$ of the banks that defaulted were small, while in 2010 the percentage of small banks was only $35\%$. We elaborate on the change in banking landscape in section \ref{sec:ToBigToFail}.
  
   
 \begin{figure}[hbtp]
@@ -458,7 +479,6 @@ On the liability side, as one would expect, we have deposits as a dominating sou
 
 \iffalse
 
-\subsection{Loans}
 
 \textbf{Not finished, more coming}
 
@@ -493,7 +513,7 @@ On the liability side, as one would expect, we have deposits as a dominating sou
 
 \newpage
 
-\subsection{Distribution of asset sizes among banks - Too Big to Fail}
+\subsection{Too Big to Fail - Distribution of total assets among banks}
 \label{sec:ToBigToFail}
 
 This section tries to empirically illustrate a problematic commonly referred to as \textit{"Too Big to Fail}". 
@@ -539,7 +559,7 @@ The exact causes of the structural changes in the US banks landscape are not cle
 
 
 
-\subsection{Banks by asset size}
+\subsection{Banks by total assets}
 \label{sec:banksByAssetSize}
 
 \subsubsection{General}
@@ -560,7 +580,7 @@ Large banks began with an asset size way below $0.25*10^11$ year 1976 and worked
 Medium banks ranges between $~0.25-8$ billion dollar assets per bank and small banks between $~0.25-5$ hundred million dollars over our time-frame. As with the aggregate assets analysed below, the top two categories benefit more from the asset size increases. In comparison to the asset increases within the top 10, the typical small bank did not show any significant gains over time. The fact that the chosen categories do not show so many outliers strengthens our choice of categories. Only the small banks category has a decent amount of outliers with an asset size below the median. 
 
 
-\subsubsection{Trend and cyclical behaviour of assets by category}
+\subsubsection{Trend and cyclical behaviour of total assets by category}
 Figure \ref{fig:assetsbycat} shows us the development of aggregate assets by the defined banks categories over time. 
 There a key points in time for each category that marked changes in their asset growth. From the start of our chosen timeframe $(1976)$ until $~1985$ all the categories showed similar growth behaviour. Then, in year $1984$, growth of the top $10$ assets started to slow. Shortly after that, year $1985$ marked a starting point of flat, low growth for the banks ranked $1000-\infty$. These small banks did not recover from this low growth until the end of our chosen timeframe. An obvious reason for this could be the fact that the  total number of banks also fell. Table \ref{table:assetsByPercentiles} shows the year 1984 marked a starting point for a continuous fall in the number of banks. Category two and three, covering the banks ranked from $11-1000$, showed similar behaviour until $~1992$. From this point in time, the banks ranked $101-1000$ entered a period of low and negative growth, while the banks ranked from $11-100$ entered, together with the top 10 banks, a period of high growth. In the 1990s, a lot of regulation reforms occurred, aiding the growth of larger banks. These reforms are mentioned in section \ref{sec:data} and could have been key drivers for the growth of larger banks in the 1990s.
 The growth of banks ranked from $11-100$ then also fell back to low growth in year $2001$. The top 10 banks assets, however, kept growing until the financial crisis in year 2008. 
@@ -572,7 +592,7 @@ The second point in time is in year $1992$, assets of the top $101-1000$ stopped
 We are also trying to see how closely the banks in the different categories resemble each other. Following section will look at how similar the business cycles of the banks are by looking at de-trended assets movements. 
 In Figure \ref{fig:catassetscycle} we can see de-trended assets values by each category over time. All bank categories were more or less affected by the crisis in 2008. For each category we see a spike, followed by a fall in assets. The top 10 banks were affected the most. However, they also have higher volatility overall. The figure also shows the standard deviation of aggregate assets by category. The larger the category the larger the standard deviation and business cycles.
 
-\subsubsection{Correlation between categories}
+\subsubsection{Correlation between asset categories}
 In addition, table \ref{table:cat_assets_corr} shows the linear correlation between assets development over time for each category. As one might expect, all categories are positive correlated with the category just below themselves. However, there are significant differences when going beyond that. Category $1$ (Top 10 banks) has a negative correlation with category $3$ (Top $101-1000$) of $-0.27$ and no correlation with category $4$ (Top 1000-rest). Although a negative correlation of $-0.27$ is not strong, this difference in business cycle timings would probably not be expected. 
 This would mean that while the top 10 banks might go through a period of decreasing assets, the Top $101-1000$ might go through a period of increasing assets. However, a closer look at the graph indicates that the main drive for this negative correlation could be the period from 1996 to 1999. Indeed, excluding this time-period from the correlation computation reveals an $r=0.05$. This correlation in turn indicates no connection at all between the business cycle timings. Similar to the relationship between top 10 and small banks (cat4). This complete lack of cyclical relationship between large banks and small banks underlines their independence of balance sheet decisions in regards to the other category. 
 An example of that can be seen in Figure \ref{fig:catassetscycle} in year 1996. 
@@ -650,22 +670,52 @@ For the liabilities, deposits are a main source of funding for all categories. H
 
 \subsubsection{General}
 
-In this section we are going to take a look at the leverage of commercial banks. Leverage is a well known and often used concept for monitoring risk and health of financial institutions. While there are a few definitions of leverage, given the dataset we are working with, focus will be on accounting leverage: Total assets divided by total equity capital\footnote{Tier 1 capital, as defined in Basel III.}. Leverage is used by banks to improve their return on equity. As long as the interest on external capital does not exceed total capital ratio, raising external capital, thus increasing leverage, is beneficial for a bank. With this incentive in mind, it might not come as a surprise that when shareholder ask for a high return, increases in leverage follow. As a result the buffer to cover losses in case investments turn bad is then reduced. Therefore, increases in leverage can be seen as increases in risk. 
-When looking at balance sheet leverage, it is important to realize its dynamics in regards to business cycle movements. Lets assume, we have a negative business cycle and asset values are falling together with the bank experiencing losses. This reduces banks equity. As balance sheet leverage can be written as $(equity + liabilities)/equity$, this would result in increased leverage, ceteris paribus. Hence, when banks do not actively adjust their balance sheet towards business cycle changes, leverage behaves countercyclical. However, as seen in \ref{fig:ScatterCyclicalLeverageAssets} commercial banks tend to actively manage their balance sheet by trying to keep their leverage constant.  
+In this section we are going to take a look at the leverage of commercial banks. Leverage is a well known and often used concept for monitoring risk and health of financial institutions. While there are a few definitions of leverage, given the dataset we are working with, focus will be on accounting leverage: Total assets divided by total equity capital\footnote{Tier 1 capital, as defined in Basel III.}. Leverage is used by banks to improve their return on equity. As long as the interest on external capital does not exceed total capital ratio, raising external capital, thus increasing leverage, is beneficial for a bank. With this incentive in mind, it might not come as a surprise that when shareholder ask for a high return, increases in leverage follow. As a result the buffer to cover losses in case investments turn bad is then reduced. Therefore, increases in leverage can be seen as increases in risk.
 We took into account that policy makers set capital requirements on banks on their highest organizational level and aggregated all commercial banks to their belonging bank holding company. 
-We are also removing all banks with negative equity from the dataset as they can be considered bankrupt.\footnote{Banks with negative equity, do not report financial information in the following periods. Only in the rare case of bailouts, they survive.} We only want to assess leverage behaviour of still operating banks. For more information about bankrupted banks in the dataset see section \ref{sec:AssetLiabs}.
+We are also removing all banks with negative equity from the dataset as they can be considered bankrupt.\footnote{Banks with negative equity, do not report financial information in the following periods. Only in the rare case of bailouts, they survive.} We only want to assess leverage behaviour of still operating banks. For more information about bankrupted banks in the dataset see section \ref{sec:AssetLiabs}. 
+
+When looking at balance sheet leverage, it is important to realize its dynamics in regards to business cycle movements.
+Lets assume, we have a negative business cycle and asset values are falling together with the bank experiencing losses. This reduces banks equity. As balance sheet leverage can be written as $(equity + liabilities)/equity$, this would result in increased leverage, assuming liabilities do not change. Hence, when banks do not actively adjust their balance sheet towards business cycle changes, leverage behaves countercyclical. However, \cite{AdrianShin2010} showed that commercial banks tend to actively manage their balance sheet by trying to keep their leverage constant. Figure \ref{fig:ScatterCyclicalLeverageAssets}, showing the growth of average leverage for all commercial banks in regards to aggregate assets growth, supports this theory. Many observations show no changes in leverage, when assets change. However, \cite{AdrianShin2011} use different data and come to the conclusion that leverage is pro-cyclical. Instead of computing the average leverage, they computed the aggregate leverage of all commercial banks. Essentially computing leverage of the the commercial banking market as a whole. Instead of following this approach, we also consider the relationship of average leverage and assets by bank size category. We know from previous sections, that different bank sizes do differ in the behaviour. Figure \ref{fig:ScatterCyclicalLeverageAssetsbyCat} gives us scatterplots between asset growth and leverage growth by category. Indeed, positive relationships (pro-cyclicality) can be identified within all bank size categories. 
+Now that we have established this positive relationship, it is important to recall what this tell us. We know that with passive behaviour by banks, leverage should be counter-cyclical. The identified pro-cyclicality now, not only indicates that banks actively adjust their balance sheet, but they are increasing leverage in good times and decreasing leverage in bad times. Banks are taking on additional debt to not just balance the normal negative relationship, but lever their assets even further.
+
+
+\begin{figure}[H]
+\begin{minipage}{\textwidth}
+\centering
+\caption[1]{Scatterplot: Cylical Assets vs Cyclical Leverage (All commercial banks) \footnote{We compute the leverage for each bank individually and then take the average. With that average, we then compute cyclical growth by applying the HP-Filter. We aggregate all assets per year and quarter and then compute cyclical growth.}}
+\includegraphics[scale=0.7]{graphs/DescriptiveStats/LeverageCylicality_ScatterAverageLeveragevsAggregateAssets_7613.png}
+\label{fig:ScatterCyclicalLeverageAssets}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+\begin{minipage}{\textwidth}
+\centering
+\caption[1]{Scatterplot: Cylical Assets vs Cyclical Leverage by Category \footnote{We compute the leverage for each bank individually and then take the average. With that average, we then compute cyclical growth by applying the HP-Filter.}}
+\includegraphics[scale=0.5]{graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterAverageLeveragevsAggregateAssetsCat_7613.png}
+\label{fig:ScatterCyclicalLeverageAssetsbyCat}
+\end{minipage}
+\end{figure}
+
 In the following discussion, we will approach the time-series analysis of leverage among commercial banks from a long- and short-term perspective. The long-term discussion analyses trends and cyclical changes  over the whole time-frame, while short-term discussion focuses on the cyclical behaviour in specific periods such as crises.
 
-\subsubsection{Long-term discussion of leverage development}
+\subsubsection{Leverage development}
+
+\subparagraph{Long-term discussion} 
 
 Figure \ref{fig:averageLeverage} shows the mean, median and weighted-average leverage for each point in time. We can see the clear impact of high leverage banks on the average. Especially, in the periods around 1990 and 2008 where bankruptcy levels are high, there are major leverage increases in Figure \ref{fig:averageLeverage} on the mean leverage. Looking at the median gives us a clearer indication how leverage among healthy banks look. Hence, depending of what type of measure we choose (average, median...), we arrive at different observations. The only consistent information conveyed by all measures is a falling trend in leverage from year 1976 to 2013. The median, representing the typical bank, started with a leverage of $~12.5$ in 1976 and fell continuously over the years to $~10$ in 2013. The mean also fell from $~12.5$ to $~10$. It had some short-term fluctuations around the crisis in 1990 and 2008, which we will elaborate on later. The weighted-average leverage, which takes into account the asset size, started of with a significant higher leverage level of $~18$, but then also fell to a leverage of $~10$ in 2013. The idea behind the weighted leverage is that larger banks with more assets have a stronger impact on the overall systemic risk than smaller banks. The significant measurement differences between the common average and weighted leverage, marks the importance of differentiating between asset sizes in leverage analysis. Also, as seen in Figure \ref{fig:assetsByPercentiles} the small banks (banks ranked from 1000-Rest) dominate the bank landscape in quantity. As a result, the overall leverage average and small banks leverage average (cat 4) are almost identical. 
 The first graph in Figure \ref{fig:averageLeverage_Categories} shows the average leverage for each defined bank size category. Here we can also see an overall falling trend in leverage along all categories. This can be attributed to regulatory efforts such as Basel $1,2$ and $3$. In addition, the graph shows an interesting pattern until year 1993 - the larger the bank is the more leverage it takes. However, after year 1993, the pattern seems to disappear. In 2013, the pattern even reversed - the larger the bank the lower the leverage. These observations are closely linked to information gathered in section \ref{sec:ToBigToFail}. If the top 10 banks would have kept their higher leverage, their significant rise in total asset share from year 1993 and onwards would have resulted in major leverage increases for the whole bank sector. Hence, regulators adjusted their regulations to target systemically important banks with even stronger capital requirements (G-SIB Framework). The top 10 banks, our category 1, are affected by these additional capital requirements.
 
-\subsubsection{Short-term discussion of leverage development}
-For short term analysis, we are considering the cyclical component and standard deviation of leverage. The standard deviation already indicates the already mentioned two critical periods - the crisis in 1990 and 2008. Looking at the first graph in Figure \ref{fig:averageLeverage_cyclical_Categories}, the cyclical graph marks those same periods. However, similar to the standard deviation, the spike in average leverage for all banks occured right after the NBER crisis definition. We know that small banks drive the average leverage with their quantity. Hence, their cyclical components graph 1 and graph 5 in \ref{fig:averageLeverage_cyclical_Categories} are almost identical. In comparison to the small banks, the cyclical leverage of the top 10 banks actually spikes in the crisis in 2007-8, indicating top 10 banks counter-cyclical behaviour. The mid-categories two and three show behaviour right between the two extreme behaviours of categories one and four. Category two has small peaks during and after the crisis. Category three only has a peak up to $2$ after the crisis, closer resembling category four. Note, the graph of category three cyclical leverage contains some extreme outliers in year 1992Q4, which increased the limits of the vertical axis up to $20$.
+\subparagraph{Short-term discussion} 
+
+For short term analysis, we are considering the cyclical component and standard deviation of leverage. The standard deviation already indicates the already mentioned two critical periods - the crisis in 1990 and 2008. Looking at the first graph in Figure \ref{fig:averageLeverage_cyclical_Categories}, the cyclical graph marks those same periods. However, similar to the standard deviation, the spike in average leverage for all banks occured right after the NBER crisis definition. We know that small banks drive the average leverage with their quantity. Hence, their cyclical components - graph 1 and graph 5 - in figure \ref{fig:averageLeverage_cyclical_Categories} are almost identical. In comparison to the small banks, the cyclical leverage of the top 10 banks actually spikes in the crisis in 2007-8, indicating top 10 banks counter-cyclical behaviour. The mid-categories two and three show behaviour right between the two extreme behaviours of categories one and four. Category two has small peaks during and after the crisis. Category three only has a peak up to $2$ after the crisis, closer resembling category four. Note, the graph of category three cyclical leverage contains some extreme outliers in year 1992Q4, which increased the limits of the vertical axis up to $20$.
 To ease analysis, table \ref{table:CyclicalLeverageFinancCrisis} gives us the actual cyclical values of the average leverage for the crisis periods. We marked changes $>0.04$ with red color. Similar to the graph, we can see a spill-over effect of high leverage from large to small banks. Figure \ref{fig:AssetsvsLeverageFinancCrisis} gives us a visual insight into the structural changes that occurred regarding asset size and leverage. Each data-point represents one bank. We can see a clear increase in dispersion of leverage in year 2009 among the small and medium banks. This aligns with the standard deviation shown in Figure \ref{fig:averageLeverage_Std_Categories}, where the standard deviation also has a spike in 2009. An interesting pattern within the standard deviation is the increasing volatility the smaller the asset size category becomes. Hence, within smaller banks we see much higher differences in leverage. 
 
-\subsubsection{Long-term discussion of leverage distribution}
+
+
+\subsubsection{Leverage distribution}
+
+\subparagraph{Long-term discussion}
 
 In regards to the distribution of leverage, we have plotted the skewness as well as the kurtosis for all banks together in figure \ref{fig:averageLeverage}. Both variables behave similar. There are periods of strong as well as low variation. Notable periods of high variation are the S\& L crisis around 1990 and the crisis in 2008. Since high positive skewness means the graph is right-skewed with the mean being higher than the median and high kurtosis indicates heavy tails, together they prove the existence of high positive outliers. The periods with low variation in turn indicate periods of normal distribution leverage. Furthermore, the two variables only move in the positive direction (values of zero and above). For the skewness, this can be explained by the fact that banks are kind of stiff to the lower boundaries of leverage, with not much variation happening within banks of the left tail of the distribution. But there is much more variation happening between banks located at the right tail of the distribution - banks with leverage above the mode. The consistent positive kurtosis in turn tells us that we have never less outlier than a normal distribution. 
 Figure \ref{fig:averageLeverage_skew_Categories} and \ref{fig:averageLeverage_kurt_Categories} give us the distribution information by asset category over time. It is important to note that the overall distribution was mainly driven by smalls banks because of their sheer quantity. Thus, the division by categories gives us a clearer view. Again, skewness and kurtosis are behaving very similar. For the top 10 and top 10-100 (cat2) banks, we have short periods where the skewness moves below zero. We take a look at those periods in the short-term discussion. The rest of the time, both measures are either zero or above for all categories, suggesting that once you have a certain amount of banks, the distribution tends to be right skewed. 
@@ -677,7 +727,7 @@ In general, we can deduce that most of the distributional changes in our graphs 
 These factors seem to be most present during the S\& L crisis around 1990 and the crisis in 2008. Hence, the significant graph movements around that time-periods.
 The top 10 banks have negative kurtosis in some periods, which just means that their leverage ratios became really similar in these periods. They also show much less distributional volatility around the S\& L crisis, compared to the rest categories.   Actually, when moving along our categories, the distributional changes are higher the smaller the banks become. This aligns with the arguments made about the standard deviation in the sections before. 
 
-\subsubsection{Short-term discussion of leverage distribution}
+\subparagraph{Short-term discussion} 
 
 As mentioned, in our short-term analysis we investigate the reason skewness turns negative in some periods. The negative measurements of the top 10 in the crisis 2008 are particular interesting, since we associate crises with already high levered banks increasing leverage even more. However, this could indicate some low levered banks within the top 10, became high leveraged as well.
 The skewness rises from 2008Q1-2008Q3 and then it takes a dive in 2008Q4 and 2009Q1. As a result, the distribution of leverage is left skewed in 2008Q4 and 2009Q1. 
@@ -689,14 +739,9 @@ Figure \ref{fig:medianLeverage_cyclical_Categories} illustrates the cyclical com
 \fi
 
 
-\begin{figure}[hbtp]
-\begin{minipage}{\textwidth}
-\centering
-\caption[1]{Scatterplot: Cylical Assets vs Cyclical Leverage \footnote{}}
-\includegraphics[scale=0.6]{graphs/DescriptiveStats/NewLeverage_ScatterCyclicalLeverageAssets_7613.png}
-\label{fig:ScatterCyclicalLeverageAssets}
-\end{minipage}
-\end{figure}
+
+
+
 
 
 \begin{figure}[hbtp]
@@ -937,7 +982,7 @@ Orange Line: All banks beside the top 10\\
 
 
 
-\subsection{Distribution of leverage}
+
 
 
 
@@ -978,15 +1023,14 @@ Orange Line: All banks beside the top 10\\
 \newpage
 \section{Evaluation/Outlook}
 
-In general, this paper gives a broad overview over the us commercial bank landscape and key important factors that should be considered. The next steps would be to choose a specific focus/section and go into more detail. For instance, it would be interesting to find an optimal way to categorize us commercial banks. The literature seems to have found no coherent way of categorization. These categories would obviously be of key importance to us regulators.
+In general, this paper gives a broad overview over the us commercial bank landscape and key important factors that should be considered. The next steps would be to choose a specific focus/section and go into more detail. For instance, it would be interesting to find an optimal way to categorize us commercial banks. The literature seems to have found no coherent way of categorization. These categories would obviously be of key importance to regulators.
+
 
 Further points
 \begin{itemize}
-\item Shadow banking/investment banks not considered,significant part of trading assets still owned by non commercial bank
-\item Off balance sheet (off balance-sheet
-items constitute a big fraction of assets, especially for large commercial banks in the United
-States - Sebnem Kalemli-Ozcan, Bent Sorensen,Sevcan Yesiltas 2011 )
-\item Valuations not realistic, book values...
+\item Shadow banking/investment banks not considered,significant part of trading assets still owned by non commercial bank. Investment banks do hold a high share of total assets, which were not considered in this analysis. It were investment banks which had to bear the major impacts of the financial crisis in 2007. 
+\item  Another factor we have not considered is that according to \cite{Sebnem Kalemli-Ozcan, Bent Sorensen,Sevcan Yesiltas 2011} a big fraction of assets , especially for large commercial banks, are off balance sheet items. Especially, large amounts of financial innovation occurring in our time-frame caused them to rise significantly.
+\item Valuations not realistic, book values. Loans are recorded at face value, which makes assets value changes less realistic. 
 \item Applying more time-series models
 \item Applying of models such as Regression...
 \item Significant part of trading assets still owned by non commercial banks
