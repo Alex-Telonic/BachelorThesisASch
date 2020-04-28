@@ -15,40 +15,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.2}Total assets}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.3}Cyclical analysis of balance sheet accounts}{5}%
+\contentsline {subsubsection}{\numberline {2.3.3}Cyclical analysis of balance sheet accounts}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Too Big to Fail - Distribution of total assets among banks}{14}%
+\contentsline {subsubsection}{\numberline {2.3.4}Balance sheet composition of aggregate U.S. commercial banks}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Banks by total assets}{17}%
+\contentsline {subsection}{\numberline {2.4}Too Big to Fail - Distribution of total assets among banks}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1}General}{17}%
+\contentsline {subsection}{\numberline {2.5}Banks by total assets}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.2}Trend and cyclical behaviour of total assets by category}{17}%
+\contentsline {subsubsection}{\numberline {2.5.1}General}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3}Correlation between asset categories}{18}%
+\contentsline {subsubsection}{\numberline {2.5.2}Trend and Cycles of total assets by category}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.4}Balance sheet composition by category}{19}%
+\contentsline {subsubsection}{\numberline {2.5.3}Correlation between asset categories}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Leverage}{25}%
+\contentsline {subsubsection}{\numberline {2.5.4}Balance sheet composition by category}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.1}General}{25}%
+\contentsline {subsection}{\numberline {2.6}Leverage}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.2}Leverage development}{27}%
+\contentsline {subsubsection}{\numberline {2.6.1}General}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Long-term discussion}{27}%
+\contentsline {subsubsection}{\numberline {2.6.2}Leverage development}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Long-term discussion}{26}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Short-term discussion}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.3}Leverage distribution}{29}%
+\contentsline {subsubsection}{\numberline {2.6.3}Leverage distribution}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Long-term discussion}{29}%
+\contentsline {subparagraph}{Long-term discussion}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Short-term discussion}{30}%
+\contentsline {subparagraph}{Short-term discussion}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Evaluation/Outlook}{38}%
+\contentsline {section}{\numberline {3}Evaluation and Outlook}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Conclusion}{39}%
+\contentsline {section}{Bibliography}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{40}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Appendix}{40}%
+\contentsline {section}{\numberline {A}Appendix}{36}%

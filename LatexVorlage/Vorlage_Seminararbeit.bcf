@@ -2185,11 +2185,10 @@
     <bcf:citekey order="2">NBERBusinessCycles</bcf:citekey>
     <bcf:citekey order="3">BergerBouwman2013</bcf:citekey>
     <bcf:citekey order="4">DrechslerSchnabel2017</bcf:citekey>
-    <bcf:citekey order="5">AdrianShin2010</bcf:citekey>
-    <bcf:citekey order="6">AdrianShin2011</bcf:citekey>
-    <bcf:citekey order="7">Sebnem Kalemli-Ozcan</bcf:citekey>
-    <bcf:citekey order="7">Bent Sorensen</bcf:citekey>
-    <bcf:citekey order="7">Sevcan Yesiltas 2011</bcf:citekey>
+    <bcf:citekey order="5">FarhiTirole2012</bcf:citekey>
+    <bcf:citekey order="6">AdrianShin2010</bcf:citekey>
+    <bcf:citekey order="7">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="8">Kalemli-OzcanBentSorensenSevcanYesiltas2011</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

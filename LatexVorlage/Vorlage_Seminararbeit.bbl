@@ -19,6 +19,76 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{AdrianShin2010}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7b2794b90135158ce2b7a36713c90192}{%
+           family={Adrian},
+           familyi={A\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3987a0a10919aac0f24d010a7715f8fd}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{fullhash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{bibnamehash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{authorbibnamehash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{authornamehash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{authorfullhash}{42711e376f11a7cc0dac2d586f8544af}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Intermediation.}
+      \field{number}{19}
+      \field{title}{Liquidity and Leverage}
+      \field{year}{2010}
+      \field{pages}{418\bibrangedash 437}
+      \range{pages}{20}
+    \endentry
+    \entry{AdrianShin2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7b2794b90135158ce2b7a36713c90192}{%
+           family={Adrian},
+           familyi={A\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3987a0a10919aac0f24d010a7715f8fd}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{fullhash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{bibnamehash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{authorbibnamehash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{authornamehash}{42711e376f11a7cc0dac2d586f8544af}
+      \strng{authorfullhash}{42711e376f11a7cc0dac2d586f8544af}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Financial Economics}
+      \field{number}{3}
+      \field{title}{Financial Intermediary Balance Sheet Management}
+      \field{year}{2011}
+      \field{pages}{289\bibrangedash 307}
+      \range{pages}{19}
+    \endentry
     \entry{BergerBouwman2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=40691732966d9a5a7bd88b0694771475}{%
@@ -120,6 +190,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{(}
   \missing{Bent Sorensen}
   \missing{Sebnem Kalemli-Ozcan}
   \missing{Sevcan Yesiltas 2011}
