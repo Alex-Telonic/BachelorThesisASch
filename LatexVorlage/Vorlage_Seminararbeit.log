@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.18)  28 APR 2020 22:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.18)  9 MAY 2020 17:00
 entering extended mode
 **./Vorlage_Seminararbeit.tex
 (Vorlage_Seminararbeit.tex
@@ -330,183 +330,27 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip58
 \subfig@bottom=\skip59
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
-Package: expl3 2020-01-12 L3 programming layer (loader) 
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
-Package: expl3 2020-01-12 L3 programming layer (code)
-\c_max_int=\count120
-\l_tmpa_int=\count121
-\l_tmpb_int=\count122
-\g_tmpa_int=\count123
-\g_tmpb_int=\count124
-\l__seq_internal_a_int=\count125
-\l__seq_internal_b_int=\count126
-\g__kernel_prg_map_int=\count127
-\c__ior_term_noprompt_ior=\count128
-\c_log_iow=\count129
-\l_iow_line_count_int=\count130
-\l__iow_line_target_int=\count131
-\l__iow_one_indent_int=\count132
-\l__iow_indent_int=\count133
-\c_zero_dim=\dimen155
-\c_max_dim=\dimen156
-\l_tmpa_dim=\dimen157
-\l_tmpb_dim=\dimen158
-\g_tmpa_dim=\dimen159
-\g_tmpb_dim=\dimen160
-\c_zero_skip=\skip60
-\c_max_skip=\skip61
-\l_tmpa_skip=\skip62
-\l_tmpb_skip=\skip63
-\g_tmpa_skip=\skip64
-\g_tmpb_skip=\skip65
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count134
-\l__intarray_loop_int=\count135
-\c__intarray_sp_dim=\dimen161
-\g__intarray_font_int=\count136
-\c__fp_leading_shift_int=\count137
-\c__fp_middle_shift_int=\count138
-\c__fp_trailing_shift_int=\count139
-\c__fp_big_leading_shift_int=\count140
-\c__fp_big_middle_shift_int=\count141
-\c__fp_big_trailing_shift_int=\count142
-\c__fp_Bigg_leading_shift_int=\count143
-\c__fp_Bigg_middle_shift_int=\count144
-\c__fp_Bigg_trailing_shift_int=\count145
-\c__kernel_randint_max_int=\count146
-\g__fp_array_int=\count147
-\l__fp_array_loop_int=\count148
-\l__sort_length_int=\count149
-\l__sort_min_int=\count150
-\l__sort_top_int=\count151
-\l__sort_max_int=\count152
-\l__sort_true_max_int=\count153
-\l__sort_block_int=\count154
-\l__sort_begin_int=\count155
-\l__sort_end_int=\count156
-\l__sort_A_int=\count157
-\l__sort_B_int=\count158
-\l__sort_C_int=\count159
-\l__str_internal_int=\count160
-\c__str_replacement_char_int=\count161
-\l__tl_analysis_normal_int=\count162
-\l__tl_analysis_index_int=\count163
-\l__tl_analysis_nesting_int=\count164
-\l__tl_analysis_type_int=\count165
-\l__regex_internal_a_int=\count166
-\l__regex_internal_b_int=\count167
-\l__regex_internal_c_int=\count168
-\l__regex_balance_int=\count169
-\l__regex_group_level_int=\count170
-\l__regex_mode_int=\count171
-\c__regex_cs_in_class_mode_int=\count172
-\c__regex_cs_mode_int=\count173
-\l__regex_catcodes_int=\count174
-\l__regex_default_catcodes_int=\count175
-\c__regex_catcode_D_int=\count176
-\c__regex_catcode_S_int=\count177
-\c__regex_catcode_L_int=\count178
-\c__regex_catcode_O_int=\count179
-\c__regex_catcode_A_int=\count180
-\c__regex_all_catcodes_int=\count181
-\l__regex_show_lines_int=\count182
-\l__regex_min_state_int=\count183
-\l__regex_max_state_int=\count184
-\l__regex_left_state_int=\count185
-\l__regex_right_state_int=\count186
-\l__regex_capturing_group_int=\count187
-\l__regex_min_pos_int=\count188
-\l__regex_max_pos_int=\count189
-\l__regex_curr_pos_int=\count190
-\l__regex_start_pos_int=\count191
-\l__regex_success_pos_int=\count192
-\l__regex_curr_char_int=\count193
-\l__regex_curr_catcode_int=\count194
-\l__regex_last_char_int=\count195
-\l__regex_case_changed_char_int=\count196
-\l__regex_curr_state_int=\count197
-\l__regex_step_int=\count198
-\l__regex_min_active_int=\count199
-\l__regex_max_active_int=\count266
-\l__regex_replacement_csnames_int=\count267
-\l__regex_match_count_int=\count268
-\l__regex_min_submatch_int=\count269
-\l__regex_submatch_int=\count270
-\l__regex_zeroth_submatch_int=\count271
-\g__regex_trace_regex_int=\count272
-\c_empty_box=\box34
-\l_tmpa_box=\box35
-\l_tmpb_box=\box36
-\g_tmpa_box=\box37
-\g_tmpb_box=\box38
-\l__box_top_dim=\dimen162
-\l__box_bottom_dim=\dimen163
-\l__box_left_dim=\dimen164
-\l__box_right_dim=\dimen165
-\l__box_top_new_dim=\dimen166
-\l__box_bottom_new_dim=\dimen167
-\l__box_left_new_dim=\dimen168
-\l__box_right_new_dim=\dimen169
-\l__box_internal_box=\box39
-\l__coffin_internal_box=\box40
-\l__coffin_internal_dim=\dimen170
-\l__coffin_offset_x_dim=\dimen171
-\l__coffin_offset_y_dim=\dimen172
-\l__coffin_x_dim=\dimen173
-\l__coffin_y_dim=\dimen174
-\l__coffin_x_prime_dim=\dimen175
-\l__coffin_y_prime_dim=\dimen176
-\c_empty_coffin=\box41
-\l__coffin_aligned_coffin=\box42
-\l__coffin_aligned_internal_coffin=\box43
-\l_tmpa_coffin=\box44
-\l_tmpb_coffin=\box45
-\g_tmpa_coffin=\box46
-\g_tmpb_coffin=\box47
-\l__coffin_bounding_shift_dim=\dimen177
-\l__coffin_left_corner_dim=\dimen178
-\l__coffin_right_corner_dim=\dimen179
-\l__coffin_bottom_corner_dim=\dimen180
-\l__coffin_top_corner_dim=\dimen181
-\l__coffin_scaled_total_height_dim=\dimen182
-\l__coffin_scaled_width_dim=\dimen183
-\c__coffin_empty_coffin=\box48
-\l__coffin_display_coffin=\box49
-\l__coffin_display_coord_coffin=\box50
-\l__coffin_display_pole_coffin=\box51
-\l__coffin_display_offset_dim=\dimen184
-\l__coffin_display_x_dim=\dimen185
-\l__coffin_display_y_dim=\dimen186
-\g__char_data_ior=\read2
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\l3deprecation.def"
-File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count273
-\l__pdf_internal_box=\box52
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
-Package: xparse 2020-01-12 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count274
-\g__xparse_grabber_int=\count275
-\l__xparse_m_args_int=\count276
-\l__xparse_v_nesting_int=\count277
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen155
+\captionmargin@=\dimen156
+\captionwidth=\dimen157
+\caption@tempdima=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
+Package caption Info: Standard document class detected.
 )
-Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
-File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-))
+\c@caption@flags=\count120
+\c@continuedfloat=\count121
+Package caption Info: float package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: threeparttable package is loaded.
+)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -532,7 +376,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count278
+\etb@tempcnta=\count122
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.sty"
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
@@ -542,7 +386,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count279
+\lrq@indent=\count123
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -551,64 +395,64 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count280
-\c@listtotal=\count281
-\c@listcount=\count282
-\c@liststart=\count283
-\c@liststop=\count284
-\c@citecount=\count285
-\c@citetotal=\count286
-\c@multicitecount=\count287
-\c@multicitetotal=\count288
-\c@instcount=\count289
-\c@maxnames=\count290
-\c@minnames=\count291
-\c@maxitems=\count292
-\c@minitems=\count293
-\c@citecounter=\count294
-\c@maxcitecounter=\count295
-\c@savedcitecounter=\count296
-\c@uniquelist=\count297
-\c@uniquename=\count298
-\c@refsection=\count299
-\c@refsegment=\count300
-\c@maxextratitle=\count301
-\c@maxextratitleyear=\count302
-\c@maxextraname=\count303
-\c@maxextradate=\count304
-\c@maxextraalpha=\count305
-\c@abbrvpenalty=\count306
-\c@highnamepenalty=\count307
-\c@lownamepenalty=\count308
-\c@maxparens=\count309
-\c@parenlevel=\count310
-\blx@tempcnta=\count311
-\blx@tempcntb=\count312
-\blx@tempcntc=\count313
-\blx@maxsection=\count314
-\blx@maxsegment@0=\count315
-\blx@notetype=\count316
-\blx@parenlevel@text=\count317
-\blx@parenlevel@foot=\count318
-\blx@sectionciteorder@0=\count319
-\blx@entrysetcounter=\count320
-\labelnumberwidth=\skip66
-\labelalphawidth=\skip67
-\biblabelsep=\skip68
-\bibitemsep=\skip69
-\bibnamesep=\skip70
-\bibinitsep=\skip71
-\bibparsep=\skip72
-\bibhang=\skip73
-\blx@bcfin=\read3
+\c@tabx@nest=\count124
+\c@listtotal=\count125
+\c@listcount=\count126
+\c@liststart=\count127
+\c@liststop=\count128
+\c@citecount=\count129
+\c@citetotal=\count130
+\c@multicitecount=\count131
+\c@multicitetotal=\count132
+\c@instcount=\count133
+\c@maxnames=\count134
+\c@minnames=\count135
+\c@maxitems=\count136
+\c@minitems=\count137
+\c@citecounter=\count138
+\c@maxcitecounter=\count139
+\c@savedcitecounter=\count140
+\c@uniquelist=\count141
+\c@uniquename=\count142
+\c@refsection=\count143
+\c@refsegment=\count144
+\c@maxextratitle=\count145
+\c@maxextratitleyear=\count146
+\c@maxextraname=\count147
+\c@maxextradate=\count148
+\c@maxextraalpha=\count149
+\c@abbrvpenalty=\count150
+\c@highnamepenalty=\count151
+\c@lownamepenalty=\count152
+\c@maxparens=\count153
+\c@parenlevel=\count154
+\blx@tempcnta=\count155
+\blx@tempcntb=\count156
+\blx@tempcntc=\count157
+\blx@maxsection=\count158
+\blx@maxsegment@0=\count159
+\blx@notetype=\count160
+\blx@parenlevel@text=\count161
+\blx@parenlevel@foot=\count162
+\blx@sectionciteorder@0=\count163
+\blx@entrysetcounter=\count164
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language82
-\c@mincomprange=\count321
-\c@maxcomprange=\count322
-\c@mincompwidth=\count323
+\c@mincomprange=\count165
+\c@maxcomprange=\count166
+\c@mincompwidth=\count167
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -621,88 +465,88 @@ Package biblatex Info: Trying to load biblatex bibstyle data model...
 Package biblatex Info: ... file 'JME.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count324
-\c@savedafterword=\count325
-\c@annotator=\count326
-\c@savedannotator=\count327
-\c@author=\count328
-\c@savedauthor=\count329
-\c@bookauthor=\count330
-\c@savedbookauthor=\count331
-\c@commentator=\count332
-\c@savedcommentator=\count333
-\c@editor=\count334
-\c@savededitor=\count335
-\c@editora=\count336
-\c@savededitora=\count337
-\c@editorb=\count338
-\c@savededitorb=\count339
-\c@editorc=\count340
-\c@savededitorc=\count341
-\c@foreword=\count342
-\c@savedforeword=\count343
-\c@holder=\count344
-\c@savedholder=\count345
-\c@introduction=\count346
-\c@savedintroduction=\count347
-\c@namea=\count348
-\c@savednamea=\count349
-\c@nameb=\count350
-\c@savednameb=\count351
-\c@namec=\count352
-\c@savednamec=\count353
-\c@translator=\count354
-\c@savedtranslator=\count355
-\c@shortauthor=\count356
-\c@savedshortauthor=\count357
-\c@shorteditor=\count358
-\c@savedshorteditor=\count359
-\c@labelname=\count360
-\c@savedlabelname=\count361
-\c@institution=\count362
-\c@savedinstitution=\count363
-\c@lista=\count364
-\c@savedlista=\count365
-\c@listb=\count366
-\c@savedlistb=\count367
-\c@listc=\count368
-\c@savedlistc=\count369
-\c@listd=\count370
-\c@savedlistd=\count371
-\c@liste=\count372
-\c@savedliste=\count373
-\c@listf=\count374
-\c@savedlistf=\count375
-\c@location=\count376
-\c@savedlocation=\count377
-\c@organization=\count378
-\c@savedorganization=\count379
-\c@origlocation=\count380
-\c@savedoriglocation=\count381
-\c@origpublisher=\count382
-\c@savedorigpublisher=\count383
-\c@publisher=\count384
-\c@savedpublisher=\count385
-\c@language=\count386
-\c@savedlanguage=\count387
-\c@origlanguage=\count388
-\c@savedoriglanguage=\count389
-\c@pageref=\count390
-\c@savedpageref=\count391
-\shorthandwidth=\skip74
-\shortjournalwidth=\skip75
-\shortserieswidth=\skip76
-\shorttitlewidth=\skip77
-\shortauthorwidth=\skip78
-\shorteditorwidth=\skip79
-\locallabelnumberwidth=\skip80
-\locallabelalphawidth=\skip81
-\localshorthandwidth=\skip82
-\localshortjournalwidth=\skip83
-\localshortserieswidth=\skip84
-\localshorttitlewidth=\skip85
-\localshortauthorwidth=\skip86
-\localshorteditorwidth=\skip87
+\c@afterword=\count168
+\c@savedafterword=\count169
+\c@annotator=\count170
+\c@savedannotator=\count171
+\c@author=\count172
+\c@savedauthor=\count173
+\c@bookauthor=\count174
+\c@savedbookauthor=\count175
+\c@commentator=\count176
+\c@savedcommentator=\count177
+\c@editor=\count178
+\c@savededitor=\count179
+\c@editora=\count180
+\c@savededitora=\count181
+\c@editorb=\count182
+\c@savededitorb=\count183
+\c@editorc=\count184
+\c@savededitorc=\count185
+\c@foreword=\count186
+\c@savedforeword=\count187
+\c@holder=\count188
+\c@savedholder=\count189
+\c@introduction=\count190
+\c@savedintroduction=\count191
+\c@namea=\count192
+\c@savednamea=\count193
+\c@nameb=\count194
+\c@savednameb=\count195
+\c@namec=\count196
+\c@savednamec=\count197
+\c@translator=\count198
+\c@savedtranslator=\count199
+\c@shortauthor=\count266
+\c@savedshortauthor=\count267
+\c@shorteditor=\count268
+\c@savedshorteditor=\count269
+\c@labelname=\count270
+\c@savedlabelname=\count271
+\c@institution=\count272
+\c@savedinstitution=\count273
+\c@lista=\count274
+\c@savedlista=\count275
+\c@listb=\count276
+\c@savedlistb=\count277
+\c@listc=\count278
+\c@savedlistc=\count279
+\c@listd=\count280
+\c@savedlistd=\count281
+\c@liste=\count282
+\c@savedliste=\count283
+\c@listf=\count284
+\c@savedlistf=\count285
+\c@location=\count286
+\c@savedlocation=\count287
+\c@organization=\count288
+\c@savedorganization=\count289
+\c@origlocation=\count290
+\c@savedoriglocation=\count291
+\c@origpublisher=\count292
+\c@savedorigpublisher=\count293
+\c@publisher=\count294
+\c@savedpublisher=\count295
+\c@language=\count296
+\c@savedlanguage=\count297
+\c@origlanguage=\count298
+\c@savedoriglanguage=\count299
+\c@pageref=\count300
+\c@savedpageref=\count301
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -714,19 +558,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count392
-\c@textcitetotal=\count393
-\c@textcitemaxnames=\count394
-\c@biburlbigbreakpenalty=\count395
-\c@biburlbreakpenalty=\count396
-\c@biburlnumpenalty=\count397
-\c@biburlucpenalty=\count398
-\c@biburllcpenalty=\count399
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count400
+\c@textcitecount=\count302
+\c@textcitetotal=\count303
+\c@textcitemaxnames=\count304
+\c@biburlbigbreakpenalty=\count305
+\c@biburlbreakpenalty=\count306
+\c@biburlnumpenalty=\count307
+\c@biburlucpenalty=\count308
+\c@biburllcpenalty=\count309
+\biburlbigskip=\muskip12
+\biburlnumskip=\muskip13
+\biburlucskip=\muskip14
+\biburllcskip=\muskip15
+\c@smartand=\count310
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -746,8 +590,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count401
-\c@bbx:relatedtotal=\count402
+\c@bbx:relatedcount=\count311
+\c@bbx:relatedtotal=\count312
 )
 
 Package biblatex Warning: 'labelyear' option is deprecated.
@@ -777,33 +621,12 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.cfg"
 File: biblatex.cfg 
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen187
-\captionmargin@=\dimen188
-\captionwidth=\dimen189
-\caption@tempdima=\dimen190
-\caption@indent=\dimen191
-\caption@parindent=\dimen192
-\caption@hangindent=\dimen193
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count403
-\c@continuedfloat=\count404
-Package caption Info: float package is loaded.
-Package caption Info: subfigure package is loaded.
-Package caption Info: threeparttable package is loaded.
-)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count405
-\@quotereset=\count406
+\@quotelevel=\count313
+\@quotereset=\count314
 (Vorlage_Seminararbeit.aux
 
 LaTeX Warning: Label `fig:share_both' multiply defined.
@@ -867,22 +690,35 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count407
-\scratchdimen=\dimen194
-\scratchbox=\box53
-\nofMPsegments=\count408
-\nofMParguments=\count409
+\scratchcounter=\count315
+\scratchdimen=\dimen162
+\scratchbox=\box34
+\nofMPsegments=\count316
+\nofMParguments=\count317
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count410
-\MPscratchDim=\dimen195
-\MPnumerator=\count411
-\makeMPintoPDFobject=\count412
+\MPscratchCnt=\count318
+\MPscratchDim=\dimen163
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
 \everyMPtoPDFconversion=\toks28
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/grfext\grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -901,36 +737,13 @@ Package biblatex Info: ... file 'Vorlage_Seminararbeit.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                (
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Bent Sorensen
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Sebnem Kalemli-Ozcan
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Sevcan Yesiltas 2011
+(biblatex)                Greenwell
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
 Package biblatex Info: Reference section=0 on input line 88.
 Package biblatex Info: Reference segment=0 on input line 88.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 <KITlogo.pdf, id=1, 198.7425pt x 91.34125pt>
 File: KITlogo.pdf Graphic file (type pdf)
 <use KITlogo.pdf>
@@ -940,42 +753,44 @@ Package pdftex.def Info: KITlogo.pdf  used on input line 94.
 
 {C:/Users/AlexanderSchlechter/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
 } <./KITlogo.pdf>] (Vorlage_Seminararbeit.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-8.
+10.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-8.
+10.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 8.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+(Font)              <6> on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -983,414 +798,438 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `Vorlage_Seminararbeit.toc'.
 
- [1] [1]
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1
-97.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 197.
- [2]
+ [1]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 275.
+(Font)              <10> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 275.
+(Font)              <7> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 275.
-
-Overfull \hbox (13.27606pt too wide) in paragraph at lines 276--287
+(Font)              <5> on input line 166.
+ [1] [2]
+[3]
+Overfull \hbox (13.27606pt too wide) in paragraph at lines 309--320
  [][] 
  []
 
-[3] [4]
-<graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.png, id=32,
+[4]
+<graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.png, id=31,
  1445.4pt x 1445.4pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.png Gr
 aphic file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistr
-ibution_7613.png  used on input line 304.
+ibution_7613.png  used on input line 339.
 (pdftex.def)             Requested size: 433.62335pt x 433.62335pt.
  [5] [6 <./graphs/DescriptiveStats/OtherAnalysis_clean_AssetDistribution_7613.p
 ng>]
-<graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png, id=45,
+<graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png, id=43, 14
+45.4pt x 722.7pt>
+File: graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png Graph
+ic file (type png)
+<use graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png>
+Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_BanksDefaultPercen
+tage_7613.png  used on input line 364.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+
+
+LaTeX Warning: Citation 'antoniades2019commercial' on page 7 undefined on input
+ line 371.
+
+
+LaTeX Warning: Reference `fig:cyclial_assets' on page 7 undefined on input line
+ 376.
+
+[7 <./graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png>]
+
+LaTeX Warning: Citation 'antoniades2019commercial' on page 8 undefined on input
+ line 386.
+
+[8] [9]
+<graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png, id=55,
  1445.4pt x 1806.75pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png Gr
 aphic file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_PositionsC
-yclical_7613.png  used on input line 327.
+yclical_7613.png  used on input line 413.
 (pdftex.def)             Requested size: 433.62335pt x 542.02919pt.
- [7]
-<graphs/Tables/asset_cycle_corr_sig.png, id=51, 441.90094pt x 146.04562pt>
-File: graphs/Tables/asset_cycle_corr_sig.png Graphic file (type png)
-<use graphs/Tables/asset_cycle_corr_sig.png>
-Package pdftex.def Info: graphs/Tables/asset_cycle_corr_sig.png  used on input 
-line 339.
-(pdftex.def)             Requested size: 353.52122pt x 116.83664pt.
- [8 <./graphs/DescriptiveStats/OtherAnalysis_clean_PositionsCyclical_7613.png>]
-<graphs/Tables/liab_cycle_corr_sig.png, id=56, 642.90187pt x 180.675pt>
-File: graphs/Tables/liab_cycle_corr_sig.png Graphic file (type png)
-<use graphs/Tables/liab_cycle_corr_sig.png>
-Package pdftex.def Info: graphs/Tables/liab_cycle_corr_sig.png  used on input l
-ine 350.
-(pdftex.def)             Requested size: 514.32219pt x 144.54018pt.
-
-Overfull \hbox (59.07808pt too wide) in paragraph at lines 350--352
- [][] 
+ [10] (graphs/Tables/LatexTables/corr_assets.tex) [11 <./graphs/DescriptiveStat
+s/OtherAnalysis_clean_PositionsCyclical_7613.png>]
+(graphs/Tables/LatexTables/corr_liab.tex)
+Overfull \hbox (68.53586pt too wide) in paragraph at lines 432--434
+[] []
  []
 
-<graphs/Tables/comb_cycle_corr_sig.png, id=57, 634.62094pt x 140.77594pt>
-File: graphs/Tables/comb_cycle_corr_sig.png Graphic file (type png)
-<use graphs/Tables/comb_cycle_corr_sig.png>
-Package pdftex.def Info: graphs/Tables/comb_cycle_corr_sig.png  used on input l
-ine 363.
-(pdftex.def)             Requested size: 507.69743pt x 112.62088pt.
 
-Overfull \hbox (52.45332pt too wide) in paragraph at lines 363--365
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 432--434
+
  []
 
-<graphs/DescriptiveStats/OtherAnalysis_clean_scatterplots_7613.png, id=58, 722.
+(graphs/Tables/LatexTables/corr_liab_assets.tex)
+Overfull \hbox (58.37085pt too wide) in paragraph at lines 443--445
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+
+ []
+
+<graphs/DescriptiveStats/OtherAnalysis_clean_scatterplots_7613.png, id=65, 722.
 7pt x 722.7pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_scatterplots_7613.png Graphic
  file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_scatterplots_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_scatterplo
-ts_7613.png  used on input line 375.
-(pdftex.def)             Requested size: 361.3491pt x 361.3491pt.
-[9 <./graphs/Tables/asset_cycle_corr_sig.png> <./graphs/Tables/liab_cycle_corr_
-sig.png> <./graphs/Tables/comb_cycle_corr_sig.png>] [10 <./graphs/DescriptiveSt
-ats/OtherAnalysis_clean_scatterplots_7613.png>]
-<graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png, id=69, 14
+ts_7613.png  used on input line 484.
+(pdftex.def)             Requested size: 325.21199pt x 325.21199pt.
+[12] [13 <./graphs/DescriptiveStats/OtherAnalysis_clean_scatterplots_7613.png>]
+<graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png, id=73, 14
 45.4pt x 1445.4pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png Graph
 ic file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_sharePosit
-ions_7613.png  used on input line 403.
+ions_7613.png  used on input line 512.
 (pdftex.def)             Requested size: 433.62335pt x 433.62335pt.
- [11 <./graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png>]
-
-LaTeX Warning: Citation 'FarhiTirole2012' on page 12 undefined on input line 50
-1.
-
-<graphs/DescriptiveStats/BankCounts.png, id=75, 563.10374pt x 221.32687pt>
+[14 <./graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png>]
+<graphs/DescriptiveStats/BankCounts.png, id=78, 563.10374pt x 221.32687pt>
 File: graphs/DescriptiveStats/BankCounts.png Graphic file (type png)
 <use graphs/DescriptiveStats/BankCounts.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BankCounts.png  used on input 
-line 506.
+line 615.
 (pdftex.def)             Requested size: 450.48361pt x 177.06172pt.
 <graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_7613.png
-, id=76, 1445.4pt x 722.7pt>
+, id=79, 1445.4pt x 722.7pt>
 File: graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_761
 3.png Graphic file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_7613
 .png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByB
-anksPercentiles_7613.png  used on input line 514.
+anksPercentiles_7613.png  used on input line 623.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png, id=77, 1445.
+<graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png, id=80, 1445.
 4pt x 722.7pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png Graphic 
 file (type png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurv
-e_7613.png  used on input line 523.
+e_7613.png  used on input line 632.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png, id=78, 1445.4pt x 7
+<graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png, id=81, 1445.4pt x 7
 22.7pt>
 File: graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png Graphic file (t
 ype png)
 <use graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.
-png  used on input line 533.
+png  used on input line 642.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-[12] [13 <./graphs/DescriptiveStats/BankCounts.png> <./graphs/DescriptiveStats/
-OtherAnalysis_ShareofAssetsByBanksPercentiles_7613.png>] [14 <./graphs/Descript
+
+[15] [16 <./graphs/DescriptiveStats/BankCounts.png> <./graphs/DescriptiveStats/
+OtherAnalysis_ShareofAssetsByBanksPercentiles_7613.png>] [17 <./graphs/Descript
 iveStats/OtherAnalysis_clean_LorenzCurve_7613.png> <./graphs/DescriptiveStats/O
 therAnalysis_clean_gini_7613.png>]
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 6
+59.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 659.
 <graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.png, i
-d=93, 1445.4pt x 2168.1pt>
+d=96, 1445.4pt x 2168.1pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.p
 ng Graphic file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.pn
 g>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_boxplots_
-eachCategory_7613.png  used on input line 569.
+eachCategory_7613.png  used on input line 678.
 (pdftex.def)             Requested size: 433.62335pt x 650.43503pt.
- [15] [16]
+ [18] [19]
 Overfull \vbox (13.95197pt too high) has occurred while \output is active []
 
 
-[17 <./graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.
+[20 <./graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.
 png>]
-<graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png, id=106, 144
+<graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png, id=109, 144
 5.4pt x 1084.05pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png Graphic
  file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_assetsbyc
-at_7613.png  used on input line 590.
+at_7613.png  used on input line 699.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
- [18]
-<graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png, id=110, 
+ [21]
+<graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png, id=113, 
 867.24pt x 722.7pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png Grap
 hic file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_catAssets
-Cycle_7613.png  used on input line 599.
+Cycle_7613.png  used on input line 708.
 (pdftex.def)             Requested size: 433.61894pt x 361.3491pt.
- [19 <./graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png>] [20
+ [22 <./graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png>] [23
  <./graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png>]
-<graphs/Tables/cat_asset_cycle_corr.png, id=119, 307.90031pt x 99.37125pt>
+<graphs/Tables/cat_asset_cycle_corr.png, id=123, 307.90031pt x 99.37125pt>
 File: graphs/Tables/cat_asset_cycle_corr.png Graphic file (type png)
 <use graphs/Tables/cat_asset_cycle_corr.png>
 Package pdftex.def Info: graphs/Tables/cat_asset_cycle_corr.png  used on input 
-line 616.
+line 725.
 (pdftex.def)             Requested size: 307.89955pt x 99.371pt.
-<graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png, id=120
+<graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png, id=124
 , 1445.4pt x 1806.75pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png Gr
 aphic file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_cat_asset
-s_share_7613.png  used on input line 631.
+s_share_7613.png  used on input line 740.
 (pdftex.def)             Requested size: 433.62335pt x 542.02919pt.
- [21 <./graphs/Tables/cat_asset_cycle_corr.png>]
-<graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png, id=125,
+ [24 <./graphs/Tables/cat_asset_cycle_corr.png>]
+<graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png, id=129,
  1445.4pt x 1806.75pt>
 File: graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png Gra
 phic file (type png)
 <use graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs
-_share_7613.png  used on input line 641.
+_share_7613.png  used on input line 750.
 (pdftex.def)             Requested size: 433.62335pt x 542.02919pt.
- [22 <./graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png>
-] [23 <./graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png>
-] [24]
+ [25 <./graphs/DescriptiveStats/BanksByAssetCategory_cat_assets_share_7613.png>
+] [26 <./graphs/DescriptiveStats/BanksByAssetCategory_cat_liabs_share_7613.png>
+] [27]
 <graphs/DescriptiveStats/LeverageCylicality_ScatterAverageLeveragevsAggregateAs
-sets_7613.png, id=138, 289.08pt x 289.08pt>
+sets_7613.png, id=141, 390.258pt x 361.35pt>
 File: graphs/DescriptiveStats/LeverageCylicality_ScatterAverageLeveragevsAggreg
 ateAssets_7613.png Graphic file (type png)
 <use graphs/DescriptiveStats/LeverageCylicality_ScatterAverageLeveragevsAggrega
 teAssets_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/LeverageCylicality_ScatterAver
-ageLeveragevsAggregateAssets_7613.png  used on input line 666.
-(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+ageLeveragevsAggregateAssets_7613.png  used on input line 782.
+(pdftex.def)             Requested size: 234.1566pt x 216.81168pt.
+<graphs/DescriptiveStats/LeverageCylicality_ScatterAggregateLeveragevsAggregate
+Assets_7613.png, id=142, 390.258pt x 361.35pt>
+File: graphs/DescriptiveStats/LeverageCylicality_ScatterAggregateLeveragevsAggr
+egateAssets_7613.png Graphic file (type png)
+<use graphs/DescriptiveStats/LeverageCylicality_ScatterAggregateLeveragevsAggre
+gateAssets_7613.png>
+Package pdftex.def Info: graphs/DescriptiveStats/LeverageCylicality_ScatterAggr
+egateLeveragevsAggregateAssets_7613.png  used on input line 791.
+(pdftex.def)             Requested size: 234.1566pt x 216.81168pt.
+ [28 <./graphs/DescriptiveStats/LeverageCylicality_ScatterAverageLeveragevsAggr
+egateAssets_7613.png>]
 <graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterAverageLeveragevsAggregat
-eAssetsCat_7613.png, id=139, 794.97pt x 722.7pt>
+eAssetsCat_7613.png, id=147, 794.97pt x 722.7pt>
 File: graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterAverageLeveragevsAgg
 regateAssetsCat_7613.png Graphic file (type png)
 <use graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterAverageLeveragevsAggr
 egateAssetsCat_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterA
-verageLeveragevsAggregateAssetsCat_7613.png  used on input line 675.
-(pdftex.def)             Requested size: 278.24367pt x 252.94878pt.
- [25 <./graphs/DescriptiveStats/LeverageCylicality_ScatterAverageLeveragevsAggr
-egateAssets_7613.png> <./graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterA
-verageLeveragevsAggregateAssetsCat_7613.png>]
-<graphs/NewLeverage_LeverageRatioAllBanks_7613.png, id=145, 1445.4pt x 1084.05p
+verageLeveragevsAggregateAssetsCat_7613.png  used on input line 801.
+(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
+ [29 <./graphs/DescriptiveStats/LeverageCylicality_ScatterAggregateLeveragevsAg
+gregateAssets_7613.png>]
+<graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterAggregateLeveragevsAggreg
+ateAssetsCat_7613.png, id=153, 794.97pt x 722.7pt>
+File: graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterAggregateLeveragevsA
+ggregateAssetsCat_7613.png Graphic file (type png)
+<use graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterAggregateLeveragevsAg
+gregateAssetsCat_7613.png>
+Package pdftex.def Info: graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterA
+ggregateLeveragevsAggregateAssetsCat_7613.png  used on input line 810.
+(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
+ [30 <./graphs/DescriptiveStats/BanksbyAssetsCategory_ScatterAverageLeveragevsA
+ggregateAssetsCat_7613.png>] [31 <./graphs/DescriptiveStats/BanksbyAssetsCatego
+ry_ScatterAggregateLeveragevsAggregateAssetsCat_7613.png>]
+<graphs/NewLeverage_LeverageRatioAllBanks_7613.png, id=162, 1445.4pt x 1084.05p
 t>
 File: graphs/NewLeverage_LeverageRatioAllBanks_7613.png Graphic file (type png)
 
 <use graphs/NewLeverage_LeverageRatioAllBanks_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_LeverageRatioAllBanks_7613.png  use
-d on input line 694.
+d on input line 830.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
- [26]
-<graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613.png, id=149, 1445.
+ [32]
+<graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613.png, id=166, 1445.
 4pt x 722.7pt>
 File: graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613.png Graphic f
 ile (type png)
 <use graphs/DescriptiveStats/NewLeverage_LeverageCategories_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_LeverageCategories
-_7613.png  used on input line 714.
+_7613.png  used on input line 850.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
- [27 <./graphs/NewLeverage_LeverageRatioAllBanks_7613.png> <./graphs/Descriptiv
+ [33 <./graphs/NewLeverage_LeverageRatioAllBanks_7613.png> <./graphs/Descriptiv
 eStats/NewLeverage_LeverageCategories_7613.png>]
-<graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png, id=155, 
+<graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png, id=172, 
 1445.4pt x 1084.05pt>
 File: graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png Grap
 hic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_AverageLeverageCyc
-lical_7613.png  used on input line 728.
+lical_7613.png  used on input line 864.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
-
-[28]
-<graphs/Tables/CyclicalLeverage_Crisis2008.png, id=159, 508.14844pt x 355.3275p
+ [34]
+<graphs/Tables/CyclicalLeverage_Crisis2008.png, id=176, 508.14844pt x 355.3275p
 t>
 File: graphs/Tables/CyclicalLeverage_Crisis2008.png Graphic file (type png)
 <use graphs/Tables/CyclicalLeverage_Crisis2008.png>
 Package pdftex.def Info: graphs/Tables/CyclicalLeverage_Crisis2008.png  used on
- input line 737.
+ input line 873.
 (pdftex.def)             Requested size: 508.14719pt x 355.32661pt.
 
-Overfull \hbox (52.90308pt too wide) in paragraph at lines 737--739
+Overfull \hbox (52.90308pt too wide) in paragraph at lines 873--875
  [][] 
  []
 
-[29 <./graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png>]
-<graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png, id=165, 1
-445.4pt x 1084.05pt>
-File: graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png Graph
-ic file (type png)
-<use graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png>
-Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_MedianLeverageCycl
-ical_7613.png  used on input line 747.
-(pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
-
-[30 <./graphs/Tables/CyclicalLeverage_Crisis2008.png>]
-<graphs/NewLeverage_stdByCat_7613.png, id=170, 1445.4pt x 722.7pt>
-File: graphs/NewLeverage_stdByCat_7613.png Graphic file (type png)
-<use graphs/NewLeverage_stdByCat_7613.png>
-Package pdftex.def Info: graphs/NewLeverage_stdByCat_7613.png  used on input li
-ne 756.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
- [31 <./graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png> <.
-/graphs/NewLeverage_stdByCat_7613.png>]
-<graphs/NewLeverage_KurtByCat_7613.png, id=176, 1445.4pt x 722.7pt>
-File: graphs/NewLeverage_KurtByCat_7613.png Graphic file (type png)
-<use graphs/NewLeverage_KurtByCat_7613.png>
-Package pdftex.def Info: graphs/NewLeverage_KurtByCat_7613.png  used on input l
-ine 779.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
- [32]
-<graphs/NewLeverage_SkewByCat_7613.png, id=180, 1445.4pt x 722.7pt>
-File: graphs/NewLeverage_SkewByCat_7613.png Graphic file (type png)
-<use graphs/NewLeverage_SkewByCat_7613.png>
-Package pdftex.def Info: graphs/NewLeverage_SkewByCat_7613.png  used on input l
-ine 788.
-(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
- [33 <./graphs/NewLeverage_KurtByCat_7613.png> <./graphs/NewLeverage_SkewByCat_
-7613.png>]
+[35 <./graphs/DescriptiveStats/NewLeverage_AverageLeverageCyclical_7613.png>]
 <graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_7613.png
-, id=186, 1445.4pt x 433.62pt>
+, id=182, 1445.4pt x 433.62pt>
 File: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_761
 3.png Graphic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_7613
 .png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLever
-ageFinancCrisis_7613.png  used on input line 804.
+ageFinancCrisis_7613.png  used on input line 882.
 (pdftex.def)             Requested size: 433.62335pt x 130.087pt.
+<graphs/NewLeverage_stdByCat_7613.png, id=183, 1445.4pt x 722.7pt>
+File: graphs/NewLeverage_stdByCat_7613.png Graphic file (type png)
+<use graphs/NewLeverage_stdByCat_7613.png>
+Package pdftex.def Info: graphs/NewLeverage_stdByCat_7613.png  used on input li
+ne 892.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+
+[36 <./graphs/Tables/CyclicalLeverage_Crisis2008.png> <./graphs/DescriptiveStat
+s/NewLeverage_ScatterAssetsLeverageFinancCrisis_7613.png>] [37 <./graphs/NewLev
+erage_stdByCat_7613.png>]
+<graphs/NewLeverage_KurtByCat_7613.png, id=193, 1445.4pt x 722.7pt>
+File: graphs/NewLeverage_KurtByCat_7613.png Graphic file (type png)
+<use graphs/NewLeverage_KurtByCat_7613.png>
+Package pdftex.def Info: graphs/NewLeverage_KurtByCat_7613.png  used on input l
+ine 917.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+<graphs/NewLeverage_SkewByCat_7613.png, id=194, 1445.4pt x 722.7pt>
+File: graphs/NewLeverage_SkewByCat_7613.png Graphic file (type png)
+<use graphs/NewLeverage_SkewByCat_7613.png>
+Package pdftex.def Info: graphs/NewLeverage_SkewByCat_7613.png  used on input l
+ine 926.
+(pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
+ [38 <./graphs/NewLeverage_KurtByCat_7613.png>]
 <graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Cat1&2_7
-613.png, id=187, 1445.4pt x 1084.05pt>
+613.png, id=199, 1445.4pt x 1084.05pt>
 File: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Cat
 1&2_7613.png Graphic file (type png)
 <use graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_Cat1
 &2_7613.png>
 Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_ScatterAssetsLever
-ageFinancCrisis_Cat1&2_7613.png  used on input line 813.
+ageFinancCrisis_Cat1&2_7613.png  used on input line 942.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
- [34 <./graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCrisis_7
-613.png> <./graphs/DescriptiveStats/NewLeverage_ScatterAssetsLeverageFinancCris
-is_Cat1&2_7613.png>]
 
-LaTeX Warning: Citation 'Kalemli-OzcanBentSorensenSevcanYesiltas2011' on page 3
-5 undefined on input line 1020.
-
-
-Overfull \hbox (152.43817pt too wide) in paragraph at lines 1018--1021
-\T1/lmr/m/n/12 Lastly, an-other fac-tor we have not con-sid-ered is that ac-cor
-d-ing to []
- []
-
-[35]
+[39 <./graphs/NewLeverage_SkewByCat_7613.png>] [40 <./graphs/DescriptiveStats/N
+ewLeverage_ScatterAssetsLeverageFinancCrisis_Cat1&2_7613.png>] [41]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-055.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
+182.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-<graphs/Tables/autocorrelations/AllAssets.png, id=197, 466.74374pt x 197.98969p
+) [42]
+<graphs/Tables/autocorrelations/AllAssets.png, id=217, 466.74374pt x 197.98969p
 t>
 File: graphs/Tables/autocorrelations/AllAssets.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AllAssets.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AllAssets.png  used on 
-input line 1076.
+input line 1203.
 (pdftex.def)             Requested size: 466.7426pt x 197.9892pt.
 
-Overfull \hbox (11.49849pt too wide) in paragraph at lines 1076--1078
+Overfull \hbox (11.49849pt too wide) in paragraph at lines 1203--1205
  [][] 
  []
 
-<graphs/Tables/autocorrelations/AllLiab.png, id=198, 590.205pt x 217.5628pt>
+<graphs/Tables/autocorrelations/AllLiab.png, id=218, 590.205pt x 217.5628pt>
 File: graphs/Tables/autocorrelations/AllLiab.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AllLiab.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AllLiab.png  used on in
-put line 1087.
+put line 1214.
 (pdftex.def)             Requested size: 472.16464pt x 174.05048pt.
 
-Overfull \hbox (16.92053pt too wide) in paragraph at lines 1087--1089
+Overfull \hbox (16.92053pt too wide) in paragraph at lines 1214--1216
  [][] 
  []
 
-<graphs/Tables/autocorrelations/AssetsCat1.png, id=199, 496.85625pt x 228.855pt
+<graphs/Tables/autocorrelations/AssetsCat1.png, id=219, 496.85625pt x 228.855pt
 >
 File: graphs/Tables/autocorrelations/AssetsCat1.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AssetsCat1.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AssetsCat1.png  used on
- input line 1098.
+ input line 1227.
 (pdftex.def)             Requested size: 372.64127pt x 171.64082pt.
-<graphs/Tables/autocorrelations/AssetsCat2.png, id=200, 492.33937pt x 230.96288
+<graphs/Tables/autocorrelations/AssetsCat2.png, id=220, 492.33937pt x 230.96288
 pt>
 File: graphs/Tables/autocorrelations/AssetsCat2.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AssetsCat2.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AssetsCat2.png  used on
- input line 1099.
+ input line 1228.
 (pdftex.def)             Requested size: 369.2536pt x 173.22173pt.
-<graphs/Tables/autocorrelations/AssetsCat3.png, id=201, 489.32813pt x 230.96288
+<graphs/Tables/autocorrelations/AssetsCat3.png, id=221, 489.32813pt x 230.96288
 pt>
 File: graphs/Tables/autocorrelations/AssetsCat3.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AssetsCat3.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AssetsCat3.png  used on
- input line 1100.
+ input line 1229.
 (pdftex.def)             Requested size: 366.99518pt x 173.22173pt.
-<graphs/Tables/autocorrelations/AssetsCat4.png, id=202, 493.845pt x 230.36063pt
+<graphs/Tables/autocorrelations/AssetsCat4.png, id=222, 493.845pt x 230.36063pt
 >
 File: graphs/Tables/autocorrelations/AssetsCat4.png Graphic file (type png)
 <use graphs/Tables/autocorrelations/AssetsCat4.png>
 Package pdftex.def Info: graphs/Tables/autocorrelations/AssetsCat4.png  used on
- input line 1101.
+ input line 1230.
 (pdftex.def)             Requested size: 370.38283pt x 172.77003pt.
 
-LaTeX Warning: Float too large for page by 69.37125pt on input line 1104.
+LaTeX Warning: Float too large for page by 69.37125pt on input line 1233.
 
-<graphs/MedianBank_FrequencyTable_8010.png, id=203, 409.53pt x 108.405pt>
+<graphs/MedianBank_FrequencyTable_8010.png, id=223, 409.53pt x 108.405pt>
 File: graphs/MedianBank_FrequencyTable_8010.png Graphic file (type png)
 <use graphs/MedianBank_FrequencyTable_8010.png>
 Package pdftex.def Info: graphs/MedianBank_FrequencyTable_8010.png  used on inp
-ut line 1113.
+ut line 1242.
 (pdftex.def)             Requested size: 409.52899pt x 108.40472pt.
-<graphs/NewLeverage_stdByCat_cyclical_7613.png, id=204, 1445.4pt x 722.7pt>
+<graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png, id=224, 1
+445.4pt x 1084.05pt>
+File: graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png Graph
+ic file (type png)
+<use graphs/DescriptiveStats/NewLeverage_MedianLeverageCyclical_7613.png>
+Package pdftex.def Info: graphs/DescriptiveStats/NewLeverage_MedianLeverageCycl
+ical_7613.png  used on input line 1261.
+(pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
+[43 <./graphs/Tables/autocorrelations/AllAssets.png> <./graphs/Tables/autocorre
+lations/AllLiab.png>] [44 <./graphs/Tables/autocorrelations/AssetsCat1.png> <./
+graphs/Tables/autocorrelations/AssetsCat2.png> <./graphs/Tables/autocorrelation
+s/AssetsCat3.png> <./graphs/Tables/autocorrelations/AssetsCat4.png>]
+<graphs/NewLeverage_stdByCat_cyclical_7613.png, id=237, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_stdByCat_cyclical_7613.png Graphic file (type png)
 <use graphs/NewLeverage_stdByCat_cyclical_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_stdByCat_cyclical_7613.png  used on
- input line 1132.
+ input line 1270.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/NewLeverage_KurtByCat_cyclical_7613.png, id=205, 1445.4pt x 722.7pt>
+<graphs/NewLeverage_KurtByCat_cyclical_7613.png, id=238, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_KurtByCat_cyclical_7613.png Graphic file (type png)
 <use graphs/NewLeverage_KurtByCat_cyclical_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_KurtByCat_cyclical_7613.png  used o
-n input line 1143.
+n input line 1281.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-<graphs/NewLeverage_SkewByCat_cyclical_7613.png, id=206, 1445.4pt x 722.7pt>
+<graphs/NewLeverage_SkewByCat_cyclical_7613.png, id=239, 1445.4pt x 722.7pt>
 File: graphs/NewLeverage_SkewByCat_cyclical_7613.png Graphic file (type png)
 <use graphs/NewLeverage_SkewByCat_cyclical_7613.png>
 Package pdftex.def Info: graphs/NewLeverage_SkewByCat_cyclical_7613.png  used o
-n input line 1152.
+n input line 1290.
 (pdftex.def)             Requested size: 433.62335pt x 216.81166pt.
-[36 <./graphs/Tables/autocorrelations/AllAssets.png>] [37 <./graphs/Tables/auto
-correlations/AllLiab.png>] [38 <./graphs/Tables/autocorrelations/AssetsCat1.png
-> <./graphs/Tables/autocorrelations/AssetsCat2.png> <./graphs/Tables/autocorrel
-ations/AssetsCat3.png> <./graphs/Tables/autocorrelations/AssetsCat4.png>]
-[39 <./graphs/MedianBank_FrequencyTable_8010.png> <./graphs/NewLeverage_stdByCa
-t_cyclical_7613.png> <./graphs/NewLeverage_KurtByCat_cyclical_7613.png>]
-[40 <./graphs/NewLeverage_SkewByCat_cyclical_7613.png>]
-(Vorlage_Seminararbeit.aux)
+
+Overfull \hbox (72.9693pt too wide) in paragraph at lines 1295--1307
+[][] 
+ []
+
+[45 <./graphs/MedianBank_FrequencyTable_8010.png> <./graphs/DescriptiveStats/Ne
+wLeverage_MedianLeverageCyclical_7613.png>] [46 <./graphs/NewLeverage_stdByCat_
+cyclical_7613.png> <./graphs/NewLeverage_KurtByCat_cyclical_7613.png>] [47 <./g
+raphs/NewLeverage_SkewByCat_cyclical_7613.png>] (Vorlage_Seminararbeit.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1407,31 +1246,30 @@ Package logreq Info: Writing requests to 'Vorlage_Seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23996 strings out of 492448
- 451404 string characters out of 3129681
- 974418 words of memory out of 3000000
- 28068 multiletter control sequences out of 15000+200000
- 613845 words of font info for 75 fonts, out of 3000000 for 9000
+ 13721 strings out of 492448
+ 246771 string characters out of 3129681
+ 699988 words of memory out of 3000000
+ 17803 multiletter control sequences out of 15000+200000
+ 80883 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,67p,2858b,1688s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,15n,50p,2863b,1688s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
+vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
 .enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmri7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Vorlage_Seminararbeit.pdf (42 pages, 7362115 bytes).
+c/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmtt12.pfb>
+Output written on Vorlage_Seminararbeit.pdf (49 pages, 7598761 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
+ 305 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

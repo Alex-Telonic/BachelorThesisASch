@@ -1,0 +1,174 @@
+\documentclass[12pt, a4paper]{article} % Dokumentenklasse
+
+\usepackage[utf8]{inputenc} % Zeichensatz und Schrift
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % nice alternative is {mathpazo}
+\usepackage[english]{babel}
+
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.50cm]{geometry} % Seitenformat
+
+\usepackage{amsmath} % Mathematikzeichen
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\usepackage{booktabs} % Tabellen
+\usepackage{array}
+\usepackage{dcolumn}
+\usepackage{tabularx}
+\usepackage{threeparttable}
+
+\usepackage{graphicx} % Grafiken
+\usepackage{subfigure}
+
+\usepackage{caption} % Paket für Tabellen- und Bildbeschriftungen
+\usepackage{lipsum} % Paket für Random-Text (nur für Anschauungszwecke benötigt, kann gelöscht werden)
+
+\usepackage{setspace} % Zeilenabstand
+\onehalfspacing
+
+
+%% Literaturverzeichnis und Zitation % %
+
+\usepackage[%
+citestyle=authoryear-comp,%
+bibstyle=JME,%
+maxbibnames=99,% %maximum number of names printed in bibliography before truncation with ``et al.'' is used
+maxcitenames=2,
+datezeros=false,% no leading 0 if dates are printed
+date=long,%
+isbn=false,% show no ISBNs
+natbib=true,% enable natbib-compatibility
+url=false,% show no urls
+backend=biber % use Biber here
+]{biblatex}
+
+% vergrößert Abstand zwischen den Quellen im Lit.verzeichnis
+
+\setlength\bibitemsep{1.5\itemsep}
+
+% setzt "et al." bei deutscher Sprache
+
+\DefineBibliographyStrings{ngerman}{%
+  andothers = {et\addabbrvspace al\adddot}
+}
+
+
+% vermeidet Witwen und Waisen
+
+\clubpenalty10000 
+\widowpenalty10000
+\displaywidowpenalty=10000 
+
+
+
+% Hier .bib-Datei einfügen
+
+\bibliography{bspbib}
+
+%---------------------------------------------------------------------------------------
+%
+%								HIER BEGINNT DAS DOKUMENT
+%
+%---------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+% TITELSEITE
+
+\begin{titlepage}
+\begin{center}
+\includegraphics[scale=0.65]{KITlogo}\\
+%\Large
+%Karlsruher Institut für Technologie\\
+\large
+Fakultät für Wirtschaftswissenschaften\\
+Institut für Volkswirtschaftslehre (ECON)
+\vfill{
+%\\\vspace{2cm}
+\Large
+Seminar in Macroeconomics\\\vspace{0.5cm}
+,,Financial Instability and Prudential Regulation``\\\vspace{0.5cm}
+Winter semester 2018/19% \vspace{2cm}
+}
+\vfill{
+\LARGE
+% -------------------------------------------------------------------------------------
+% Ihr Thema
+Financial Contagion
+% -------------------------------------------------------------------------------------
+\\ 
+\vspace{0.5cm}
+\normalsize
+% -------------------------------------------------------------------------------------
+% Nummer Ihres Themas
+(Topic 1)
+% -------------------------------------------------------------------------------------
+}
+\end{center}
+
+\vfill{
+\normalsize
+% -------------------------------------------------------------------------------------
+% Ihre pers\"{o}nliche Daten
+\noindent Max Mustermann \\
+Matr.-Nr. 00000 \\
+max.mustermann@kit.edu}
+% -------------------------------------------------------------------------------------
+\end{titlepage}
+\newpage
+
+% VERZEICHNISSE
+
+\pagenumbering{Roman}
+\tableofcontents
+% \listoffigures
+% \listoftables
+\newpage
+\pagenumbering{arabic}
+
+
+% ================================================================================
+% 									Hauptteil
+% ================================================================================
+
+
+\section{Introduction}
+
+\lipsum
+\citet{BenignoWoodford2005} argue that ..., while the analysis in \citet{GTT2013} shows the opposite result. 
+
+\section{Main part}
+
+\subsection{Part 1 of main part}
+
+\subsection{Part 2 of main part}
+
+\section{Conclusion}
+
+
+
+
+% ================================================================================
+% 							Literaturverzeichnis
+% ================================================================================
+
+\newpage
+\printbibliography[
+heading=bibintoc,
+title={Bibliography}
+]
+
+
+% ================================================================================
+% 								Appendix
+% ================================================================================
+
+%\appendix
+%\section{Anhang}
+
+
+
+
+\end{document}

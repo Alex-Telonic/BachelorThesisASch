@@ -19,41 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{AdrianShin2010}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=7b2794b90135158ce2b7a36713c90192}{%
-           family={Adrian},
-           familyi={A\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3987a0a10919aac0f24d010a7715f8fd}{%
-           family={Shin},
-           familyi={S\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{42711e376f11a7cc0dac2d586f8544af}
-      \strng{fullhash}{42711e376f11a7cc0dac2d586f8544af}
-      \strng{bibnamehash}{42711e376f11a7cc0dac2d586f8544af}
-      \strng{authorbibnamehash}{42711e376f11a7cc0dac2d586f8544af}
-      \strng{authornamehash}{42711e376f11a7cc0dac2d586f8544af}
-      \strng{authorfullhash}{42711e376f11a7cc0dac2d586f8544af}
-      \field{extraname}{1}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Financial Intermediation.}
-      \field{number}{19}
-      \field{title}{Liquidity and Leverage}
-      \field{year}{2010}
-      \field{pages}{418\bibrangedash 437}
-      \range{pages}{20}
-    \endentry
     \entry{AdrianShin2011}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7b2794b90135158ce2b7a36713c90192}{%
@@ -75,7 +40,6 @@
       \strng{authorbibnamehash}{42711e376f11a7cc0dac2d586f8544af}
       \strng{authornamehash}{42711e376f11a7cc0dac2d586f8544af}
       \strng{authorfullhash}{42711e376f11a7cc0dac2d586f8544af}
-      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
@@ -120,6 +84,34 @@
       \field{title}{How Does Capital Affect Bank Performance During Financial Crises?}
       \field{year}{2012}
     \endentry
+    \entry{federal1997history}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f5557ed6c08426539680c4ef34fa5ab}{%
+           family={Corporation},
+           familyi={C\bibinitperiod},
+           given={Federal\bibnamedelimb Deposit\bibnamedelima Insurance},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Federal Deposit Insurance Corporation}%
+      }
+      \strng{namehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{fullhash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{bibnamehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{authorbibnamehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{authornamehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{authorfullhash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{History of the Eighties--lessons for the Future: An examination of the banking crises of the 1980s and early 1990s}
+      \field{volume}{1}
+      \field{year}{1997}
+    \endentry
     \entry{DrechslerSchnabel2017}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=0a75414126e29e98fb58860588301352}{%
@@ -157,6 +149,109 @@
       \field{title}{The deposits channel of monetary policy.}
       \field{year}{2017}
     \endentry
+    \entry{FarhiTirole2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5cc59e76f8621d7b97f9248c39cb63a9}{%
+           family={Emmanuel},
+           familyi={E\bibinitperiod},
+           given={Farhi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00e537376470e49a45c05eab98111caa}{%
+           family={Tirole},
+           familyi={T\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7aceabd6f01d40a717f149701d71f5c8}
+      \strng{fullhash}{7aceabd6f01d40a717f149701d71f5c8}
+      \strng{bibnamehash}{7aceabd6f01d40a717f149701d71f5c8}
+      \strng{authorbibnamehash}{7aceabd6f01d40a717f149701d71f5c8}
+      \strng{authornamehash}{7aceabd6f01d40a717f149701d71f5c8}
+      \strng{authorfullhash}{7aceabd6f01d40a717f149701d71f5c8}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{102}
+      \field{title}{Collective Moral Hazard, Maturity Mismatch, and Systemic Bailouts}
+      \field{year}{2012}
+      \field{pages}{60\bibrangedash 93}
+      \range{pages}{34}
+    \endentry
+    \entry{geanakoplos2010leverage}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc4aae9cb401e838f769af17dbe204f0}{%
+           family={Geanakoplos},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{fc4aae9cb401e838f769af17dbe204f0}
+      \strng{fullhash}{fc4aae9cb401e838f769af17dbe204f0}
+      \strng{bibnamehash}{fc4aae9cb401e838f769af17dbe204f0}
+      \strng{authorbibnamehash}{fc4aae9cb401e838f769af17dbe204f0}
+      \strng{authornamehash}{fc4aae9cb401e838f769af17dbe204f0}
+      \strng{authorfullhash}{fc4aae9cb401e838f769af17dbe204f0}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NBER macroeconomics annual}
+      \field{number}{1}
+      \field{title}{The leverage cycle}
+      \field{volume}{24}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 66}
+      \range{pages}{66}
+    \endentry
+    \entry{Kalemli-OzcanBentSorensenSevcanYesiltas2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c5794af9649ed8cb13e1eb41e5272a29}{%
+           family={Kalemli-Ozcan},
+           familyi={K\bibinithyphendelim O\bibinitperiod},
+           given={Sebnem},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ed38984de1b3d3a4556f11a635008e2}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={Bent},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bc982fc66104c34eb5ca664cfdd018b}{%
+           family={2011},
+           familyi={2\bibinitperiod},
+           given={Sevcan\bibnamedelima Yesiltas},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e69fb8f0a3f96118a5e09f0b1e19f4e9}
+      \strng{fullhash}{e3aea33e7fda2bf78591385ce45981ef}
+      \strng{bibnamehash}{e3aea33e7fda2bf78591385ce45981ef}
+      \strng{authorbibnamehash}{e3aea33e7fda2bf78591385ce45981ef}
+      \strng{authornamehash}{e69fb8f0a3f96118a5e09f0b1e19f4e9}
+      \strng{authorfullhash}{e3aea33e7fda2bf78591385ce45981ef}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NBER Working Paper}
+      \field{title}{Leverage Across Firms, Banks, and Countries}
+      \field{year}{2011}
+    \endentry
     \entry{NBERBusinessCycles}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2622a524237befbbd1073a1fa3977ca6}{%
@@ -190,10 +285,7 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{(}
-  \missing{Bent Sorensen}
-  \missing{Sebnem Kalemli-Ozcan}
-  \missing{Sevcan Yesiltas 2011}
+  \missing{Greenwell}
 \endrefsection
 \endinput
 

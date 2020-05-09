@@ -2181,14 +2181,37 @@
     <bcf:datasource type="file" datatype="bibtex">bspbib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">DrechslerSchnabel2017</bcf:citekey>
-    <bcf:citekey order="2">NBERBusinessCycles</bcf:citekey>
-    <bcf:citekey order="3">BergerBouwman2013</bcf:citekey>
-    <bcf:citekey order="4">DrechslerSchnabel2017</bcf:citekey>
-    <bcf:citekey order="5">FarhiTirole2012</bcf:citekey>
-    <bcf:citekey order="6">AdrianShin2010</bcf:citekey>
-    <bcf:citekey order="7">AdrianShin2011</bcf:citekey>
-    <bcf:citekey order="8">Kalemli-OzcanBentSorensenSevcanYesiltas2011</bcf:citekey>
+    <bcf:citekey order="1">geanakoplos2010leverage</bcf:citekey>
+    <bcf:citekey order="2">geanakoplos2010leverage</bcf:citekey>
+    <bcf:citekey order="3">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="4">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="5">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="6">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="7">DrechslerSchnabel2017</bcf:citekey>
+    <bcf:citekey order="8">DrechslerSchnabel2017</bcf:citekey>
+    <bcf:citekey order="9">NBERBusinessCycles</bcf:citekey>
+    <bcf:citekey order="10">NBERBusinessCycles</bcf:citekey>
+    <bcf:citekey order="11">BergerBouwman2013</bcf:citekey>
+    <bcf:citekey order="12">BergerBouwman2013</bcf:citekey>
+    <bcf:citekey order="13">BergerBouwman2013</bcf:citekey>
+    <bcf:citekey order="14">BergerBouwman2013</bcf:citekey>
+    <bcf:citekey order="15">DrechslerSchnabel2017</bcf:citekey>
+    <bcf:citekey order="16">DrechslerSchnabel2017</bcf:citekey>
+    <bcf:citekey order="17">federal1997history</bcf:citekey>
+    <bcf:citekey order="18">federal1997history</bcf:citekey>
+    <bcf:citekey order="19">antoniades2019commercial</bcf:citekey>
+    <bcf:citekey order="20">antoniades2019commercial</bcf:citekey>
+    <bcf:citekey order="21">FarhiTirole2012</bcf:citekey>
+    <bcf:citekey order="22">FarhiTirole2012</bcf:citekey>
+    <bcf:citekey order="23">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="24">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="25">Greenwell</bcf:citekey>
+    <bcf:citekey order="27">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="28">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="29">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="30">AdrianShin2011</bcf:citekey>
+    <bcf:citekey order="31">Kalemli-OzcanBentSorensenSevcanYesiltas2011</bcf:citekey>
+    <bcf:citekey order="32">Kalemli-OzcanBentSorensenSevcanYesiltas2011</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
