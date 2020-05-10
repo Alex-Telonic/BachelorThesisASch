@@ -53,6 +53,31 @@
       \field{pages}{289\bibrangedash 307}
       \range{pages}{19}
     \endentry
+    \entry{antoniades2019commercial}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d9a312646099182ae6b86c7797c57c0f}{%
+           family={Antoniades},
+           familyi={A\bibinitperiod},
+           given={Adonis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9a312646099182ae6b86c7797c57c0f}
+      \strng{fullhash}{d9a312646099182ae6b86c7797c57c0f}
+      \strng{bibnamehash}{d9a312646099182ae6b86c7797c57c0f}
+      \strng{authorbibnamehash}{d9a312646099182ae6b86c7797c57c0f}
+      \strng{authornamehash}{d9a312646099182ae6b86c7797c57c0f}
+      \strng{authorfullhash}{d9a312646099182ae6b86c7797c57c0f}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Available at SSRN 2325261}
+      \field{title}{Commercial bank failures during the Great Recession: The real (estate) story}
+      \field{year}{2019}
+    \endentry
     \entry{BergerBouwman2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=40691732966d9a5a7bd88b0694771475}{%
@@ -282,6 +307,41 @@
       \endverb
       \verb{url}
       \verb https://www.nber.org/cycles.html
+      \endverb
+    \endentry
+    \entry{FEDReport}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e6f3009b43ef4e2f9c94510ee2b653c}{%
+           family={Reserve},
+           familyi={R\bibinitperiod},
+           given={Federal},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5e6f3009b43ef4e2f9c94510ee2b653c}
+      \strng{fullhash}{5e6f3009b43ef4e2f9c94510ee2b653c}
+      \strng{bibnamehash}{5e6f3009b43ef4e2f9c94510ee2b653c}
+      \strng{authorbibnamehash}{5e6f3009b43ef4e2f9c94510ee2b653c}
+      \strng{authornamehash}{5e6f3009b43ef4e2f9c94510ee2b653c}
+      \strng{authorfullhash}{5e6f3009b43ef4e2f9c94510ee2b653c}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Monetary Policy Report to Congress}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.federalreserve.gov/monetarypolicy/mpr_20090224_part1.htm
+      \endverb
+      \verb{url}
+      \verb https://www.federalreserve.gov/monetarypolicy/mpr_20090224_part1.htm
       \endverb
     \endentry
   \enddatalist
