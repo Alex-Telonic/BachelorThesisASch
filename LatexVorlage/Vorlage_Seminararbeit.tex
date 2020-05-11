@@ -358,18 +358,17 @@ In \citet{antoniades2019commercial} it is argued that the crisis itself was mark
 
 \subsubsection{Commercial bank cycles}
 
-To analyse shorter time-periods in detail, we plotted the cyclical component of aggregate assets in Figure \ref{fig:cyclial_assets}. Additionally, we plotted the cyclical component of each balance sheet account in Figure \ref{fig:positions}. Here, the left column represents the asset side and the right column the liabilities side of a balance sheet. The movements in those figures can be interpreted as percentage changes and the gray areas indicate crises, as defined in section \ref{sec:data}. Note, the analysis of aggregate balance sheets accounts mainly represent the large banks, because of their large market share. We address this high market share in section \ref{sec:ToBigToFail} and cover banks of different sizes in section \ref{sec:banksByAssetSize}.
+To analyse commercial banks business cycles, we plotted the cyclical component of aggregate assets in Figure \ref{fig:cyclial_assets}. Additionally, we plotted the cyclical component of each balance sheet account in Figure \ref{fig:positions}. In Figure \ref{fig:positions} the left column represents the asset side and the right column the liabilities side of a balance sheet. The movements in these figures can be interpreted as percentage changes and the gray areas indicate crises, as defined in section \ref{sec:data}. Note, the analysis of aggregate balance sheets accounts mainly represent the large banks, because of their large market share. We address this high market share in section \ref{sec:ToBigToFail} and cover banks of different sizes in section \ref{sec:banksByAssetSize}.
 
 \begin{figure}[H]
 \begin{minipage}{\textwidth}
-\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_CyclicalAssetsAdjusted_7613.png}
-\caption[1]{The first panel shows the Cyclical Assets and the second panel the Cyclical Assets adjusted to 2008 merger activities.}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_CyclicalAssets_7613.png}
+\caption[1]{Cyclical Assets}
 \label{fig:cyclial_assets}
-
 \end{minipage}
 \end{figure}
 
-Overall, the crises, as defined by the NBER, does not always align with the commercial banks balance sheets. After all, the NBER does consider more factors than the business cycles of commercial banks. However, since commercial banks lending and transaction practises play a key role for a countries overall economic welfare , we would expect that their business cycles do match a countries economic boom and bust cycles to some extent.
+Overall, the crises defined by the NBER, do not always align with the commercial banks balance sheets. After all, the NBER does consider more factors than the business cycles of commercial banks. However, since commercial banks lending and transaction practises play a key role for a countries overall economic welfare , we would expect that their business cycles do match a countries economic boom and bust cycles to some extent.
 
 
 \subparagraph{Financial crisis 2007/8}
@@ -379,13 +378,37 @@ The financial crisis 2008 is reflected in the asset cycle of commercial banks wi
 %For the financial crisis in 2008, the total assets cycle performs different than one might anticipate. There is a large positive variation in the middle of the crisis with a peak in $2008$ Quarter 3 followed by a rapid drop back to the trend. In particular the timing of the cyclical assets spike as well as that the rise above the trend was proportionally larger than the fall below were unexpected. 
 
 To give an explanation of this behaviour, several factors need to be accounted for. First, especially in the beginning of the crisis the major and more direct effects was borne by the investment banks. In \citet{antoniades2019commercial} it is argued that the crisis itself was marked by sudden aggregate funding pressures. These funding pressures had a much stronger impact on investment banks than on commercial banks. Hence, the assets of investment banks might have decreased immediately with the beginning of the $2007/8$ crisis, but not those of commercial banks. Commercial banks were affected later by the general deterioration of assets in the real estate sector, which was a longer process beginning in 2006 and lasting until 2013 according to \citet{antoniades2019commercial}.
-Secondly, the Federal Reserve Bank (FED) used a series of regulatory efforts to ease the impacts of the crisis (\citet{FEDReport}). These had an affect on the valuation of commercial banks' assets and might be the reason why the spike in assets in the crisis was substantially larger than the fall that followed. Next to other activities, a Troubled Asset Relief Program (TARP) was passed by congress to reduce the negative impact of the substantial amount of  illiquid  structured  securities  and  mortgages  still held  by  hanks.
-Lastly, as outlined in \citet{bech2009profits}, major restructuring events occurred in 2008, with acquisitions and mergers boosting aggregate assets by more than $580$ Billion Dollar. When removing the most relevant restructuring event in $2008$, that is the acquisition of  Washington Mutual  Bank's  by JPMorgan Chase, we can see a reduced second spike in Figure \ref{fig:cyclial_assets} in the crisis period. 
-%the cyclical shares of balance sheet accounts in regards to total assets would be helpful in identifying the driver for asset spike. 
-To find out the actual balance sheet account that drove the cyclical behaviour in $2008$, we analyse Figure \ref{fig:positions}. In general, loans and securities both have the largest share in regards to total assets and were likely the driver of aggregate assets. All other accounts have a share below $10\%$ during the crisis.\footnote{Figure \ref{fig:share_both} shows the share of balance sheet accounts. We will address this figure in detail in \ref{sec:shareBalanceSheetAccounts}}. While every account fell at some point in the crisis, securities had its lowest point at the beginning of the crisis and then rose over the period of the crisis. Hence, securities might only have contributed for the second in spike in mid-$2008$. Loans, however, show match the behaviour of aggregate assets and were probably the main contributor to cyclical aggregate asset movements in $2008$. They fell significantly in the second half of $2008$, marking the effects of the losses experienced by commercial banks in the crisis.  
+Secondly, the Federal Reserve Bank (FED) used a series of regulatory efforts to ease the impacts of the crisis.\footnote{See the Monetary Policy Report to Congress mentioned in the bibliography - \citep{FEDReport}} These had an affect on the valuation of commercial banks' assets and might be the reason why the spike in assets in the crisis was substantially larger than the fall that followed. Next to other activities, a Troubled Asset Relief Program (TARP) was passed by congress to reduce the negative impact of the substantial amount of  illiquid  structured  securities  and  mortgages  still held  by  hanks. 
+Lastly, as outlined in \citet{bech2009profits}, major restructuring events occurred over the crisis period, with acquisitions and mergers boosting aggregate assets by more than $580$ Billion Dollar. When removing the most relevant restructuring event in $2008$, that is the acquisition of  Washington Mutual  Bank's  by JPMorgan Chase, we can see a reduced second spike in Figure \ref{fig:cyclial_assets_adjusted} in the crisis period. 
 
-We also see more than normal cyclical movements among other balance sheet accounts in the crisis as seen in Figure \ref{fig:positions}. Cash for instance rose over $25\%$ in the crisis, outshining every cyclical movement of cash in other time periods. With the background of the crisis it seems reasonable that banks liquidated assets in $2008$ to be prepared for potential liquidity pressures. 
-Other borrowed money has a spike in $2008$ followed by an immediate drop in the second half of $2008$. Here, part of the loan growth observed leading up to crisis might have been financed "other borrowed money".\footnote{Section \ref{sec:shareBalanceSheetAccounts} deals with "other borrowed money" in more depth.} A positive correlation of $0.45$ with high significance as seen in Table \ref{fig:corr_comb} supports this thought.\footnote{We will address correlations in a following paragraph.} 
+\begin{figure}[H]
+\begin{minipage}{\textwidth}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_CyclicalAssetsAdjusted_7613.png}
+\caption[1]{Cyclical Assets adjusted to 2008 merger activities.}
+\label{fig:cyclial_assets_adjusted}
+\end{minipage}
+\end{figure}
+
+%the cyclical shares of balance sheet accounts in regards to total assets would be helpful in identifying the driver for asset spike. 
+
+%loans and securities cycles
+We are also interested in the actual balance sheet account that drove the cyclical behaviour in $2008$. In general, loans and securities both have the largest share in regards to total assets and were likely the driver of aggregate assets. All other accounts have a share below $10\%$ during the crisis.\footnote{Figure \ref{fig:share_both} shows the share of balance sheet accounts. We will address this figure in detail in section \ref{sec:shareBalanceSheetAccounts}}. While every account fell at some point in the crisis, securities had its lowest point at the beginning of the crisis and then rose over the period of the crisis. Hence, securities might only have contributed for the second in spike in mid-$2008$. Loans, however, match the behaviour of aggregate assets and could have been the main contributor to cyclical aggregate asset movements in $2007/8$. \citet{bassett2008profits} mention that the reason for the strong loan growth in $2007$, resulted from loans that banks planned to move of the balance sheet by selling them to investors. However, investors suddenly lost interest in those loans towards the end of $2007$, because of worrying concerns about their quality. 
+They fell significantly in the second half of $2008$, marking the losses experienced by commercial banks in the crisis.
+%Loan loss provision
+Although the loans are netted by loan loss provision. An additional way to observe the losses experienced by commercial bank industry during crisis is to examine the loan loss provision account. Figure \ref{fig:loan_loss_provision} below plots the loan loss provision cycle. We see an increase of more than $50\%$ in the crisis.
+
+\begin{figure}[H]
+\begin{minipage}{\textwidth}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_LoanLossProvision_7613.png}
+\caption[1]{Cyclical Loan Loss Provision}
+\label{fig:loan_loss_provision}
+\end{minipage}
+\end{figure}
+
+%other balance sheet accounts
+Other balance sheet accounts also behaved different than normal in in the crisis as seen in Figure \ref{fig:positions}.
+Cash for instance rose over $25\%$ in the crisis, outshining every cyclical movement of cash in other time periods. With the background of the crisis it seems reasonable that banks liquidated assets in $2008$ to be prepared for potential liquidity pressures. 
+Other borrowed money and foreign deposits show significant growth in end of $2007$ and beginning of $2008$. This was followed by an immediate drop in the second half of $2008$, similar to loans. Here, part of the loan growth observed leading up to crisis, as mentioned by \cite{bassett2008profits}, was financed by other borrowed money and foreign deposits.\footnote{Section \ref{sec:shareBalanceSheetAccounts} deals with other borrowed money in more depth.} A positive correlation of both accounts with loans supports this thought.\footnote{ other borrowed money has a correlation of $0.45***$ and foreign deposits a correlation of $0.59***$ with loans as seen in Table \ref{fig:corr_comb}. Note, correlations are computed of the whole time-period $1976-2013$. Hence, this reduces their value. We will address correlations in a following paragraph.} 
 Finally, trading assets cycle fell over the period of the crisis from $+25\%$ to just below $0\%$.
 %The rise in cash comes along with a significant fall in securities. Figure \ref{fig:share_both} further supports our thesis that securities are sold to raise cash. Here we can see that while the share of securities fell until 2008, the share of cash rose.
 
@@ -395,7 +418,7 @@ Finally, trading assets cycle fell over the period of the crisis from $+25\%$ to
 The impact of the early $1980s$ recession did not have a stronger impact on the cyclical movements than periods without crisis. But the $1990s$ credit crunch and 2001 dotcom bubble triggered downward movements of the commercial bank asset cycles below the trend. These two crises lead the asset cycles to reach it lowest points - year $1993$ around $-4\%$ and year $2002$ around $-4.2\%$ . The two minimum points occur after the crises, indicating a lag between the crises and its effect on the balance sheet size of commercial banks.
 
 \subparagraph{Other anomalies}
-Equity has its lowest downward variation in 2004. We will see more of equities behaviour in the leverage section, when we analyse it in regards to total assets.
+Equity has its lowest downward variation in 2003. We will see more of equities behaviour in the leverage section, when we analyse it in regards to total assets.
 Another interesting observation is that some positions show larger fluctuations in more recent times. The volatility of fedfundsrepoasset increased from 1996 onwards and of foreign deposits from 1992 onwards.
 
 \begin{figure}[H]
@@ -408,44 +431,46 @@ Another interesting observation is that some positions show larger fluctuations 
 \end{figure}
 
 \subparagraph{Relationships between balance sheet accounts}
-We also see a contradictory relationship between loans and securities. When securities fall, loans rise and vice versa. Figure \ref{fig:corr_assets} confirms this relationship with a negative correlation coefficient of $r=-0.73$ and high significance according to the p-value. The scatter plot in Figure \ref{fig:scatterplots} illustrates this negative relationship. The two asset categories could be seen as substitutes to each other. With a substantial part of securities being mortage backed securities, this relationship does not come as a surprise. \\
-There is a small positive relationship between fedfundsrepoassets and trading assets. This could indicate that banks lending out excess federal funds or purchasing repurchase agreements are in such a healthy position to be able to increase trading assets as well. The scatterplot of this relationship in Figure \ref{fig:scatterplots} confirms a possible positive linear relationship. A similar positive relationship can be seen between fedfundsrepoassets and loans. However, the scatterplot in Figure \ref{fig:scatterplots} does not support a clear relationship.\\
-Quite surprising is the slightly negative correlation between domestic deposits and foreign deposits of $r=-0.34$.
-In addition, there is a positive correlation of $r=0.37$ between equity and trading assets, indicating that increases in equity leads to increases in trading.\footnote{Note, the mere assumption of a correlation between the two sides of a balance sheet contradicts the Modigliani-Miller-Theorem. The Theorem states the independence of assets by the financing capital structure. In addition, a key part of asset liability management for banks is maturity transformation. For correlation analysis, we should have differed between the different maturities of assets and liabilities. Correlations between positions of different maturity would have a more causal relationship. Furthermore, canonical correlation analysis could have been used to consider that balance sheet positions are jointly determined by the other positions.}\\
-Another observation is the strong positive relationship between loans and foreign deposits of $r=0.59$. Foreign deposits are deposits made in foreign offices. It is not clear why there is such strong relationship here.
+In this paragraph we take a look at possible relationships that established themselves on commercial banks balance sheets.
+Table \ref{tab:corr_assets}, \ref{tab:corr_liab} and \ref{tab:corr_comb} below show the correlations between each of the balance sheet accounts.\footnote{Note, the mere assumption of a correlation between the two sides of a balance sheet contradicts the Modigliani-Miller-Theorem. The Theorem states the independence of assets by the financing capital structure. In addition, a key part of asset liability management for banks is maturity transformation. For correlation analysis, we should have differed between the different maturities of assets and liabilities. Correlations between positions of different maturity would have a more causal relationship. Furthermore, canonical correlation analysis could have been used to consider that balance sheet positions are jointly determined by the other positions.}
+We find a strong inverse relationship of -0.73 between loans and securities as seen in Table \ref{tab:corr_assets}. When securities fall, loans rise and vice versa. The scatter plot in Figure \ref{fig:scatterplots} illustrates this negative relationship. This does not come as a surprise, as in the process of securitization usually part of loans are packaged into securities such as mortgage backed securities and other.\\
+Furthermore, there is a small positive relationship between the account covering federal funds and repurchase agreements (fedfundsrepoassets) and trading assets. This could indicate that banks lending out excess federal funds or purchasing repurchase agreements are in such a healthy position to be able to increase trading assets as well. The scatterplot of this relationship in Figure \ref{fig:scatterplots} confirms a possible positive linear relationship. A similar positive relationship can be seen between fedfundsrepoassets and loans. However, the scatterplot in Figure \ref{fig:scatterplots} does not support a clear relationship.\\
+Domestic deposits are also negative correlated with foreign deposits ($-0.34***$) and other borrowed money ($-0.23***$). \cite{bassett2008profits} mention that in the financial crisis 2007/8, commercial banks turned to foreign deposits and other borrowed money for financing as domestic deposits fell. This behaviour could explain the inverse relationship in general. Foreign deposits and borrowed money can be seen as alternatives ways of financing to compensate for fluctuations in deposits.
+In addition, there is a positive correlation of $r=0.37$ between equity and trading assets, indicating that increases in equity leads to increases in trading.\\
+%Another observation is the strong positive relationship between loans and foreign deposits of $r=0.59$. Foreign deposits are deposits made in foreign offices. 
 
 
 
-\begin{figure}[H]
+\begin{table}[H]
 \begin{minipage}{\textwidth}
 \scriptsize
 \hskip-2.0cm
 \input{graphs/Tables/LatexTables/corr_assets.tex}
-\caption[1]{Correlation Assets}
-\label{fig:corr_assets}
+\caption[1]{Pearson Correlation Coefficient for Assets}
+\label{tab:corr_assets}
 \end{minipage}
-\end{figure}
+\end{table}
 
-\begin{figure}[H]
+\begin{table}[H]
 \begin{minipage}{\textwidth}
 \scriptsize
 \hskip-2.0cm
 \input{graphs/Tables/LatexTables/corr_liab.tex}
-\caption[1]{Correlation Liabilities}
-\label{fig:corr_liab}
+\caption[1]{Pearson Correlation Coefficient for Liabilities}
+\label{tab:corr_liab}
 \end{minipage}
-\end{figure}
+\end{table}
 
 
-\begin{figure}[H]
+\begin{table}[H]
 \begin{minipage}{\textwidth}
 \scriptsize
 \hskip-2.0cm
 \input{graphs/Tables/LatexTables/corr_liab_assets.tex}
-\caption[1]{Correlation Assets with Liabilities}
-\label{fig:corr_comb}
+\caption[1]{Pearson Correlation Coefficient between Assets and Liabilities}
+\label{tab:corr_comb}
 \end{minipage}
-\end{figure}
+\end{table}
 
 \iffalse
 \begin{figure}[H]
@@ -491,9 +516,9 @@ Another observation is the strong positive relationship between loans and foreig
 \label{sec:shareBalanceSheetAccounts}
 Further elaborating on Figure \ref{fig:share_both}, we can see that on the asset side, loans are the main target of investment for commercial banks. Throughout the 37-year time-frame the share of loans always stayed between $50-60\%$. The banks started with a share at $55\%$ until it rose to just above $60\%$ from 1985 onwards. The credit crunch crisis in 1991 caused a fall of the share back to $55\%$. This fall continued until 1995. From then on, the share of loans rose back to $60\%$ until 2008, where it started to fell again. It fell to an all-time low in 2013 with a share of just above $~50\%$. With the confirmed negative correlation between securities and loans, this came along with a rise in securities. 
 The development of the cash share is also interesting. Cash continuously fell from a share of just below $20\%$ to a share of below $5\%$. Here, the crisis 2008 also marked a turning point with share rising back to above $10\%$ again. 
-On the liability side, as one would expect, we have deposits as a dominating source of funding for commercial banks. The share started in 1976 with $70\%$ and fell until 2008 to an all time low of just above $50\%$. From there it went back to roughly $65\%$. This decrease in deposits, especially until 2008, must obviously come along with the increases of other types of finance. There is a significant increase of other borrowed money, peaking in 2008. Other borrowed money consists of Federal Home Loan Bank advances (FHLB) and other borrowings not clearly defined. After the crisis in 2008 there was a rapid decreases of other borrowings. FHLB advances are mainly used in funding low mortgages for low income households, which explains the alignment with the housing crisis in 2008.  Lastly, Figure \ref{fig:share_both} shows a general increase in the share of equity commercial banks hold from just above $5\%$ to above $10\%$. 
+On the liability side, as one would expect, we have deposits as a dominating source of funding for commercial banks. The share started in 1976 with $70\%$ and fell until 2008 to an all time low of just above $50\%$. From there it went back to roughly $65\%$. This decrease in deposits, especially until 2008, must obviously come along with the increases of other types of finance. There is a significant increase of other borrowed money, peaking in 2008. Other borrowed money consists of Federal Home Loan Bank advances (FHLB) and other borrowings not clearly defined. After the crisis in 2008 there was a rapid decrease in other borrowings. FHLB advances are mainly used in funding mortgages for low income households, which explains the alignment with the housing crisis in 2008.  Lastly, Figure \ref{fig:share_both} shows a general increase in the share of equity commercial banks hold from just above $5\%$ to above $10\%$. 
 
-\begin{figure}[hbtp]
+\begin{figure}[H]
 \begin{minipage}{\textwidth}
 \centering
 \caption[1]{Share of balance sheet positions \footnote{The second/fourth graph is a focus of the first/third, just without loans/deposits position.} }
@@ -740,7 +765,7 @@ We also computed the autocorrelations to take into account different timings. Si
 
 \subsubsection{Balance sheet composition by category}
 
-To get an understanding on the balance sheet composition by category and how they differ, Figure \ref{fig:catAssetsShare} and \ref{fig:catLiabShare} show the share of each account for both sides of the balance sheet. Loans continue to be the highest share on the asset side for all categories. Interestingly, all other categories beside the top 10 banks, show an increasing trend for share of loans. But the top 10 banks share of loans fell over our time-frame. Furthermore, only the top 10 are engaging in proper trading with a share of trading assets beginning to rise significantly in year 1994.
+To get an understanding on the balance sheet composition by category and how they differ, Figure \ref{fig:catAssetsShare} and \ref{fig:catLiabShare} show the share of each account for both sides of the balance sheet. Loans continue to be the highest share on the asset side for all categories. Interestingly, all other categories beside the top 10 banks, show an increasing trend for share of loans. But the top 10 banks share of loans fall over our time-frame. Furthermore, only the top 10 are engaging in proper trading with a share of trading assets beginning to rise significantly in year 1994.
 For the liabilities, deposits are a main source of funding for all categories. However, the share of deposits varies between the categories. Larger banks tend to have a lower deposit share than medium and small banks. The share for the top 10 is between $~60\%-80\%$ and for the top 11-100 at $~60\%$ most of the time. Medium banks have a share that is consistently at $80\%$ and small banks a share of almost $~90\%$. Hence, other forms of finance are relatively low for smaller banks. Our findings confirm the pattern: The larger the bank is, the more alternative ways of financing beside deposits are facilitated.
 
 
@@ -1212,7 +1237,7 @@ title={Bibliography}
 \centering
 \caption[1]{Autocorrelation - Asset side \footnote{} }
 \includegraphics[scale=1]{graphs/Tables/autocorrelations/AllAssets}
-\label{fig:share_both}
+\label{fig:autocorrelation_asset_side}
 
 \end{minipage}
 \end{figure}
@@ -1223,7 +1248,7 @@ title={Bibliography}
 \centering
 \caption[1]{Autocorrelation - Liabilities side \footnote{} }
 \includegraphics[scale=0.8]{graphs/Tables/autocorrelations/AllLiab}
-\label{fig:share_both}
+\label{fig:autocorrelation_liab_side}
 
 \end{minipage}
 \end{figure}

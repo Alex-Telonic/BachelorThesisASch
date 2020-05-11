@@ -78,6 +78,41 @@
       \field{title}{Commercial bank failures during the Great Recession: The real (estate) story}
       \field{year}{2019}
     \endentry
+    \entry{bech2009profits}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f3f3625484fafc26f24d540c5035e75f}{%
+           family={Bech},
+           familyi={B\bibinitperiod},
+           given={Morten\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39a226446919909b5d0c095645856f4f}{%
+           family={Rice},
+           familyi={R\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {HeinOnline}%
+      }
+      \strng{namehash}{543e79ea3634cb26ca104f19269174e9}
+      \strng{fullhash}{543e79ea3634cb26ca104f19269174e9}
+      \strng{bibnamehash}{543e79ea3634cb26ca104f19269174e9}
+      \strng{authorbibnamehash}{543e79ea3634cb26ca104f19269174e9}
+      \strng{authornamehash}{543e79ea3634cb26ca104f19269174e9}
+      \strng{authorfullhash}{543e79ea3634cb26ca104f19269174e9}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fed. Res. Bull. A57}
+      \field{title}{Profits and balance sheet developments at US commercial banks in 2008}
+      \field{volume}{95}
+      \field{year}{2009}
+    \endentry
     \entry{BergerBouwman2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=40691732966d9a5a7bd88b0694771475}{%
