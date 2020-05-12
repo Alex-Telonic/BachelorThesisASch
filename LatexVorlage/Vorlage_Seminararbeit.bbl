@@ -78,6 +78,41 @@
       \field{title}{Commercial bank failures during the Great Recession: The real (estate) story}
       \field{year}{2019}
     \endentry
+    \entry{bassett2008profits}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9bdb4f5851b4ef7ea4d70a9feaf58a6a}{%
+           family={Bassett},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=827486074d4c59490059759ff354c860}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {HeinOnline}%
+      }
+      \strng{namehash}{0dffe9c36c70badddccb5c27d3fece40}
+      \strng{fullhash}{0dffe9c36c70badddccb5c27d3fece40}
+      \strng{bibnamehash}{0dffe9c36c70badddccb5c27d3fece40}
+      \strng{authorbibnamehash}{0dffe9c36c70badddccb5c27d3fece40}
+      \strng{authornamehash}{0dffe9c36c70badddccb5c27d3fece40}
+      \strng{authorfullhash}{0dffe9c36c70badddccb5c27d3fece40}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fed. Res. Bull. A1}
+      \field{title}{Profits and balance sheet developments at US commercial banks in 2007}
+      \field{volume}{94}
+      \field{year}{2008}
+    \endentry
     \entry{bech2009profits}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f3f3625484fafc26f24d540c5035e75f}{%
@@ -162,6 +197,7 @@
       \strng{authorbibnamehash}{3f5557ed6c08426539680c4ef34fa5ab}
       \strng{authornamehash}{3f5557ed6c08426539680c4ef34fa5ab}
       \strng{authorfullhash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
@@ -171,6 +207,32 @@
       \field{title}{History of the Eighties--lessons for the Future: An examination of the banking crises of the 1980s and early 1990s}
       \field{volume}{1}
       \field{year}{1997}
+    \endentry
+    \entry{FHLB}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f5557ed6c08426539680c4ef34fa5ab}{%
+           family={Corporation},
+           familyi={C\bibinitperiod},
+           given={Federal\bibnamedelimb Deposit\bibnamedelima Insurance},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Federal Deposit Insurance Corporation}%
+      }
+      \strng{namehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{fullhash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{bibnamehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{authorbibnamehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{authornamehash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \strng{authorfullhash}{3f5557ed6c08426539680c4ef34fa5ab}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Affordable Mortgage Lending Guide}
     \endentry
     \entry{DrechslerSchnabel2017}{article}{}
       \name{author}{4}{}{%
@@ -343,6 +405,41 @@
       \verb{url}
       \verb https://www.nber.org/cycles.html
       \endverb
+    \endentry
+    \entry{nurisso20171970s}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cecc28846bed2f6fc2114063d2e19287}{%
+           family={Nurisso},
+           familyi={N\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=994e40541e3f4d1fe0d953a33ff5de24}{%
+           family={Prescott},
+           familyi={P\bibinitperiod},
+           given={Edward\bibnamedelima S},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Federal Reserve Bank of Cleveland}%
+      }
+      \strng{namehash}{24eb0770aa5e6759d2b69dd31eeeee56}
+      \strng{fullhash}{24eb0770aa5e6759d2b69dd31eeeee56}
+      \strng{bibnamehash}{24eb0770aa5e6759d2b69dd31eeeee56}
+      \strng{authorbibnamehash}{24eb0770aa5e6759d2b69dd31eeeee56}
+      \strng{authornamehash}{24eb0770aa5e6759d2b69dd31eeeee56}
+      \strng{authorfullhash}{24eb0770aa5e6759d2b69dd31eeeee56}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economic Commentary}
+      \field{number}{2017-17}
+      \field{title}{The 1970s origins of too big to fail}
+      \field{year}{2017}
     \endentry
     \entry{FEDReport}{online}{}
       \name{author}{1}{}{%

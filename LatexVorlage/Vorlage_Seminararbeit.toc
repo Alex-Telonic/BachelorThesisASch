@@ -11,37 +11,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Methods}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}U.S. commercial banks - Overview}{4}%
+\contentsline {subsection}{\numberline {3.3}U.S. commercial banks}{4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.1}Stylized balance sheet}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2}Total assets}{5}%
+\contentsline {subsubsection}{\numberline {3.3.2}Overview}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.3}Commercial bank cycles}{6}%
+\contentsline {subsubsection}{\numberline {3.3.3}Banks' balance sheet: Cycles}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Financial crisis 2007/8}{6}%
+\contentsline {subparagraph}{Financial crisis 2007/8}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Other crisis}{8}%
+\contentsline {subparagraph}{Other crisis}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Other anomalies}{8}%
+\contentsline {subparagraph}{Other anomalies}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Relationships between balance sheet accounts}{9}%
+\contentsline {subparagraph}{Relationships between balance sheet accounts}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.4}Commercial banks balance sheet composition: Trends}{11}%
+\contentsline {subsubsection}{\numberline {3.3.4}Banks' balance sheet composition: Trends}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.5}Defaults}{13}%
+\contentsline {subsubsection}{\numberline {3.3.5}Defaults}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Too Big to Fail: Distribution of total assets among banks}{15}%
+\contentsline {subsection}{\numberline {3.4}Too Big to Fail: Distribution of total assets among banks}{16}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5}Banks by total assets}{18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.1}General}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.2}Trend and Cycles of total assets by category}{21}%
+\contentsline {subsubsection}{\numberline {3.5.2}Banks' balance sheets by size: Trend and Cycles}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.3}Correlation between asset categories}{23}%
+\contentsline {subparagraph}{Financial crisis 2007/8}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.4}Balance sheet composition by category}{24}%
+\contentsline {subparagraph}{Other crises}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.5.3}Business cycle similarity between banks' of different sizes}{23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.5.4}Balance sheet composition by bank size: Trends}{23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6}Leverage}{27}%
 \defcounter {refsection}{0}\relax 

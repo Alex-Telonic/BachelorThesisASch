@@ -157,13 +157,17 @@ alexander.schlechter@student.kit.edu}
   04.05.2020  & Leverage General section improved and additional figures added  & ready for review  \\
  \hline
  07.05.2020  & Introduction, Data, Methods section improved &   \\
+ \hline
+ 12.05.2020  & Overview section completed & ready for review
 \end{tabularx}
 
 
 
 \section{Introduction}
 
-This thesis is an explorative investigation through the historical balance sheet filings of U.S. commercial banks. Its objective is to shed light on the financial development of arguably the most important backbone of the U.S. economy - commercial banking. Not least, the severe financial crisis in 2008, which originated from the banking industry, proves the importance of regulating commercial banking. However, only with a deep empirical understanding of the behaviour of commercial banks, one can design regulations that are ultimately effective. Using a dataset of balance sheets originally provided as call reports by the FFIEC\footnote{Federal Financial Institutions Examination Council}, we analyse the cross-section over time to unveil interesting stylized facts about financial trends (long-term) and cycles (short-term) among commercial banks. The data gives us the unique possibility to get a detailed view into every balance sheet account of both the asset and liability side. We study the dynamics of each account on an aggregated level(all commercial banks) and by different bank sizes. With careful consideration of contextual information such as crisis and regulatory efforts in our time-frame - years 1976-2013 - we were able to gather time-sensitive analytics. \textbf{For instance, while we would expect asset cycles of commercial banks to significantly drop below the trend in the financial crisis 2008, they rose unusual high above the trend and then fell back to a normal level, indicating overheated valuations}. We also use correlation analysis to reveal possible positive or negative relationships between balance sheet accounts. Part of our thesis focuses on the problematic commonly referred to as \textit{"Too Big to Fail}", where we show the rising unequal distribution of assets among commercial banks and find that economic downturns act as way of redistributing assets among banks, suggesting that larger banks tend to be more affected by crises. 
+This thesis is an explorative investigation through the historical balance sheet filings of U.S. commercial banks. Its objective is to shed light on the financial development of arguably the most important backbone of the U.S. economy - commercial banking. Not least, the severe financial crisis in 2008, which originated from the banking industry, proves the importance of regulating commercial banking. However, only with a deep empirical understanding of the behaviour of commercial banks, one can design regulations that are ultimately effective. Using a dataset of balance sheets originally provided as call reports by the FFIEC\footnote{Federal Financial Institutions Examination Council}, we analyse the cross-section over time to unveil interesting stylized facts about financial trends (long-term) and cycles (short-term) among commercial banks. The data gives us the unique possibility to get a detailed view into every balance sheet account of both the asset and liability side. We study the dynamics of each account on an aggregated level(all commercial banks) and by different bank sizes. With careful consideration of contextual information such as crisis and regulatory efforts in our time-frame - years 1976-2013 - we were able to gather time-sensitive analytics. 
+For instance, different than one would expect commercial banks balance sheets expand from $2007$ to the first half of $2008$. Only in the second half of $2008$ it begins to contract significantly. This behaviour was related to a variety of factors involved such as: Investment banks beard the first impacts of the crisis, loans prepared for syndication needed to stay on commercial banks balance sheet as demand stalled, monetary interventions by the FED and more.   
+We also use correlation analysis to reveal possible positive or negative relationships between balance sheet accounts. Part of our thesis focuses on the problematic commonly referred to as \textit{"Too Big to Fail}", where we show the rising unequal distribution of assets among commercial banks and find that economic downturns act as way of redistributing assets among banks, suggesting that larger banks tend to be more affected by crises. 
 Dividing commercial banks into different asset size categories also conveys large heterogeneity among banks of different sizes. 
 Large and small banks differ in their overall balance sheet composition and risk appetite. For instance, the larger the bank, the more alternative ways of financing are utilized. Different banks sizes also tend to respond differently to major economic incidents. Overall, we find that
 the two banking crises around 1990 and 2008 impacted the stability of commercial banking the most. Part of thesis focuses on leverage of commercial banks, as not just \citet{geanakoplos2010leverage} have emphasized its importance in times of crisis. They show that assets have a large impact on asset prices, contributing to boom and busts. We analyse leverage over-time and discover that in crisis 2007/8 there was a spill-over effect among banks, with large banks falling into distress first and smaller banks following with a lag.
@@ -271,7 +275,7 @@ For most methods we transform the data with the natural logarithm. As a result a
 \fi
 
 
-\subsection{U.S. commercial banks - Overview}
+\subsection{U.S. commercial banks}
 \label{sec:AssetLiabs}
 
 This section provides an overview about the distribution of financial components held by the U.S. commercial banking sector as a whole. We will see what types and amounts of financial instruments banks are holding and how these positions evolved over time. 
@@ -329,7 +333,7 @@ It is important to note that every position beside the trading assets are hold "
 Cash consist of noninterest-bearing balances, with currency and coin included, and of interest-bearing balances.
 Federal funds sold and securities purchased under agreements to resell are both ways of lending excess cash to fellow commercial banks in return for interest. Fed funds bought and securities sold under agreements to repurchase in turn are ways of borrowing cash in the short-term. Securities can be divided into held-to-maturity and available-for-sale. These categories then include a large amount of different types of securities, with Treasury and MBS being the largest. Loans are netted by unearned income and allowance for loan and lease losses to gather their existent value. Trading assets are securities hold with the intention to sell them as profit. They are intended to hold only for short-term. Trading asset can be in any type of form such as a derivative, Mortage-backed Security (MBS) or loan. Trading liabilities tend to be in the form of short positions or derivatives. Deposits can be divided into transaction and non-transaction deposits. Time and savings deposits make up non-transaction deposits, while the major part of transaction deposits are demand deposits. Other assets are composed of derivatives "not for trading" and other items that have a small share and do not fit into the named categories.
  
-\subsubsection{Total assets}
+\subsubsection{Overview}
 Figure \ref{fig:assets} gives a general overview how the aggregated total assets held by all banks per year and quarter evolved over time. 
  
 \begin{figure}[H]
@@ -356,7 +360,7 @@ In \citet{antoniades2019commercial} it is argued that the crisis itself was mark
 
 
 
-\subsubsection{Commercial bank cycles}
+\subsubsection{Banks' balance sheet: Cycles}
 
 To analyse commercial banks business cycles, we plotted the cyclical component of aggregate assets in Figure \ref{fig:cyclial_assets}. Additionally, we plotted the cyclical component of each balance sheet account in Figure \ref{fig:positions}. In Figure \ref{fig:positions} the left column represents the asset side and the right column the liabilities side of a balance sheet. The movements in these figures can be interpreted as percentage changes and the gray areas indicate crises, as defined in section \ref{sec:data}. Note, the analysis of aggregate balance sheets accounts mainly represent the large banks, because of their large market share. We address this high market share in section \ref{sec:ToBigToFail} and cover banks of different sizes in section \ref{sec:banksByAssetSize}.
 
@@ -377,7 +381,7 @@ The financial crisis 2008 is reflected in the asset cycle of commercial banks wi
 
 %For the financial crisis in 2008, the total assets cycle performs different than one might anticipate. There is a large positive variation in the middle of the crisis with a peak in $2008$ Quarter 3 followed by a rapid drop back to the trend. In particular the timing of the cyclical assets spike as well as that the rise above the trend was proportionally larger than the fall below were unexpected. 
 
-To give an explanation of this behaviour, several factors need to be accounted for. First, especially in the beginning of the crisis the major and more direct effects was borne by the investment banks. In \citet{antoniades2019commercial} it is argued that the crisis itself was marked by sudden aggregate funding pressures. These funding pressures had a much stronger impact on investment banks than on commercial banks. Hence, the assets of investment banks might have decreased immediately with the beginning of the $2007/8$ crisis, but not those of commercial banks. Commercial banks were affected later by the general deterioration of assets in the real estate sector, which was a longer process beginning in 2006 and lasting until 2013 according to \citet{antoniades2019commercial}.
+To give an explanation of this behaviour, several factors need to be accounted for. First, especially in the beginning of the crisis the major and more direct effects was borne by the investment banks. In \citet{antoniades2019commercial} it is argued that the crisis itself was marked by sudden aggregate funding pressures. These funding pressures had a much stronger impact on investment banks than on commercial banks. Hence, the assets of investment banks might have decreased immediately with the beginning of the $2007/8$ crisis, but not those of commercial banks. They provided a key source of liquidity at the beginning of the crisis for investments banks as financial markets liquidity dried up. Commercial banks were affected later by the general deterioration of assets in the real estate sector, which was a longer process beginning in 2006 and lasting until 2013 according to \citet{antoniades2019commercial}.
 Secondly, the Federal Reserve Bank (FED) used a series of regulatory efforts to ease the impacts of the crisis.\footnote{See the Monetary Policy Report to Congress mentioned in the bibliography - \citep{FEDReport}} These had an affect on the valuation of commercial banks' assets and might be the reason why the spike in assets in the crisis was substantially larger than the fall that followed. Next to other activities, a Troubled Asset Relief Program (TARP) was passed by congress to reduce the negative impact of the substantial amount of  illiquid  structured  securities  and  mortgages  still held  by  hanks. 
 Lastly, as outlined in \citet{bech2009profits}, major restructuring events occurred over the crisis period, with acquisitions and mergers boosting aggregate assets by more than $580$ Billion Dollar. When removing the most relevant restructuring event in $2008$, that is the acquisition of  Washington Mutual  Bank's  by JPMorgan Chase, we can see a reduced second spike in Figure \ref{fig:cyclial_assets_adjusted} in the crisis period. 
 
@@ -444,7 +448,6 @@ In addition, there is a positive correlation of $r=0.37$ between equity and trad
 \begin{table}[H]
 \begin{minipage}{\textwidth}
 \scriptsize
-\hskip-2.0cm
 \input{graphs/Tables/LatexTables/corr_assets.tex}
 \caption[1]{Pearson Correlation Coefficient for Assets}
 \label{tab:corr_assets}
@@ -512,17 +515,17 @@ In addition, there is a positive correlation of $r=0.37$ between equity and trad
 \end{minipage}
 \end{figure}
 
-\subsubsection{Commercial banks balance sheet composition: Trends}
+\subsubsection{Banks' balance sheet composition: Trends}
 \label{sec:shareBalanceSheetAccounts}
-Further elaborating on Figure \ref{fig:share_both}, we can see that on the asset side, loans are the main target of investment for commercial banks. Throughout the 37-year time-frame the share of loans always stayed between $50-60\%$. The banks started with a share at $55\%$ until it rose to just above $60\%$ from 1985 onwards. The credit crunch crisis in 1991 caused a fall of the share back to $55\%$. This fall continued until 1995. From then on, the share of loans rose back to $60\%$ until 2008, where it started to fell again. It fell to an all-time low in 2013 with a share of just above $~50\%$. With the confirmed negative correlation between securities and loans, this came along with a rise in securities. 
-The development of the cash share is also interesting. Cash continuously fell from a share of just below $20\%$ to a share of below $5\%$. Here, the crisis 2008 also marked a turning point with share rising back to above $10\%$ again. 
-On the liability side, as one would expect, we have deposits as a dominating source of funding for commercial banks. The share started in 1976 with $70\%$ and fell until 2008 to an all time low of just above $50\%$. From there it went back to roughly $65\%$. This decrease in deposits, especially until 2008, must obviously come along with the increases of other types of finance. There is a significant increase of other borrowed money, peaking in 2008. Other borrowed money consists of Federal Home Loan Bank advances (FHLB) and other borrowings not clearly defined. After the crisis in 2008 there was a rapid decrease in other borrowings. FHLB advances are mainly used in funding mortgages for low income households, which explains the alignment with the housing crisis in 2008.  Lastly, Figure \ref{fig:share_both} shows a general increase in the share of equity commercial banks hold from just above $5\%$ to above $10\%$. 
+Further elaborating on Figure \ref{fig:share_both}, we can see that on the asset side, loans are the main target of investment for commercial banks. Throughout the 37-year time-frame the share of loans always stayed between $50-60\%$. The banks started with a share at $55\%$ until it rose to just above $60\%$ from 1985 onwards. The credit crunch crisis in 1991 caused a fall of the share back to $55\%$. This fall continued until 1995. From then on, the share of loans rose back to $60\%$ until 2008, where it started to fell again. It fell to an all-time low in 2013 with a share of just above $~50\%$. With the observed negative relationship between securities and loans, this came along with a rise in securities. 
+The development of the cash share is also interesting. Cash continuously fell from a share of just below $20\%$ to a share of below $5\%$. Here, the crisis 2008 also marked a turning point with share rising back to above $10\%$.
+On the liability side, deposits are the dominating source of funding for commercial banks. The share started in 1976 with $70\%$ and fell until 2008 to an all time low of just above $50\%$. From there it went back to roughly $65\%$. This decrease in deposits, especially until 2008, must obviously come along with the increases of other types of finance. In particular, other borrowed and foreign deposits rose with the decrease of domestic deposits. This again confirms the thought raised in the sections before that they are seen as an alternative source of financing when domestic deposits decrease.
+Other borrowed money has a peak in 2008. Other borrowed money consists of Federal Home Loan Bank advances (FHLB) and other borrowings not clearly defined. After the crisis in 2008 there was a rapid decrease in other borrowings. FHLB advances are mainly used in funding mortgages for low income households, which explains the alignment with the housing crisis in 2008.\footnote{See the Affordable Mortgage Lending Guide by the FDIC mentioned in the bibliography \citet{FHLB}} Lastly, Figure \ref{fig:share_both} shows a general increase in the share of equity commercial banks hold from just above $5\%$ to above $10\%$. 
 
 \begin{figure}[H]
 \begin{minipage}{\textwidth}
-\centering
-\caption[1]{Share of balance sheet positions \footnote{The second/fourth graph is a focus of the first/third, just without loans/deposits position.} }
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_sharePositions_7613.png}
+\caption[1]{Share of balance sheet positions. The second/fourth graph is a focus of the first/third, just without loans/deposits position. }
 \label{fig:share_both}
 \end{minipage}
 \end{figure}
@@ -539,7 +542,7 @@ On the liability side, as one would expect, we have deposits as a dominating sou
 
 \subsubsection{Defaults}
 
-In Figure \ref{fig:banks_default} we show the banks default rate per year. For instance in year 1989 over $0.6\%$ have defaulted. It is based on the negative equity recorded by banks. Hence, it is not exact and some banks might continue to exist in case of mergers or bailouts. Also, sometimes banks are double counted, if negative equity does not immediately result in bankruptcy.
+Bank failures are another way of examining the stability of the commercial banking sector over time. In Figure \ref{fig:banks_default} we show the banks default rate per year. For instance in year 1989 over $0.6\%$ have defaulted. It is based on the negative equity recorded by banks. Hence, it is not exact and some banks might continue to exist in case of mergers or bailouts. Also, sometimes banks are double counted, if negative equity does not immediately result in bankruptcy.
 
 \begin{figure}[H]
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/NewLeverage_BanksDefaultPercentage_7613.png}
@@ -551,7 +554,7 @@ In Figure \ref{fig:banks_default} we show the banks default rate per year. For i
 
 Bank failures align with the asset growth graph shown in \ref{fig:assets}. In periods with a lot defaults we have a low growth rate. Periods that mark high default rates are from $1983-1992$ and $2009-2013$. These periods might be strongly interconnected with the two banking crisis - the credit crunch in 1990 and the financial crisis in 2007/8. The first high default period had much higher default rates and lasted much longer than the second.
 The significance difference in numbers might be related to the fact that in the 1980s the amount of small banks in general and that of the defaults were considerably higher.  In the first period, $74\%$ of the banks that defaulted were small, while in 2010 the share of small banks defaults was only at $35\%$. We elaborate on the change in banking landscape in section \ref{sec:ToBigToFail}. The reason why the first period lasted much longer cannot be easily explained. According to \citet{federal1997history} there were various forces working together to produce this long period of defaults. Hence, the 1990 credit crunch might be related to the defaults, but is not seen as the major cause.
-Another point regarding the crisis 2007/8 is the timing of the defaults - two years after the beginning of the crisis. This again, might be related to the argument \cite{antoniades2019commercial} make about the funding pressures being a main characteristic of the crisis 2007/8. Funding pressures caused investment banks to default in the crisis 2007/8, but not commercial banks. These defaulted later by the deterioration of assets in the real estate sector.
+Another point regarding the crisis 2007/8 is the timing of the defaults - two years after the beginning of the crisis. This again, might be related to the argument \cite{antoniades2019commercial} makes about the funding pressures being a main characteristic of the crisis 2007/8. Funding pressures caused investment banks to default in the crisis 2007/8, but not commercial banks. These defaulted later by the deterioration of assets in the real estate sector.
 
 
 
@@ -641,41 +644,44 @@ Another point regarding the crisis 2007/8 is the timing of the defaults - two ye
 \label{sec:ToBigToFail}
 
 This section tries to empirically illustrate a problematic commonly referred to as \textit{"Too Big to Fail}". 
-Banks are considered as "\textit{too big to fail}", when their size and interconnections with other banks are so high that its individual risk impacts the systemic risk of a whole economy. The term first came into play with the failure and bailout of Continental Illinois National Bank and Trust Company in 1984. From that point onwards, it developed into a world-wide phenomenon with its severe consequences unveiled in the financial crisis of 2008.\\
-Indeed, over the last few centuries the number of banks on the US landscape fell significantly from 14419 banks in 1976 to 6035 banks in year 2013. While the mere reduction would not impose such a problem, the distribution of total assets developed more and more unequal. In 1976, the top $0.1\%$ a total of 14 banks held $32.4\%$ of all assets. In comparison, in 2013 the top $0.1\%$ - a total of 6 banks - held $50\%$ of all assets. Table \ref{table:assetsByPercentiles} and Figure \ref{fig:assetsByPercentiles} show these numbers by looking at the assets distribution by banks percentiles. In addition, the unequal distribution of assets can also been seen in Figure \ref{fig:lorenz}, the curved lines show the Lorenz curve per year. The more curved the lines become, the more unequal is the distribution. The horizontal line represents perfect equality. Although in 1980 unequal distribution was high already, it increased even more. In year 2013, the top $5\%$ held almost $90\%$ of all assets. Figure \ref{fig:gini} shows us the Gini coefficient over time. Its range is from zero to one. A value of one means one bank owns everything, while a value of zero indicates perfect equality ($10\%$ of banks own $10\%$ of assets, $50\%$ of banks own $50\%$ of assets and so on...). The higher the value, the higher the inequality in asset distribution. The trend of the coefficient supports our observation of rising inequality. An interesting observation here is the impact of crises on the asset distribution. Crisis tend to reduce the inequality and act as way of redistributing assets. Assuming that assets values fall in times of crisis, the impact of crises must be higher on larger banks. We will look into how different banks size categories are impacted differently by crises in section \ref{sec:banksByAssetSize}.
-Reasons for the trends we have just documented are not absolute clear. However, geographic deregulation and other regulation reforms such as the repeal of the Glass-Steagall act in 1999 did support the increasing inequality. In addition, larger banks are more likely to be bailed out. This puts them in an easier position to finance themselves and creates the perverse consequence of a moral hazard. A bank with high likelihood to be bailed out takes on too much risk (\citet{FarhiTirole2012}). The severe consequences of this problematic are clear since the financial crisis in 2008. Authorities responded to this issue by setting additional capital requirements on larger banks with frameworks such as Basel 1,2,3. 
+Banks are considered as "\textit{too big to fail}", when their size and interconnections with other banks are so high that its individual risk impacts the systemic risk of a whole economy. Regulators tend to be reluctant to close those banks when they default allowing a moral hazard to emerge. The term first came into play with the failure and bailout of Continental Illinois National Bank and Trust Company in 1984 (\citet{nurisso20171970s}). From that point onwards, it developed into a world-wide phenomenon with its severe consequences unveiled in the financial crisis of 2008.\\
+Indeed, over the last few centuries the number of banks on the US landscape fell significantly from 14419 banks in 1976 to 6035 banks in year 2013. While the mere reduction would not impose such a problem, the distribution of total assets developed more and more unequal. In 1976, the top $0.1\%$ a total of 14 banks held $32.4\%$ of all assets. In comparison, in 2013 the top $0.1\%$ - a total of 6 banks - held $50\%$ of all assets. Table \ref{table:assetsByPercentiles} and Figure \ref{fig:assetsByPercentiles} show these numbers by looking at the assets distribution by banks percentiles.
 
-\begin{figure}[hbtp]
-\centering
-\caption{Count of banks by percentiles}
-\includegraphics[scale=0.8]{graphs/DescriptiveStats/BankCounts}
+\begin{table}[H]
+\begin{minipage}{\textwidth}
+\scriptsize
+\input{graphs/Tables/LatexTables/OtherDescriptiveAnalysis_BankCounts.tex}
+\caption[1]{Count of banks by percentiles}
 \label{table:assetsByPercentiles}
-\end{figure}
+\end{minipage}
+\end{table}
 
-
-\begin{figure}[hbtp]
+\begin{figure}[H]
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_7613.png}
 \centering
 \caption{Aggregate assets by percentiles}
-\includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_ShareofAssetsByBanksPercentiles_7613.png}
 \label{fig:assetsByPercentiles}
 \end{figure}
 
 
-\begin{figure}[hbtp]
+The unequal distribution of assets can also been seen in Figure \ref{fig:lorenz}. The curved lines show the Lorenz curve per year. The more curved the lines become, the more unequal is the distribution. The horizontal line represents perfect equality. Although in 1980 unequal distribution was high already, it increased even more. In year 2013, the top $5\%$ held almost $90\%$ of all assets. Figure \ref{fig:gini} shows us the Gini coefficient over time. Its range is from zero to one. A value of one means one bank owns everything, while a value of zero indicates perfect equality.\footnote{$10\%$ of banks own $10\%$ of assets, $50\%$ of banks own $50\%$ of assets and so on...} The higher the value, the higher the inequality in asset distribution. The trend of the coefficient supports our observation of rising inequality. An interesting observation here is the impact of crises on the asset distribution. Crisis tend to reduce the inequality and act as way of redistributing assets. Assuming that assets values fall in times of crisis, the impact of crises must be higher on larger banks. We will look into how different banks size categories are impacted differently by crises in section \ref{sec:banksByAssetSize}.
+Reasons for the trends we have just documented are not absolute clear. However, geographic deregulation and other regulation reforms such as the repeal of the Glass-Steagall act in 1999 did support the increasing inequality. In addition, larger banks are more likely to be bailed out. This puts them in an easier position to finance themselves and creates the perverse consequence of a moral hazard. A bank with high likelihood to be bailed out takes on too much risk (\citet{FarhiTirole2012}). The severe consequences of this problematic are clear since the financial crisis in 2008. Authorities responded to this issue by setting additional capital requirements on larger banks with frameworks such as Basel 1,2 and 3. 
+
+
+\begin{figure}[H]
 \begin{minipage}{\textwidth}
-\centering
-\caption[1]{Lorenz Curve\footnote{Always Quarter 1} }
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_LorenzCurve_7613.png}
+\caption[1]{Lorenz Curve. Values taken are always from quarter 1}
 \label{fig:lorenz}
 \end{minipage}
 \end{figure}
 
 
-\begin{figure}[hbtp]
+\begin{figure}[H]
 \begin{minipage}{\textwidth}
-\centering
-\caption[1]{Gini coefficient\footnote{} }
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/OtherAnalysis_clean_gini_7613.png}
+\centering
+\caption[1]{Gini coefficient}
 \label{fig:gini}
 \end{minipage}
 \end{figure}
@@ -688,39 +694,69 @@ Reasons for the trends we have just documented are not absolute clear. However, 
 
 \subsubsection{General}
 
-This section allocates banks into different categories ranked by asset size to find differences in trends and cycles. In general, it is common way by regulators and academics to categorize banks by their total assets. It measures the gross nominal volume of a bank’s activities, but suffers from significant valuation problems, not only for derivatives, and it does not account for differences in individual bank business models. Alternative ways such as categorizing by capital or employees could have been used. \\
-Following the convention of the Federal Reserve Bulletin we divided the commercial banks into these four categories:\footnote{Our choice of categorization could have been different. The asset size ranges they cover, differ over the years. This can be seen as an advantage or disadvantage. On the one side they evolve over the years and possibly match changing asset size levels. On the other side, there is a risk of distributional changes among the asset sizes of banks, making our chosen categorization unsuitable. }
-
-\begin{itemize}
- \item 10 largest banks
- \item large banks (those ranked
-  11 through 100)
- \item medium-sized banks (those ranked 101 through
- 1,000)
- \item small banks (those ranked 1,001 and higher)
- \end{itemize} 
-
-To get an overview of what asset sizes each category covers Figure \ref{fig:cat_boxplot} contains boxplots for each category and year. Within all categories we can see a consistent rise of overall asset sizes.\\
+In this section we allocate banks into different categories ranked by asset size to see differences in their balance sheet behaviour. It is common approach by regulators and academics to categorize banks by their total assets. It measures the gross nominal volume of a banks activities, but suffers from significant valuation problems, not only for derivatives, and it does not account for differences in individual bank business models. There are alternative ways of categorizing banks such as using capital or employees as a measure of size. \\
+Following the convention of the Federal Reserve Bulletin, we divide commercial banks by assets into four categories.\footnote{Our choice of categorization could have been different. The asset size ranges they cover, differ over the years. This can be seen as an advantage or disadvantage. On the one side they evolve over the years and possibly match changing asset size levels. On the other side, there is a risk of distributional changes among the asset sizes of banks, making our chosen categorization unsuitable.} The first category are the ten largest banks. Second category covers the large banks - banks ranked from 11 through 100. The third category represent medium banks - banks ranked from 101 through 1000. Lastly, the last category are the small banks - banks ranked from 1000 and higher.
+To get an overview of what asset sizes each category covers Figure \ref{fig:cat_boxplot} contains boxplots for each category and year. Within all categories we can see a consistent rise of overall asset sizes.
 In 1976, every top 10 bank has a asset size lower than a quarter of a trillion asset.
-In 2013, the median asset size of the top 10 banks was $0.32$ trillion ($10^{12}$) with banks going up to an asset size of just under two trillion.\footnote{Note, we have not combined commercial banks with their matching bank holding company. Bank Holding Companies have asset sizes beyond two trillion.} We can also see a clear rise in heterogeneity over time regarding the asset sizes of the top 10 banks. The Interquartile Range (IQR) get to its largest size until the end of the time-frame.\\
-Large banks began with an asset size way below $0.25*10^{11}$ in year 1976 and worked their way up to asset sizes up to $1.75*10^{11}$ dollar in year 2013. The heterogeneity of large banks regarding asset size also increased over time. \\
-Medium banks ranges between $~0.25-8$ billion ($10^{9}$) dollar assets per bank and small banks between $~0.25-5$ hundred million dollars assets over our time-frame. Similar to what we will see later, the top two categories benefit more from the asset size increases. Compared to the asset increases within the top 10, the typical small bank did not show any significant gains over time. 
-Overall, the fact that the chosen categories do not have many outliers strengthens our choice of categories. Only the small banks category has a decent amount of outliers with an asset sizes way lower than the median small bank. 
+In 2013, the median asset size of the top 10 banks was $0.32$ trillion ($10^{12}$) with banks going up to an asset size of just under two trillion.\footnote{Note, we have not combined commercial banks with their matching bank holding company. Bank Holding Companies have asset sizes beyond two trillion.} We can also see a clear rise in heterogeneity over time regarding the asset sizes of the top 10 banks. The Interquartile Range (IQR) get to its largest size until the end of the time-frame.
+Large banks began with an asset size way below $0.25*10^{11}$ in year 1976 and worked their way up to asset sizes up to $1.75*10^{11}$ dollar in year 2013. The heterogeneity of large banks regarding asset size also increased over time.
+Medium banks ranges between $~0.25-8$ billion ($10^{9}$) dollar assets per bank and small banks between $~0.25-5$ hundred million dollars assets over our time-frame. Similar to what we will see later, the top two categories benefit more from the asset size increases. Compared to the asset increases within the top 10, the typical small bank did not show any significant gains over time. \\
+Overall, the fact that the chosen categories do not have many outliers strengthens our choice of categories. Only the small banks category has a decent amount of outliers with banks that have asset sizes significantly lower than the median small bank. 
 
 \begin{figure}[H]
 \begin{minipage}{\textwidth}
-\centering
-\caption[1]{Boxplots for each category \footnote{Asset data is logged. Coloured boxes cover the mid $50\%$ of asset sizes - IQR:25th Percentile to 75th Percentile. For the top 10, all individual data-points are marked as dots. For the rest, only outliers are marked as dots. Outliers are data-points above 1.5 times IQR.} }
 \includegraphics[scale=0.3]{graphs/DescriptiveStats/BanksByAssetCategory_boxplots_eachCategory_7613.png}
+\caption[1]{Boxplots for each category. Asset data is logged. Coloured boxes cover the mid $50\%$ of asset sizes - IQR:25th Percentile to 75th Percentile. For the top 10, all individual data-points are marked as dots. For the rest, only outliers are marked as dots. Outliers are data-points above 1.5 times IQR.}
 \label{fig:cat_boxplot}
 \end{minipage}
 \end{figure}
 
 
-\subsubsection{Trend and Cycles of total assets by category}
-Figure \ref{fig:assetsbycat} shows us the development of aggregate assets by the defined banks categories over time. 
-There a key points in time for each category that marked changes in their asset growth. From the start of our chosen timeframe $1976$ until $1985$ all the categories showed similar growth behaviour. Then, in year $1984$, growth of the top $10$ assets started to slow. Shortly after that, year $1985$ marked a starting point of flat, low growth for the small banks. The small banks did not recover from this low growth until the end of our chosen timeframe. An obvious reason for this could be the fact that the  total number of banks also fell. Table \ref{table:assetsByPercentiles} shows the year 1984 marked a starting point for a continuous fall in the number of banks. Category two and three asset growth, covering the banks ranked from $11-1000$, are alike each other until $~1992$. From this point in time, the banks ranked $101-1000$ entered a period of low and negative growth, while the banks ranked from $11-100$ went on a period of high growth, together with the top 10 banks. In the 1990s, a lot of regulation reforms occurred, aiding the growth of larger banks. These reforms are mentioned in section \ref{sec:data} and could have been key drivers for the growth of larger banks in the 1990s. In $2001$, the growth rate of banks ranked from $11-100$ also declined. The top 10 banks assets, however, kept growing until the financial crisis in year 2008.\\
-In Figure \ref{fig:catassetscycle} we can see assets cycles by each category over time. All bank categories were more or less affected by the crisis in 2008. For each category we see a spike, followed by a fall in assets. The top 10 banks were affected the most. However, they also have higher volatility overall. The figure also shows the standard deviation of aggregate assets by category. The larger the category the larger the standard deviation of the business cycles. Similar to behaviour of all aggregated banks in \ref{sec:AssetLiabs} the spikes in 2008 occur after the begin of the crisis defined by the NBER. This might be related to the fact that it was the shadow banking sector not the commercial banking which was first impacted by the crisis. Medium and small banks experience significant downturns after their spike, with their cycles falling below the trend. Only the top 10 do not follow this  behaviour. Their cycle does not significantly fall below the trend after their spike. 
+\subsubsection{Banks' balance sheets by size: Trend and Cycles}
+Figure \ref{fig:assetsbycat} shows us the development of aggregate assets by the defined banks categories over time.
+
+\begin{figure}[H]
+\begin{minipage}{\textwidth}
+\includegraphics[scale=0.3]{graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png}
+\centering
+\caption[1]{Total assets by bank category}
+\label{fig:assetsbycat}
+\end{minipage}
+\end{figure}
+
+There a key points in time for each category that marked changes in their asset growth. From the start of our time-frame $1976$ until $1985$ all the categories showed similar growth behaviour. Then, in year $1984$, growth of the top $10$ assets started to slow. Shortly after that, year $1985$ marked a starting point of flat, low growth for the small banks. The small banks did not recover from this low growth until the end of our chosen timeframe. An obvious reason for this could be the fact that the  total number of banks also fell. Table \ref{table:assetsByPercentiles} shows the year 1984 marked a starting point for a continuous fall in the number of banks. Category two and three asset growth, covering the banks ranked from $11-1000$, are alike each other until $~1992$. From this point in time, medium banks entered a period of low and negative growth, while the large banks went on a period of high growth, together with the top 10 banks. In the 1990s, a lot of regulation reforms occurred, aiding the growth of larger banks. These reforms are mentioned in section \ref{sec:data} and could have been key drivers for the growth of larger banks in the 1990s. In $2001$, the growth rate of banks ranked from $11-100$ also declined. The top 10 banks assets, however, kept growing until the financial crisis in year 2008.\\
+In Figure \ref{fig:catassetscycle} we can see asset cycles by each category over time. The figure also shows the standard deviation of aggregate assets by category. It seems that the larger the banks the more volatile its balance sheet size is.
+
+\begin{figure}[H]
+\begin{minipage}{\textwidth}
+\includegraphics[scale=0.5]{graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png}
+\centering
+\caption[1]{Asset cycles by bank size category}
+\label{fig:catassetscycle}
+\end{minipage}
+\end{figure}
+
+\subparagraph{Financial crisis 2007/8}
+All bank categories were affected by the crisis in 2008. For each category we see a spike, followed by a fall in assets. Note, the top two categories cover almost $90\%$ of all industries assets, hence this discussion connects to the discussion already made in section \ref{sec:AssetLiabs} about the whole industry asset cycle.
+For a more detailed view, table \ref{tab:cyclicalAssetsByCat_Crisis} below shows the raw cyclical percentage changes.
+The top 10 banks were affected the most, but this does not come as a surprise as their asset cycle also has a higher volatility. Similar to behaviour of all aggregated banks in section \ref{sec:AssetLiabs}, all bank sizes have spikes in 2008, which is after the begin of the crisis defined by the NBER. The downturn that followed is also smaller than expected. In section \ref{sec:AssetLiabs}, we have outlined a variety of reasons why this might be the case. While for the top 10 and large banks the boom of assets before was much stronger than the downturn that followed, medium and small banks asset boom was around the same size to the bust that followed. It seems like that the larger banks showed much more abnormal behaviour in the crisis than the medium and small banks. In other words, the medium and small banks experienced a more normal boom and bust cycle.
+The small banks downturn did not start before the second half of 2010, underlining their passive role in the crisis.
+
+
+\begin{table}[H]
+\begin{minipage}{\textwidth}
+\input{graphs/Tables/LatexTables/cyclicalAssetsByCat_Crisis.tex}
+\caption[1]{Asset cycles by bank size in crisis 2007/2008. Top 10 are cat1, large banks are cat2, medium banks are cat3 and small banks are cat4}
+\label{tab:cyclicalAssetsByCat_Crisis}
+\end{minipage}
+\end{table}
+
+\subparagraph{Other crises}
+While among the large banks we can see an impact of the dotcom bubble, it passed the medium and small banks with almost no effect on their asset cycle. The dotcom bubble was marked by a significant fall in value among stocks. 
+The more conservative approach by medium and small commercial banks. They do not for instance have a notable amount of trading assets. This might be the reason for reduced effect of this crisis.\footnote{We address this in the upcoming section \ref{sec:CompositionByBankSize}, when discussing the balance sheet composition.}
+The credit crunch in 1990 also left different footprints on the different bank sizes. Banks of all sizes beside the small banks experience a downturn after the credit crunch. The small banks, however, experienced their downturn years before the credit crunch in 1989. 
+
+
 \iffalse
 From the crisis onwards, the growth behaviour became similar again.  
 The clear trend of high growth by the top 10 banks and top $11-100$ are confirming observations made in the section \ref{sec:ToBigToFail}. While the top $11-100$ show a general trend, there is a period of flat almost falling growth for the top 10 banks. The period in question is between $1982-1992$, around $10$ years long. Actually, there are two clear points in time which marked significant changes in the development of the assets per category. From the start of our chosen timeframe $(1976)$ until $~1985$ all the categories showed similar growth behaviour. Just before $1985$ growth of top $10$ assets started to slow and $1985$ marked a period of flat low growth for the banks ranked $1000-\infty$. There could be several reasons for this. We need to take into account that the total amount of banks also fell. Table \ref{table:assetsByPercentiles} shows the year 1984 marked a starting point for a falling number in banks. This falling number of banks could have impacted the bank categories assets growth strongly. 
@@ -728,28 +764,10 @@ The second point in time is in year $1992$, assets of the top $101-1000$ stopped
 \fi
 
 
-\begin{figure}[H]
-\begin{minipage}{\textwidth}
-\centering
-\caption[1]{Total assets by bank category \footnote{} }
-\includegraphics[scale=0.3]{graphs/DescriptiveStats/BanksByAssetCategory_assetsbycat_7613.png}
-\label{fig:assetsbycat}
-\end{minipage}
-\end{figure}
-
-\begin{figure}[H]
-\begin{minipage}{\textwidth}
-\centering
-\caption[1]{Asset cycles by bank size category \footnote{} }
-\includegraphics[scale=0.5]{graphs/DescriptiveStats/BanksByAssetCategory_catAssetsCycle_7613.png}
-\label{fig:catassetscycle}
-\end{minipage}
-\end{figure}
 
 
-\subsubsection{Correlation between asset categories}
-This section will look at the similarity between the categories asset cycles. It might convey different balance sheet behaviours by bank size.\\ 
-Table \ref{table:cat_assets_corr} shows the linear correlation between assets cycles over time for each category. As one might expect, all categories are positive correlated with the category just below themselves. However, there are significant differences when going beyond that. Category $1$ (Top 10 banks) has a negative correlation with category $3$ (Top $101-1000$) of $-0.27$ and no correlation with category $4$ (Top 1000-Rest). Although a negative correlation of $r=-0.27$ is not strong, this difference in business cycle timings would probably not be expected. It means that while the top 10 banks might go through a period of decreasing assets, the Top $101-1000$ might go through a period of increasing assets. However, a closer look at the graph indicates that the main driver for this negative correlation could be the period from 1996 to 1999. Indeed, excluding this time-period from the correlation computation reveals an $r=0.05$. Similar to the relationship between top 10 and small banks (cat4), this complete lack of cyclical relationship between large banks and small banks underlines their independence of balance sheet decisions in regards to the other category.\\
+\subsubsection{Business cycle similarity between banks' of different sizes}
+This section will look at the similarity between the categories asset cycles. It might convey different balance sheet behaviours by bank size. Table \ref{table:cat_assets_corr} shows the linear correlation between assets cycles over time for each category. As one might expect, all categories are positive correlated with the category just below themselves. However, there are significant differences when going beyond that. Category $1$ (Top 10 banks) has a negative correlation with category $3$ (Top $101-1000$) of $-0.27$ and no correlation with category $4$ (Top 1000-Rest). Although a negative correlation of $r=-0.27$ is not strong, this difference in business cycle timings would probably not be expected. It means that while the top 10 banks might go through a period of decreasing assets, the Top $101-1000$ might go through a period of increasing assets. However, a closer look at the graph indicates that the main driver for this negative correlation could be the period from 1996 to 1999. Indeed, excluding this time-period from the correlation computation reveals an $r=0.05$. Similar to the relationship between top 10 and small banks (cat4), this complete lack of cyclical relationship between large banks and small banks underlines their independence of balance sheet decisions in regards to the other category.\\
 We also computed the autocorrelations to take into account different timings. Significant asset changes of the top 10 might not have an immediate effect on the other categories in the same period, but perhaps one quarter later. We go up to ten quarters back to see possible impacts. The associated tables can be found in the Appendix (Figure \ref{autocorrelationsCat14}). An interesting observation can be found for the correlation between category 1 and category 2 (lag 1) one period later. The correlation did rise from 0.4 to 0.43 with an one quarter lag. Indicating that large banks (cat 2) react slightly delayed to the decisions of the top 10 banks. The rest autocorrelations show no sign of anomalies.
 
 
@@ -763,7 +781,8 @@ We also computed the autocorrelations to take into account different timings. Si
 \end{minipage}
 \end{figure} 
 
-\subsubsection{Balance sheet composition by category}
+\subsubsection{Balance sheet composition by bank size: Trends}
+\label{sec:CompositionByBankSize}
 
 To get an understanding on the balance sheet composition by category and how they differ, Figure \ref{fig:catAssetsShare} and \ref{fig:catLiabShare} show the share of each account for both sides of the balance sheet. Loans continue to be the highest share on the asset side for all categories. Interestingly, all other categories beside the top 10 banks, show an increasing trend for share of loans. But the top 10 banks share of loans fall over our time-frame. Furthermore, only the top 10 are engaging in proper trading with a share of trading assets beginning to rise significantly in year 1994.
 For the liabilities, deposits are a main source of funding for all categories. However, the share of deposits varies between the categories. Larger banks tend to have a lower deposit share than medium and small banks. The share for the top 10 is between $~60\%-80\%$ and for the top 11-100 at $~60\%$ most of the time. Medium banks have a share that is consistently at $80\%$ and small banks a share of almost $~90\%$. Hence, other forms of finance are relatively low for smaller banks. Our findings confirm the pattern: The larger the bank is, the more alternative ways of financing beside deposits are facilitated.

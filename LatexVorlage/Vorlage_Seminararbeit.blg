@@ -1,21 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Vorlage_Seminararbeit.blg'
-[93] biber-MSWIN64:322> INFO - === 
+[94] biber-MSWIN64:322> INFO - === 
 [123] Biber.pm:415> INFO - Reading 'Vorlage_Seminararbeit.bcf'
-[241] Biber.pm:943> INFO - Found 12 citekeys in bib section 0
-[263] Biber.pm:4256> INFO - Processing section 0
-[263] Utils.pm:75> INFO - Globbing data source 'bspbib.bib'
-[278] Utils.pm:91> INFO - Globbed data source 'bspbib.bib' to bspbib.bib
-[298] Biber.pm:4455> INFO - Looking for bibtex format file 'bspbib.bib' for section 0
-[302] bibtex.pm:1653> INFO - LaTeX decoding ...
-[333] bibtex.pm:1471> INFO - Found BibTeX data source 'bspbib.bib'
-[375] Utils.pm:304> WARN - month field 'October' in entry 'NBERBusinessCycles' is not an integer - this will probably not sort properly.
-[386] Utils.pm:304> WARN - month field 'Februar' in entry 'FEDReport' is not an integer - this will probably not sort properly.
-[406] Utils.pm:304> WARN - I didn't find a database entry for 'Greenwell' (section 0)
-[431] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[431] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[432] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[432] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[457] bbl.pm:652> INFO - Writing 'Vorlage_Seminararbeit.bbl' with encoding 'UTF-8'
-[465] bbl.pm:755> INFO - Output to Vorlage_Seminararbeit.bbl
-[465] Biber.pm:128> INFO - WARNINGS: 3
+[248] Biber.pm:943> INFO - Found 15 citekeys in bib section 0
+[268] Biber.pm:4256> INFO - Processing section 0
+[269] Utils.pm:75> INFO - Globbing data source 'bspbib.bib'
+[284] Utils.pm:91> INFO - Globbed data source 'bspbib.bib' to bspbib.bib
+[304] Biber.pm:4455> INFO - Looking for bibtex format file 'bspbib.bib' for section 0
+[309] bibtex.pm:1653> INFO - LaTeX decoding ...
+[344] bibtex.pm:1471> INFO - Found BibTeX data source 'bspbib.bib'
+[386] Utils.pm:304> WARN - month field 'October' in entry 'NBERBusinessCycles' is not an integer - this will probably not sort properly.
+[397] Utils.pm:304> WARN - month field 'Februar' in entry 'FEDReport' is not an integer - this will probably not sort properly.
+[430] Utils.pm:304> WARN - I didn't find a database entry for 'Greenwell' (section 0)
+[463] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[463] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[463] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[463] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[493] bbl.pm:652> INFO - Writing 'Vorlage_Seminararbeit.bbl' with encoding 'UTF-8'
+[502] bbl.pm:755> INFO - Output to Vorlage_Seminararbeit.bbl
+[503] Biber.pm:128> INFO - WARNINGS: 3
