@@ -5,9 +5,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Introduction}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Main part}{2}%
+\contentsline {section}{\numberline {3}Main part}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Data}{2}%
+\contentsline {subsection}{\numberline {3.1}Data}{3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Methods}{4}%
 \defcounter {refsection}{0}\relax 
@@ -43,7 +43,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Other crises}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.5.3}Business cycle similarity between banks' of different sizes}{23}%
+\contentsline {subsubsection}{\numberline {3.5.3}Asset cycle similarity between banks of different sizes}{23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.5.4}Balance sheet composition by bank size: Trends}{23}%
 \defcounter {refsection}{0}\relax 
@@ -51,20 +51,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.6.1}General}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.6.2}Leverage development}{31}%
+\contentsline {subsubsection}{\numberline {3.6.2}Is Leverage pro-cyclical?}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Long-term discussion}{31}%
+\contentsline {subsubsection}{\numberline {3.6.3}Did pro-cyclicality change over time?}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Short-term discussion}{34}%
+\contentsline {subparagraph}{1980-1990}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.6.3}Leverage distribution}{37}%
+\contentsline {subparagraph}{1990-2000}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Long-term discussion}{37}%
+\contentsline {subparagraph}{2000-2010}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Short-term discussion}{39}%
+\contentsline {subsubsection}{\numberline {3.6.4}Leverage development}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Evaluation and Outlook}{41}%
+\contentsline {subparagraph}{Long-term discussion}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{42}%
+\contentsline {subparagraph}{Short-term discussion}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Appendix}{43}%
+\contentsline {subsubsection}{\numberline {3.6.5}Leverage distribution}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Long-term discussion}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Short-term discussion}{41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Evaluation and Outlook}{43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Bibliography}{44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Appendix}{45}%
