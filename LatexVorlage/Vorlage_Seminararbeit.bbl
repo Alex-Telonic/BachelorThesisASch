@@ -148,6 +148,46 @@
       \field{volume}{95}
       \field{year}{2009}
     \endentry
+    \entry{begenau2015banks}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5c59a130a3efb8f478e58a10fca5ba90}{%
+           family={Begenau},
+           familyi={B\bibinitperiod},
+           given={Juliane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf7df76b8a9f8a96600649e066f5ab70}{%
+           family={Piazzesi},
+           familyi={P\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5897fce4dc02106a611ffa91bfab57c7}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{e01fcda52db5114218119b9138684196}
+      \strng{fullhash}{42538c84aad3f725881df705e070b8b0}
+      \strng{bibnamehash}{42538c84aad3f725881df705e070b8b0}
+      \strng{authorbibnamehash}{42538c84aad3f725881df705e070b8b0}
+      \strng{authornamehash}{e01fcda52db5114218119b9138684196}
+      \strng{authorfullhash}{42538c84aad3f725881df705e070b8b0}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Banks' risk exposures}
+      \field{type}{techreport}
+      \field{year}{2015}
+    \endentry
     \entry{BergerBouwman2013}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=40691732966d9a5a7bd88b0694771475}{%
@@ -337,6 +377,52 @@
       \field{pages}{1\bibrangedash 66}
       \range{pages}{66}
     \endentry
+    \entry{greenlaw2008leveraged}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c20f4c35f8cd3018c1f17cdf33d6bf70}{%
+           family={Greenlaw},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e87c3cc4017b76a7378315f3af2467ce}{%
+           family={Hatzius},
+           familyi={H\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d08a3157a485cf1461d59b5c4849e0d}{%
+           family={Kashyap},
+           familyi={K\bibinitperiod},
+           given={Anil\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a29fd41bcb587cecd4a815b1a48ef69d}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Hyun\bibnamedelima Song},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f816cbd3c7bd3f725ab583c848bc32f3}
+      \strng{fullhash}{7368a148a6f84bc0e27b92ce27714464}
+      \strng{bibnamehash}{7368a148a6f84bc0e27b92ce27714464}
+      \strng{authorbibnamehash}{7368a148a6f84bc0e27b92ce27714464}
+      \strng{authornamehash}{f816cbd3c7bd3f725ab583c848bc32f3}
+      \strng{authorfullhash}{7368a148a6f84bc0e27b92ce27714464}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the US monetary policy forum}
+      \field{title}{Leveraged losses: lessons from the mortgage market meltdown}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{pages}{8\bibrangedash 59}
+      \range{pages}{52}
+    \endentry
     \entry{Kalemli-OzcanBentSorensenSevcanYesiltas2011}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c5794af9649ed8cb13e1eb41e5272a29}{%
@@ -441,6 +527,50 @@
       \field{title}{The 1970s origins of too big to fail}
       \field{year}{2017}
     \endentry
+    \entry{ostrup2009origins}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f55e31a132b9d75504ba149846051571}{%
+           family={{Ø}strup},
+           familyi={Ø\bibinitperiod},
+           given={Finn},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5d2eee19314947334d01034a0515be1}{%
+           family={Oxelheim},
+           familyi={O\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6a5c6ebe3c91673c990f0e1147066ff}{%
+           family={Wihlborg},
+           familyi={W\bibinitperiod},
+           given={Clas},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{53843c4bd0c2e2e6e64684e32de4ae35}
+      \strng{fullhash}{915871fa3c8e32deb17bc4a79d0bf0db}
+      \strng{bibnamehash}{915871fa3c8e32deb17bc4a79d0bf0db}
+      \strng{authorbibnamehash}{915871fa3c8e32deb17bc4a79d0bf0db}
+      \strng{authornamehash}{53843c4bd0c2e2e6e64684e32de4ae35}
+      \strng{authorfullhash}{915871fa3c8e32deb17bc4a79d0bf0db}
+      \field{sortinit}{Ø}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asian Economic Papers}
+      \field{number}{3}
+      \field{title}{Origins and resolution of financial crises: Lessons from the current and northern european crises}
+      \field{volume}{8}
+      \field{year}{2009}
+      \field{pages}{178\bibrangedash 220}
+      \range{pages}{43}
+    \endentry
     \entry{FEDReport}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5e6f3009b43ef4e2f9c94510ee2b653c}{%
@@ -477,7 +607,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Greenwell}
 \endrefsection
 \endinput
 
